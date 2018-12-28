@@ -34,15 +34,13 @@ var playGame = new Phaser.Class({
   Extends: Phaser.Scene,
   
   initialize: function playGame(){
-    console.log('aa')
     Phaser.Scene.call(this, {key: "playGame"});
   },
   
   preload: function()
   {
     console.log('preload');
-    this.load.setBaseURL('http://labs.phaser.io');
-    this.load.image('logo', 'assets/sprites/phaser3-logo.png');
+    this.load.image('crate', 'assets/sprites/crate.png');
   },
 
   create: function(){
@@ -56,12 +54,11 @@ var playGame = new Phaser.Class({
     // setting Matter world bounds
  this.matter.world.setBounds(0, 0, game.config.width, game.config.height);
 
-      this.matter.add.sprite(10, 1, "logo");
+      this.matter.add.sprite(game.config.width/2, 1, "crate");
     
     // waiting for user input
     this.input.on("pointerdown", function(pointer){
-      this.matter.add.sprite(pointer.x, pointer.y, "logo");
-      console.log(1);
+      this.matter.add.sprite(pointer.x, pointer.y, "crate");
     }, this);
   }
 })
