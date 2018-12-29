@@ -13,7 +13,12 @@ var mainScene = new Phaser.Class({
   },
 
   placeCrate: function(pointerX){
-    this.matter.add.sprite(pointerX, 0, "crate");
+    this.matter.add.sprite(pointerX, 0, "crate", null, {
+      restitution: 0, 
+      friction: 1, 
+      density: 0.1
+    });
+
     this.crateCount++;
     this.text.setText('Game: ' + game.config.gameTitle + '\nCrates used: ' + this.crateCount);
   },

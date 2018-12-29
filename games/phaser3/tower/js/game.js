@@ -5,15 +5,20 @@ window.onload = function(){
     type: Phaser.AUTO,
     antialias:false,
     autoFocus:true,
-   canvas:document.getElementById('gameCanvas'),
+    parent: 'game',
     width:300,
     height:300,
     backgroundColor: "#000044",
     physics: {
-      default: "matter"
+      default: "matter",
+      matter: {
+        gravity: {y: 1},
+        enableSleep: true // performance over accuracy
+      }
     },
     scene: [splashScene],
     title: 'Tower',
+    pixelArt: true,
     banner: {
         text: '#ffffff',
         background: [
@@ -23,6 +28,12 @@ window.onload = function(){
             '#ec008c'
         ],
         hidePhaser: true
+    },
+    callbacks: {
+      postBoot: function (game) {
+        game.canvas.style.width = '100%';
+        game.canvas.style.height = '100%';
+      }
     }
   };
 
