@@ -10,15 +10,20 @@ window.onload = function(){
     height:300,
     backgroundColor: "#000044",
     physics: {
-      default: "matter",
+      default: 'matter',
+      //default: 'arcade',
+      arcade: {
+        gravity: {y : 300},
+        debug: false
+      },
       matter: {
         gravity: {y: 1},
-        enableSleep: true // performance over accuracy
+        enableSleep: false // performance over accuracy
       }
     },
     scene: [splashScene],
     title: 'Tower',
-    pixelArt: true,
+    pixelArt: false,
     banner: {
         text: '#ffffff',
         background: [

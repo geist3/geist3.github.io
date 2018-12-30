@@ -2,6 +2,7 @@ var mainScene = new Phaser.Class({
   Extends: Phaser.Scene,
   crateCount: -1,
   text: '',
+  crates: null,
   
   initialize: function mainScene(){
     Phaser.Scene.call(this, {key: "mainScene"});
@@ -13,11 +14,15 @@ var mainScene = new Phaser.Class({
   },
 
   placeCrate: function(pointerX){
-    this.matter.add.sprite(pointerX, 0, "crate", null, {
-      restitution: 0, 
-      friction: 1, 
-      density: 0.1
-    });
+    if(game.config.physics.default == 'arcade'){
+      this.crates.create(pointerX, 0, "crate").setBounce(0.1).setFriction(1).setMass(0.1).setCollideWorldBounds(true);
+    } else {  
+      this.matter.add.sprite(pointerX, 0, "crate", null, {
+        restitution: 0, 
+        friction: 1, 
+        density: 1
+      });
+    }
 
     this.crateCount++;
     this.text.setText('Game: ' + game.config.gameTitle + '\nCrates used: ' + this.crateCount);
@@ -32,8 +37,12 @@ var mainScene = new Phaser.Class({
     );
  
     // setting Matter world bounds
-    this.matter.world.setBounds(0, 0, game.config.width, game.config.height);
-
+    if(game.config.physics.default == 'arcade'){
+      this.crates = this.physics.add.group();
+      this.physics.add.collider(this.crates, this.crates);  
+    } else{
+      this.matter.world.setBounds(0, 0, game.config.width, game.config.height);
+    }
     this.placeCrate(game.config.width/2);
 
     // waiting for user input
