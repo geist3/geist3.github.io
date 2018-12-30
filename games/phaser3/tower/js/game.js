@@ -6,7 +6,7 @@ window.onload = function(){
     antialias:false,
     autoFocus:true,
     parent: 'game',
-    width:300,
+    width:600,
     height:300,
     backgroundColor: "#000044",
     physics: {

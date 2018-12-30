@@ -17,10 +17,10 @@ var mainScene = new Phaser.Class({
     if(game.config.physics.default == 'arcade'){
       this.crates.create(pointerX, 0, "crate").setBounce(0.1).setFriction(1).setMass(0.1).setCollideWorldBounds(true);
     } else {  
-      this.matter.add.sprite(pointerX, 0, "crate", null, {
+      this.matter.add.sprite(pointerX, 150, "crate", null, {
         restitution: 0, 
         friction: 1, 
-        density: 1
+        density: 0.1
       });
     }
 
@@ -41,6 +41,18 @@ var mainScene = new Phaser.Class({
       this.crates = this.physics.add.group();
       this.physics.add.collider(this.crates, this.crates);  
     } else{
+      this.matter.add.sprite(game.config.width / 2, 
+        game.config.height-10, 
+        'crate', 
+        null, 
+        {
+          restitution: 0, 
+          friction: 1,
+          frictionStatic: 1, 
+          density: 1
+        }).
+        setDisplaySize(game.config.width, 10).
+        setStatic(true)
       this.matter.world.setBounds(0, 0, game.config.width, game.config.height);
     }
     this.placeCrate(game.config.width/2);
