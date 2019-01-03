@@ -7,18 +7,18 @@ window.onload = function(){
     autoFocus:true,
     parent: 'game',
     width:600,
-    height:300,
+    height:600, 
     backgroundColor: "#000044",
     physics: {
       default: 'matter',
       //default: 'arcade',
       arcade: {
-        gravity: {y : 300},
-        debug: false
+        gravity: {y : 100},
+        debug: true
       },
       matter: {
-        gravity: {y: 1},
-        enableSleep: false // performance over accuracy
+        //gravity: {y: 1},
+        //enableSleep: false // performance over accuracy
       }
     },
     scene: [splashScene],
@@ -35,10 +35,10 @@ window.onload = function(){
         hidePhaser: true
     },
     callbacks: {
-      postBoot: function (game) {
-        game.canvas.style.width = '100%';
-        game.canvas.style.height = '100%';
-      }
+      //postBoot: function (game) {
+      //  game.canvas.style.width = '100%';
+      //  game.canvas.style.height = '100%';
+     // }
     }
   };
 
