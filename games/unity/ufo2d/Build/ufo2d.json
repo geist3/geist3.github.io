@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "2dunityNew",
+"dataUrl": "ufo2d.data.unityweb",
+"asmCodeUrl": "ufo2d.asm.code.unityweb",
+"asmMemoryUrl": "ufo2d.asm.memory.unityweb",
+"asmFrameworkUrl": "ufo2d.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
