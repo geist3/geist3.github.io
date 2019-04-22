@@ -62,7 +62,7 @@ pixiApp.changeState = function(newState){
 
 pixiApp.addGUI = function(){
     //button
-    var textureButton = PIXI.Texture.fromImage('assets/images/button.png');
+    var textureButton = PIXI.Texture.fromImage('assets/images/abutton.png');
     var button = new PIXI.Sprite(textureButton);
     button.anchor.set(0.5);
     button.x = 200;
