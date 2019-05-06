@@ -83,12 +83,14 @@ pixiApp.addGUI = function(){
     pixiApp.promptText = new PIXI.Text('A random marine appears');
     pixiApp.promptText.x = 30;
     pixiApp.promptText.y = 30;
+    pixiApp.promptText.style  = {fill: 0xffffff}
     pixiApp.app.stage.addChild(pixiApp.promptText);
 
     // answer text
     pixiApp.answerText = new PIXI.Text('......');
     pixiApp.answerText.x = 230;
     pixiApp.answerText.y = 220;
+    pixiApp.answerText.style  = {fill: 0xffffff}
     pixiApp.answerText.visible = false;
     pixiApp.app.stage.addChild(pixiApp.answerText);
 
