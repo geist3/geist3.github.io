@@ -23,6 +23,10 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/
+            },
+            {
+                test: /\.(png|gif)$/i,
+                use: 'file-loader'   
             }
         ]
     }
