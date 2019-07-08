@@ -28,7 +28,7 @@ function preload() {
 }
 
 function create() {
-  this.cameras.main.setBackgroundColor(0xbababa)
+  this.cameras.main.setBackgroundColor(0xffbaba)
   player = this.physics.add.sprite(100,100,'rect')
   cursors = this.input.keyboard.createCursorKeys();
   player.setBounce(0.2);

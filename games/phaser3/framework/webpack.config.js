@@ -3,11 +3,12 @@ const htmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin} = require('clean-webpack-plugin')
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/index.ts',
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist')
     },
+    devtool: 'inline-source-map',
     devServer: {
             contentBase: './dist'
     },
@@ -21,6 +22,11 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/
+            },
+            {
                 test: /\.js$/,
                 exclude: /node_modules/
             },
@@ -29,5 +35,8 @@ module.exports = {
                 use: 'file-loader'   
             }
         ]
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js']
     }
 }
