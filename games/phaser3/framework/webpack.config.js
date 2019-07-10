@@ -15,6 +15,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new htmlWebpackPlugin({
+            template: 'index.html',
             title: 'game1'
         })
     ],
@@ -28,6 +29,7 @@ module.exports = {
             },
             {
                 test: /\.js$/,
+                loader: "babel-loader",
                 exclude: /node_modules/
             },
             {
