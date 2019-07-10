@@ -1,5 +1,5 @@
-import Phaser from "phaser";
-//import rect from './assets/rect.png'
+import Phaser from "phaser"
+import rect from './assets/rect.png';
 
 const config = {
   type: Phaser.AUTO,
@@ -21,23 +21,23 @@ const config = {
 };
 
 const game = new Phaser.Game(config);
-//let player, cursors;
+let player, cursors;
 
 function preload() {
-//  this.load.image("rect", rect)
+  this.load.image("rect", rect)
 }
 
 function create() {
-/*  this.cameras.main.setBackgroundColor(0xffbaba)
-  player = this.physics.add.sprite(100,100,'rect')
+  this.cameras.main.setBackgroundColor(0xffbaba)
+  player = this.physics.add.sprite(100,50,'rect')
   cursors = this.input.keyboard.createCursorKeys();
   player.setBounce(0.2);
-  player.setCollideWorldBounds(true);*/
+  player.setCollideWorldBounds(true);
 }
 
 function update () {
 
- /* if (cursors.left.isDown)
+  if (cursors.left.isDown)
     {
         player.setVelocityX(-160);
     }
@@ -50,8 +50,8 @@ function update () {
         player.setVelocityX(0);
     }
     
-    if (cursors.up.isDown && player.body.touching.down)
+    if (cursors.up.isDown)
     {
-        player.setVelocityY(-330);
-    }*/
+        player.setVelocityY(-100);
+    }
 }

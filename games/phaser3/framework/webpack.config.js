@@ -24,21 +24,23 @@ module.exports = {
         rules: [
             {
                 test: /\.tsx?$/,
-                use: 'ts-loader',
+                use: 'babel-loader',
+                //use: 'ts-loader',
                 exclude: /node_modules/
             },
             {
                 test: /\.js$/,
-                loader: "babel-loader",
+                loader: "source-map-loader",
+                enforce: 'pre',
                 exclude: /node_modules/
             },
             {
-                test: /\.(png|gif)$/i,
-                use: 'file-loader'   
+                test: /\.(png|gif)$/,
+                use: 'file-loader'
             }
         ]
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js']
+        extensions: ['.tsx', '.ts', '.js','.png']
     }
 }
