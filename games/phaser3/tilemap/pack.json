@@ -1,0 +1,11 @@
+{
+    "preload": {
+      "files": [
+        {
+          "type": "tilemapTiledJSON",
+          "key": "level1",
+          "url": "level1.json"
+        }
+      ]
+    }
+}
