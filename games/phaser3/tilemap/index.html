@@ -32,40 +32,25 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
-    this.load.image('tileset', 'tileset.png');
-    // this.load.image('platform', 'sprites/platform.png');
+    this.load.image('tilesetImage', 'tileset.png');
 
-    // this.load.pack(
-    //   "preload",
-    //   "./pack.json",
-    //   "preload"
-    // );
+    this.load.pack({
+      key: "pack1",
+      url: "pack.json"
+    });
 
-    this.load.tilemapTiledJSON("map", "tilemap.json");
 }
 
 function create ()
 {
-    var map = this.make.tilemap({ key: "map" });
-    var tileset = map.addTilesetImage("tileset", "tileset");
-    this.backgroundLayer = map.createStaticLayer(
+    var map = this.make.tilemap({ key: "level1" });
+    var tileset = map.addTilesetImage("tileset",'tilesetImage');
+    var backgroundLayer = map.createStaticLayer(
       "layer1",
       tileset,
       0,
       0
     );
-
-    //var map = this.make.tilemap({ key: 'level1' });
-    // var map = this.add.tilemap('level1');
-    // var tileset = map.addTilesetImage('tiles');
-    // console.log(map)
-    //this.tileset = map.addTilesetImage("tilesetOne");
-    // this.backgroundLayer = this.map.createStaticLayer(
-    //   "backgroundLayer",
-    //   this.tileset,
-    //   0,
-    //   0
-    // );
 }
 
 function update(){
