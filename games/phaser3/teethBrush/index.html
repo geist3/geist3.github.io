@@ -36,6 +36,7 @@
     {
         this.load.image('player', 'sprites/player.png');
         this.load.image('teeth', 'sprites/teeth.png');
+        this.load.image('face', 'sprites/face.png');
     }
 
     function create ()
@@ -44,14 +45,19 @@
 
         cursors = this.input.keyboard.createCursorKeys();
 
+        this.add.image(0, 0, 'face').setOrigin(0, 0);
+
         player2 = this.physics.add.image(100, 200, 'player');
         player2.setBounce(0.2);
         player2.setCollideWorldBounds(true);
         
         teeth = this.physics.add.staticGroup();
 player = this.physics.add.staticGroup();
-teeth = this.physics.add.staticGroup();
-teeth.create(453,85, "teeth");
+player.create(3, 3, "player").setOrigin(0, 0);
+player.create(121, 1, "player").setOrigin(0, 0);
+teeth.create(0, 54, "teeth").setOrigin(0, 0);
+
+
 
 
 
