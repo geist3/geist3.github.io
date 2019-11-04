@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <meta charset="UTF-8">
+    <head>
+        <title>Designer</title>
+        <meta name="description" content="Designer">
+        <meta name="keywords" content="Phaser,JavaScript,Game,Designer,Level Editor">
+        <meta name="author" content="John Cockrell">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <style>
+        body { background: lightgray; }
+        .edgeless {
+            border:0px;
+            margin:0px;
+            padding:0px;
+        }
+        #container {
+            background: lightgreen;
+        }
+        #pageHeader{
+            height:70px;
+        }
+        h1, h2{
+            border:0px;
+            margin:0px;
+            padding:6px;
+        }
+        #assets {
+            display:inline-block;
+            width:200px;
+            vertical-align: top;
+        }
+        #assets img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        #canvas {
+            display:inline-block;
+            width:800px;
+            height:600px;
+            background: lightblue;
+        }
+        #canvas img {
+            position:absolute;
+        }
+        #footer {
+            text-align: center;
+        }
+        #code {
+            width: 1000px;
+            height: 100px;
+        }
+    </style>
+    <body class='edgeless'>
+        <div id="container" class='edgeless'>
+            <header id='pageHeader' class='edgeless'>
+                <h1 class='edgeless'>Designer</h1>
+            </header>
+            <section id="canvas" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></section>
+            <aside id="assets">
+                <h2>Assets</h2>
+                <img id="teeth"  draggable="true" src="sprites/teeth.png"  ondragstart="return dragStart(event)" />
+                <img id="player" draggable="true" src="sprites/player.png"  ondragstart="return dragStart(event)" />
+                <img id="face" draggable="true" src="sprites/face.png"  ondragstart="return dragStart(event)" />
+            </aside>
+            <footer id="footer">
+                    <button onclick="save()">Save</button>
+                    <button onclick="load()">Load</button>
+                </footer>
+            <textarea id="code">face.create(0, 0, "face").setOrigin(0, 0);
+                teeth.create(67, 270, "teeth").setOrigin(0, 0);</textarea>
+        </div>
+        <script>
+        var copyPrefix = ''
+
+        function dragStart(ev) {
+            ev.dataTransfer.effectAllowed='move';
+            ev.dataTransfer.setData("Text", ev.target.getAttribute('id'));
+            var img = new Image(); 
+            img.src =  ev.target.getAttribute('src');
+            ev.dataTransfer.setDragImage(img,0,0);
+            return true;
+        }
+
+        function dragEnter(ev) {
+            event.preventDefault();
+            return true;
+        }
+
+        function dragOver(ev) {
+            return false;
+        }
+
+         function dragDrop(ev) {
+            var src = ev.dataTransfer.getData("Text");
+            var clone = document.getElementById(src);
+            var canvas = document.getElementById('canvas');
+            if(clone.parentElement.id == 'assets'){
+                clone = document.getElementById(src).cloneNode(true);
+                copyPrefix += 'a'
+                clone.setAttribute('data-group', clone.id);
+                clone.id += copyPrefix;
+                canvas.appendChild(clone);
+            }
+            clone.style.top = (ev.clientY + window.scrollY) + "px";
+            clone.style.left = (ev.clientX + window.scrollX) + "px";
+            ev.stopPropagation();
+            return false;
+         }
+
+         function save() {
+            var textarea = document.getElementById('code');
+            var code = '';
+            var groupDeclarations = [];
+            var canvas =  document.getElementById('canvas')
+            var childNodes = canvas.childNodes;
+            var headerHeight = document.getElementById('pageHeader').getBoundingClientRect().height;
+            [].forEach.call(childNodes, function(el){
+                if(el.tagName === 'IMG') {
+                    var group = el.getAttribute("data-group");
+                    code += group + '.create(' + el.style.left.replace('px', '') + ', ' + (el.style.top.replace('px', '')-headerHeight) + ', "' + group + '").setOrigin(0, 0);\n';
+
+                    if(!groupDeclarations.includes(group)){
+                        groupDeclarations.push(group)
+                    }
+                }
+            });
+            [].forEach.call(groupDeclarations, function(group){
+                code = group + ' = this.physics.add.staticGroup();\n' + code;
+            })
+
+            textarea.innerHTML = code;
+         }
+
+         function load() {
+            var textarea = document.getElementById('code');
+            var code = textarea.value;
+            var lines = code.split('\n')
+            lines.forEach(function(line){
+                debugger;
+                var src = line;
+                var clone = document.getElementById(src);
+                var canvas = document.getElementById('canvas');
+                if(clone.parentElement.id == 'assets'){
+                    clone = document.getElementById(src).cloneNode(true);
+                    copyPrefix += 'a'
+                    clone.setAttribute('data-group', clone.id);
+                    clone.id += copyPrefix;
+                    canvas.appendChild(clone);
+                }
+                clone.style.top = (ev.clientY + window.scrollY) + "px";
+                clone.style.left = (ev.clientX + window.scrollX) + "px";
+            });
+         }
+
+        </script>
+    </body>
+</html>
