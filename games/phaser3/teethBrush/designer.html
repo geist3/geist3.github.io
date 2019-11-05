@@ -54,9 +54,6 @@
     </style>
     <body class='edgeless'>
         <div id="container" class='edgeless'>
-            <header id='pageHeader' class='edgeless'>
-                <h1 class='edgeless'>Designer</h1>
-            </header>
             <section id="canvas" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></section>
             <aside id="assets">
                 <h2>Assets</h2>
@@ -138,19 +135,23 @@
             var code = textarea.value;
             var lines = code.split('\n')
             lines.forEach(function(line){
-                debugger;
-                var src = line;
-                var clone = document.getElementById(src);
+                var idStart = line.indexOf('"')+1
+                var idEnd = line.indexOf('"', idStart)
+                var id = line.substr(idStart, idEnd-idStart);
+                var clone = document.getElementById(id).cloneNode(true);;
                 var canvas = document.getElementById('canvas');
-                if(clone.parentElement.id == 'assets'){
-                    clone = document.getElementById(src).cloneNode(true);
-                    copyPrefix += 'a'
-                    clone.setAttribute('data-group', clone.id);
-                    clone.id += copyPrefix;
-                    canvas.appendChild(clone);
-                }
-                clone.style.top = (ev.clientY + window.scrollY) + "px";
-                clone.style.left = (ev.clientX + window.scrollX) + "px";
+                copyPrefix += 'a'
+                clone.setAttribute('data-group', clone.id);
+                clone.id += copyPrefix;
+                canvas.appendChild(clone);
+                var xStart = line.indexOf('(')+1
+                var xEnd = line.indexOf(',')
+                var x = line.substr(xStart, xEnd-xStart)
+                clone.style.left = xStart + "px";
+                var ySubString = line.substr(xEnd+1)
+                var yEnd = ySubString.indexOf(',')
+                var y = ySubString.substr(0, yEnd)
+                clone.style.top = y + "px";
             });
          }
 
