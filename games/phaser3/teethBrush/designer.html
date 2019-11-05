@@ -18,9 +18,6 @@
         #container {
             background: lightgreen;
         }
-        #pageHeader{
-            height:70px;
-        }
         h1, h2{
             border:0px;
             margin:0px;
@@ -57,16 +54,22 @@
             <section id="canvas" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></section>
             <aside id="assets">
                 <h2>Assets</h2>
-                <img id="teeth"  draggable="true" src="sprites/teeth.png"  ondragstart="return dragStart(event)" />
-                <img id="player" draggable="true" src="sprites/player.png"  ondragstart="return dragStart(event)" />
                 <img id="face" draggable="true" src="sprites/face.png"  ondragstart="return dragStart(event)" />
+                <img id="blue" draggable="true" src="sprites/blue.png"  ondragstart="return dragStart(event)" />
+                <img id="red" draggable="true" src="sprites/red.png"  ondragstart="return dragStart(event)" />
+                <img id="yellow" draggable="true" src="sprites/yellow.png"  ondragstart="return dragStart(event)" />
+                <img id="green" draggable="true" src="sprites/green.png"  ondragstart="return dragStart(event)" />
+                <img id="black" draggable="true" src="sprites/black.png"  ondragstart="return dragStart(event)" />
+                <img id="white" draggable="true" src="sprites/white.png"  ondragstart="return dragStart(event)" />
+                <img id="purple" draggable="true" src="sprites/purple.png"  ondragstart="return dragStart(event)" />
             </aside>
             <footer id="footer">
                     <button onclick="save()">Save</button>
                     <button onclick="load()">Load</button>
                 </footer>
-            <textarea id="code">face.create(0, 0, "face").setOrigin(0, 0);
-                teeth.create(67, 270, "teeth").setOrigin(0, 0);</textarea>
+            <textarea id="code">
+                face.create(0, 0, "face").setOrigin(0, 0);
+            </textarea>
         </div>
         <script>
         var copyPrefix = ''
@@ -107,51 +110,65 @@
          }
 
          function save() {
+            console.log('save');
             var textarea = document.getElementById('code');
-            var code = '';
             var groupDeclarations = [];
             var canvas =  document.getElementById('canvas')
             var childNodes = canvas.childNodes;
-            var headerHeight = document.getElementById('pageHeader').getBoundingClientRect().height;
+
+            var creates = '';
             [].forEach.call(childNodes, function(el){
                 if(el.tagName === 'IMG') {
                     var group = el.getAttribute("data-group");
-                    code += group + '.create(' + el.style.left.replace('px', '') + ', ' + (el.style.top.replace('px', '')-headerHeight) + ', "' + group + '").setOrigin(0, 0);\n';
+                    creates += group + '.create(' + el.style.left.replace('px', '') + ', ' + (el.style.top.replace('px', '')) + ', "' + group + '").setOrigin(0, 0);\n';
 
                     if(!groupDeclarations.includes(group)){
                         groupDeclarations.push(group)
                     }
                 }
             });
+
+            var loads = '';
             [].forEach.call(groupDeclarations, function(group){
-                code = group + ' = this.physics.add.staticGroup();\n' + code;
+                loads = 'this.load.image(\'' + group + '\', \'sprites/' + group + '.png\');\n' + loads;
+            });
+
+            var groups = '';
+            [].forEach.call(groupDeclarations, function(group){
+                groups = group + ' = this.physics.add.staticGroup();\n' + groups;
             })
 
-            textarea.innerHTML = code;
+            var code = loads + groups + creates;
+            textarea.value = code;
          }
 
          function load() {
+            console.log('load');
             var textarea = document.getElementById('code');
             var code = textarea.value;
             var lines = code.split('\n')
+            var canvas = document.getElementById('canvas');
+            canvas.innerHTML = '';
             lines.forEach(function(line){
-                var idStart = line.indexOf('"')+1
-                var idEnd = line.indexOf('"', idStart)
-                var id = line.substr(idStart, idEnd-idStart);
-                var clone = document.getElementById(id).cloneNode(true);;
-                var canvas = document.getElementById('canvas');
-                copyPrefix += 'a'
-                clone.setAttribute('data-group', clone.id);
-                clone.id += copyPrefix;
-                canvas.appendChild(clone);
-                var xStart = line.indexOf('(')+1
-                var xEnd = line.indexOf(',')
-                var x = line.substr(xStart, xEnd-xStart)
-                clone.style.left = xStart + "px";
-                var ySubString = line.substr(xEnd+1)
-                var yEnd = ySubString.indexOf(',')
-                var y = ySubString.substr(0, yEnd)
-                clone.style.top = y + "px";
+                if(line.indexOf('.create(') > -1){
+                    var idStart = line.indexOf('"')+1
+                    var idEnd = line.indexOf('"', idStart)
+                    var id = line.substr(idStart, idEnd-idStart);
+                    var clone = document.getElementById(id).cloneNode(true);;
+                    var canvas = document.getElementById('canvas');
+                    copyPrefix += 'a'
+                    clone.setAttribute('data-group', clone.id);
+                    clone.id += copyPrefix;
+                    canvas.appendChild(clone);
+                    var xStart = line.indexOf('(')+1
+                    var xEnd = line.indexOf(',')
+                    var x = line.substr(xStart, xEnd-xStart)
+                    clone.style.left = x + "px";
+                    var ySubString = line.substr(xEnd+1)
+                    var yEnd = ySubString.indexOf(',')
+                    var y = ySubString.substr(0, yEnd)
+                    clone.style.top = y + "px";
+                }
             });
          }
 

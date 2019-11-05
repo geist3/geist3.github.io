@@ -37,8 +37,13 @@
 
     function preload ()
     {
-        this.load.image('player', 'sprites/player.png');
-        this.load.image('teeth', 'sprites/teeth.png');
+        this.load.image('purple', 'sprites/purple.png');
+        this.load.image('white', 'sprites/white.png');
+        this.load.image('black', 'sprites/black.png');
+        this.load.image('green', 'sprites/green.png');
+        this.load.image('yellow', 'sprites/yellow.png');
+        this.load.image('blue', 'sprites/blue.png');
+        this.load.image('red', 'sprites/red.png');
         this.load.image('face', 'sprites/face.png');
     }
 
@@ -54,10 +59,25 @@
         player2.setBounce(0.2);
         player2.setCollideWorldBounds(true);
         
-        teeth = this.physics.add.staticGroup();
+        purple = this.physics.add.staticGroup();
+        white = this.physics.add.staticGroup();
+        black = this.physics.add.staticGroup();
+        green = this.physics.add.staticGroup();
+        yellow = this.physics.add.staticGroup();
+        blue = this.physics.add.staticGroup();
+        red = this.physics.add.staticGroup();
         face = this.physics.add.staticGroup();
         face.create(0, 0, "face").setOrigin(0, 0);
-        teeth.create(67, 270, "teeth").setOrigin(0, 0);
+        red.create(440, 350, "red").setOrigin(0, 0);
+        blue.create(521, 348, "blue").setOrigin(0, 0);
+        blue.create(365, 352, "blue").setOrigin(0, 0);
+        yellow.create(283, 353, "yellow").setOrigin(0, 0);
+        green.create(196, 344, "green").setOrigin(0, 0);
+        black.create(349, 495, "black").setOrigin(0, 0);
+        white.create(442, 492, "white").setOrigin(0, 0);
+        purple.create(527, 452, "purple").setOrigin(0, 0);
+
+
 
     }
 
