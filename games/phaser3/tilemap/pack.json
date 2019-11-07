@@ -1,0 +1,16 @@
+{
+  "test1": {
+    "files": [
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1",
+        "url": "tilemap.json"
+      },
+      {
+        "type": "image",
+        "key": "spritemap",
+        "url": "tileset.png"
+      }
+    ]
+  }
+}
