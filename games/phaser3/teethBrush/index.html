@@ -43,6 +43,7 @@
         this.load.image('red', 'sprites/red.png');
         this.load.image('face', 'sprites/face.png');
         this.load.image('toothbrush', 'sprites/toothbrush.png');
+        this.load.image('poke', 'sprites/poke.png');
     }
 
     function create ()
@@ -51,7 +52,6 @@
 
         cursors = this.input.keyboard.createCursorKeys();
 
-        //toothbrush = this.physics.add.group();
         var purple = this.physics.add.staticGroup();
         var white = this.physics.add.staticGroup();
         var black = this.physics.add.staticGroup();
@@ -70,10 +70,15 @@
         white.create(442, 492, "white").setOrigin(0, 0).refreshBody();;
         purple.create(527, 452, "purple").setOrigin(0, 0).refreshBody();;
 
-        var toothbrush = this.physics.add.sprite(200, 300, 'toothbrush').setInteractive();
+        var toothbrush = this.physics.add.sprite(700, 550, 'toothbrush').setInteractive();
         toothbrush.body.setSize(50,70);
         toothbrush.body.x=0;
         toothbrush.body.offset.y=0;
+
+        var poke = this.physics.add.sprite(650, 550, 'poke').setInteractive();
+        poke.body.setSize(50,70);
+        poke.body.x=0;
+        poke.body.offset.y=0;
 
         this.physics.add.collider(purple, toothbrush, (toothbrush, purple) => {
             console.log(toothbrush)
@@ -84,10 +89,20 @@
             }
         })
 
+        this.physics.add.collider(red, poke, (poke, red) => {
+            console.log(poke)
+            if(poke.x != oldX || poke.y != oldY){
+                red.alpha -= 0.01
+                oldX = poke.x;
+                oldY = poke.y;
+            }
+        })
+
         //  The pointer has to move 16 pixels before it's considered as a drag
         this.input.dragDistanceThreshold = 16;
 
         this.input.setDraggable(toothbrush);
+        this.input.setDraggable(poke);
 
         this.input.on('dragstart', function (pointer, gameObject) {
             gameObject.setTint(0xff0000);
