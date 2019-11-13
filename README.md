@@ -3,6 +3,15 @@ Static site
 
 Games requirements
 
+Attractive
+    Animate graphics to make the screen more interesting, espcially any splash screens, feedback, starts, conversation
+    Nice graphics
+Intuitive
+    Don't require reading
+    Use time restricted events carefully
+    Have instructions including controls easy to find
+    Have hints so can't get stuck
+
 Fun
     Laugh, silly
         Art
@@ -20,6 +29,7 @@ Fun
             multiple characters
             progressive difficulty
             Rewards
+            Skill, reward first 20% and last 5%
         Rewards
             Level up
             collect or buy New abilities
