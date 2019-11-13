@@ -29,9 +29,11 @@
     };
 
     var game = new Phaser.Game(config);
+    var scene;
 
     function preload ()
     {
+        scene = this;
         this.load.image('purple', 'sprites/purple.png');
         this.load.image('white', 'sprites/white.png');
         this.load.image('black', 'sprites/black.png');
@@ -40,6 +42,7 @@
         this.load.image('blue', 'sprites/blue.png');
         this.load.image('red', 'sprites/red.png');
         this.load.image('face', 'sprites/face.png');
+        this.load.image('eyes1', 'sprites/eyes1.png');
         this.load.image('toothbrush', 'sprites/toothbrush.png');
         this.load.image('poke', 'sprites/poke.png');
     }
@@ -58,15 +61,16 @@
         var blue = this.physics.add.staticGroup();
         var red = this.physics.add.staticGroup();
         var face = this.physics.add.staticGroup();
-        face.create(0, 0, "face").setOrigin(0, 0).refreshBody();;
-        red.create(440, 350, "red").setOrigin(0, 0).refreshBody();;
-        blue.create(521, 348, "blue").setOrigin(0, 0).refreshBody();;
-        blue.create(365, 352, "blue").setOrigin(0, 0).refreshBody();;
-        yellow.create(283, 353, "yellow").setOrigin(0, 0).refreshBody();;
-        green.create(196, 344, "green").setOrigin(0, 0).refreshBody();;
-        black.create(349, 495, "black").setOrigin(0, 0).refreshBody();;
-        white.create(442, 492, "white").setOrigin(0, 0).refreshBody();;
-        purple.create(527, 452, "purple").setOrigin(0, 0).refreshBody();;
+        face.create(0, 0, "face").setOrigin(0, 0).refreshBody();
+        var eyes1 = this.add.image(400, 260, "eyes1").setAlpha(0);
+        red.create(440, 350, "red").setOrigin(0, 0).refreshBody();
+        blue.create(521, 348, "blue").setOrigin(0, 0).refreshBody();
+        blue.create(365, 352, "blue").setOrigin(0, 0).refreshBody();
+        yellow.create(283, 353, "yellow").setOrigin(0, 0).refreshBody();
+        green.create(196, 344, "green").setOrigin(0, 0).refreshBody();
+        black.create(349, 495, "black").setOrigin(0, 0).refreshBody();
+        white.create(442, 492, "white").setOrigin(0, 0).refreshBody();
+        purple.create(527, 452, "purple").setOrigin(0, 0).refreshBody();
 
         var toothbrush = this.physics.add.sprite(600, 550, 'toothbrush').setInteractive();
         toothbrush.body.setSize(50,70);
@@ -92,6 +96,45 @@
             repeat: -1,            // -1: infinity
             yoyo: true
         });
+
+        var timeline = scene.tweens.timeline({
+            targets: eyes1,
+            loop: -1,
+            tweens: [
+            {
+                    alpha:  0,
+                    duration: 10,
+                },
+                {
+                    alpha:  0.001,
+                    duration: 2000,
+                },
+                {
+                    alpha:  1,
+                    duration: 10,
+                },
+                {
+                    alpha:  0.999,
+                    duration: 100,
+                }
+            ]
+        });
+
+        // timeline.tweens.add({
+        //     targets: eyes1,
+        //     alpha:  1,
+        //     duration: 1,
+        //     delay:1000
+        // });
+
+        // timeline.add({
+        //     targets: eyes1,
+        //     alpha:  0,
+        //     duration: 1,
+        //     delay:100
+        // });
+
+        // timeline.play();
     }
 
     function update(){
