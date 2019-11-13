@@ -32,7 +32,7 @@
     var scene;
     var text;
     var timelines;
-    var tween;
+    var eyes1;
 
     function preload ()
     {
@@ -65,7 +65,7 @@
         var red = this.physics.add.staticGroup();
         var face = this.physics.add.staticGroup();
         face.create(0, 0, "face").setOrigin(0, 0).refreshBody();
-        var eyes1 = this.add.image(400, 260, "eyes1").setAlpha(0);
+        eyes1 = this.add.image(400, 260, "eyes1").setAlpha(0);
         red.create(440, 350, "red").setOrigin(0, 0).refreshBody();
         blue.create(521, 348, "blue").setOrigin(0, 0).refreshBody();
         blue.create(365, 352, "blue").setOrigin(0, 0).refreshBody();
@@ -100,43 +100,32 @@
             yoyo: true
         });
 
-        timeline = scene.tweens.timeline({
-            targets: eyes1,
-            loop: -1,
-            loopDelay: 2000,
-            tweens: [
-                {
-                    alpha:  1,
-                    duration: 100,
-                },
-                {
-                    alpha:  0,
-                    duration: 1
-                }
-            ]
-        });
-
-        // timeline.tweens.add({
-        //     targets: eyes1,
-        //     alpha:  1,
-        //     duration: 1,
-        //     delay:1000
-        // });
-
-        // timeline.add({
-        //     targets: eyes1,
-        //     alpha:  0,
-        //     duration: 1,
-        //     delay:100
-        // });
-
-        // timeline.play();
+        openEyes();
 
         text = this.add.text(10, 10, '', { font: '16px Courier', fill: '#009900' });
     }
 
+    function closeEyes(){
+        scene.tweens.add({
+            targets: eyes1,
+            alpha:  1,
+            delay: 1000,
+            duration: 100,
+            onComplete: function () { console.log('close onComplete'); console.log(arguments); openEyes(); },
+        });
+    }
+
+    function openEyes(){
+        scene.tweens.add({
+            targets: eyes1,
+            alpha:  0,
+            hold: 1000,
+            duration: 100,
+            onComplete: function () { console.log('open onComplete'); console.log(arguments); closeEyes(); },
+        });
+    }
+
     function update(){
-        debugTweenData(text, timeline);
         //debugTweenData(text, tween);
     }
 
