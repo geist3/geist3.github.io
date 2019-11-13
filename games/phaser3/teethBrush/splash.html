@@ -30,6 +30,9 @@
 
     var game = new Phaser.Game(config);
     var scene;
+    var text;
+    var timelines;
+    var tween;
 
     function preload ()
     {
@@ -85,7 +88,7 @@
         //  The pointer has to move 16 pixels before it's considered as a drag
         this.input.dragDistanceThreshold = 16;
 
-        var tween = this.tweens.add({
+        tween = this.tweens.add({
             targets: toothbrush,
             x:  550 ,
             // alpha: { start: 0, to: 1 },
@@ -97,7 +100,7 @@
             yoyo: true
         });
 
-        var timeline = scene.tweens.timeline({
+        timeline = scene.tweens.timeline({
             targets: eyes1,
             loop: -1,
             loopDelay: 2000,
@@ -128,11 +131,28 @@
         // });
 
         // timeline.play();
+
+        text = this.add.text(10, 10, '', { font: '16px Courier', fill: '#009900' });
     }
 
     function update(){
-
+        debugTweenData(text, timeline);
+        //debugTweenData(text, tween);
     }
+
+    function debugTweenData (text, tweenData)
+{
+    var output = [];
+
+    output.push(tweenData.key);
+    output.push('State: ' + tweenData.state);
+    output.push('Progress: ' + tweenData.progress);
+    output.push('Elapsed: ' + tweenData.elapsed);
+    output.push('Duration: ' + tweenData.duration);
+    output.push('Total Duration: ' + tweenData.totalDuration);
+
+    text.setText(output);
+}
     </script>
 
 </body>
