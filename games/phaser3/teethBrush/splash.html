@@ -100,22 +100,15 @@
         var timeline = scene.tweens.timeline({
             targets: eyes1,
             loop: -1,
+            loopDelay: 2000,
             tweens: [
-            {
-                    alpha:  0,
-                    duration: 10,
-                },
-                {
-                    alpha:  0.001,
-                    duration: 2000,
-                },
                 {
                     alpha:  1,
-                    duration: 10,
+                    duration: 100,
                 },
                 {
-                    alpha:  0.999,
-                    duration: 100,
+                    alpha:  0,
+                    duration: 1
                 }
             ]
         });
