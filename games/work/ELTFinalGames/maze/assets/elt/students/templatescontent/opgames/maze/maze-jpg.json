@@ -1,0 +1,36 @@
+{"frames": {
+
+"answerEmpty":
+{
+	"frame": {"x":0,"y":704,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+},
+"menuBG":
+{
+	"frame": {"x":0,"y":0,"w":1024,"h":704},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":704},
+	"sourceSize": {"w":1024,"h":704}
+},
+"promptEmpty":
+{
+	"frame": {"x":0,"y":704,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":76},
+	"sourceSize": {"w":76,"h":76}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "maze-jpg.jpg",
+	"format": "RGB888",
+	"size": {"w":1024,"h":780},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:dfca4a57fe35e5a540e36b434f14f582:dc0e46eaa37fe2d49005464a6c5e2964:7329cf557ec67d9b4befc2f76c0cfc4c$"
+}
+}

@@ -1,0 +1,412 @@
+{   "instancePath": "assets/elt/students/course/games/level/game/",
+    "templatePath": "assets/elt/students/templatescontent/opgames/smash-space/",
+    "localStorageTag": "afaf2eL4Smash",
+    "copyright": {"x":512, "y":690, "text": "Ⓒ Oxford University Press 2015"},
+    "closeBtn": {"x":989, "y":35, "url":"https://elt.oup.com/?cc=gb&selLanguage=en"},
+     "version": 1,
+
+
+    "playBtn": {"x":512, "y":626},
+    "playAgain": {"x":512, "y":626},
+    "diff1Btn": {"x":320, "y":626},
+    "diff2Btn": {"x":512, "y":626},
+    "diff3Btn": {"x":704, "y":626},
+    "audioBtn": {"x": 989, "y": 669},
+    
+    "fireBtn": {"x":668, "y":660},
+    "upBtn": {"x":106, "y":660},
+    "downBtn": {"x":258, "y":660},
+    "playerSelect": [
+        {"x":345, "y":375, "width": 250, "height": 270},
+        {"x":678, "y":375, "width": 250, "height": 270}
+    ],
+    "activeArea": {"x":30, "y":70, "width": 964, "height": 540},
+    "answerHeight": 105,
+    "score": {"prefix": "", "x": 125, "y": 40, "style": {"fill": "black", "font": "14px Arial"} },
+    "lives": {"prefix": "", "x": 305, "y": 40, "style": {"fill": "black", "font": "14px Arial"}  },
+        
+    "defaultAudio": ["btn-click", "correct", "incorrect", "lvl-up", "player-explodes", "player-fires", "time-up", "good-job", "nice-try"],
+
+    "screensCount": 3,
+
+    "difficulties": [
+        
+        {
+            "prefs": [
+                {
+                "subScreens": 3,
+                "answerXspeed": 20000,
+                "answerYspeed": 3000,
+                "answerShotSpeed": 500,
+                "lives": 4,
+                "secsPerShot": 500
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 20000,
+                "answerYspeed": 3000,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 18000,
+                "answerYspeed": 2800,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+                }
+            ],
+
+            "pool": [
+{"audio":"glass-of-milk","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC006"},
+{"isCorrect":false,"text":"","file":"FAF4FC018"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"}]},
+{"audio":"bowl-of-soup","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC009"},
+{"isCorrect":false,"text":"","file":"FAF4FC033"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"}]},
+{"audio":"plate-of-salad","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC010"},
+{"isCorrect":false,"text":"","file":"FAF4FC0124"},
+{"isCorrect":false,"text":"","file":"FAF4FC086"}]},
+{"audio":"drums","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC012"},
+{"isCorrect":false,"text":"","file":"FAF4FC033"},
+{"isCorrect":false,"text":"","file":"FAF4FC034"}]},
+{"audio":"stage","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC018"},
+{"isCorrect":false,"text":"","file":"FAF4FC009"},
+{"isCorrect":false,"text":"","file":"FAF4FC035"}]},
+{"audio":"sneakers","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC033"},
+{"isCorrect":false,"text":"","file":"FAF4FC0124"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"}]},
+{"audio":"trophy","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC034"},
+{"isCorrect":false,"text":"","file":"FAF4FC086"},
+{"isCorrect":false,"text":"","file":"FAF4FC012"}]},
+{"audio":"player","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC035"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC0105"}]},
+{"audio":"radio","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC088"},
+{"isCorrect":false,"text":"","file":"FAF4FC012"},
+{"isCorrect":false,"text":"","file":"FAF4FC006"}]},
+{"audio":"camcorder","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC086"},
+{"isCorrect":false,"text":"","file":"FAF4FC081"},
+{"isCorrect":false,"text":"","file":"FAF4FC0119"}]},
+{"audio":"remote-control","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC081"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC0124"}]},
+{"audio":"ocean","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0101"},
+{"isCorrect":false,"text":"","file":"FAF4FC035"},
+{"isCorrect":false,"text":"","file":"FAF4FC088"}]},
+{"audio":"volcano","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC035"},
+{"isCorrect":false,"text":"","file":"FAF4FC018"}]},
+{"audio":"rainforest","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0105"},
+{"isCorrect":false,"text":"","file":"FAF4FC009"},
+{"isCorrect":false,"text":"","file":"FAF4FC006"}]},
+{"audio":"smoothie","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0119"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC012"}]},
+{"audio":"strawberry","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0124"},
+{"isCorrect":false,"text":"","file":"FAF4FC088"},
+{"isCorrect":false,"text":"","file":"FAF4FC0101"}]}]
+        },
+        {
+            "prefs": [
+                {
+                "subScreens": 3,
+                "answerXspeed": 20000,
+                "answerYspeed": 3000,
+                "answerShotSpeed": 500,
+                "lives": 3,
+                "secsPerShot": 500
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 18000,
+                "answerYspeed": 2800,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 1600,
+                "answerYspeed": 2600,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+                }
+            ],
+
+            "pool": [
+{"audio":"glass-of-milk","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC006"},
+{"isCorrect":false,"text":"","file":"FAF4FC091"},
+{"isCorrect":false,"text":"","file":"FAF4FC081"},
+{"isCorrect":false,"text":"","file":"FAF4FC088"}]},
+{"audio":"bowl-of-soup","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC009"},
+{"isCorrect":false,"text":"","file":"FAF4FC086"},
+{"isCorrect":false,"text":"","file":"FAF4FC0123"},
+{"isCorrect":false,"text":"","file":"FAF4FC0119"}]},
+{"audio":"plate-of-salad","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC010"},
+{"isCorrect":false,"text":"","file":"FAF4FC088"},
+{"isCorrect":false,"text":"","file":"FAF4FC0101"},
+{"isCorrect":false,"text":"","file":"FAF4FC091"}]},
+{"audio":"drums","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC012"},
+{"isCorrect":false,"text":"","file":"FAF4FC084"},
+{"isCorrect":false,"text":"","file":"FAF4FC086"},
+{"isCorrect":false,"text":"","file":"FAF4FC034"}]},
+{"audio":"stage","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC018"},
+{"isCorrect":false,"text":"","file":"FAF4FC090"},
+{"isCorrect":false,"text":"","file":"FAF4FC091"},
+{"isCorrect":false,"text":"","file":"FAF4FC0123"}]},
+{"audio":"sneakers","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC033"},
+{"isCorrect":false,"text":"","file":"FAF4FC006"},
+{"isCorrect":false,"text":"","file":"FAF4FC084"},
+{"isCorrect":false,"text":"","file":"FAF4FC009"}]},
+{"audio":"trophy","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC034"},
+{"isCorrect":false,"text":"","file":"FAF4FC010"},
+{"isCorrect":false,"text":"","file":"FAF4FC086"},
+{"isCorrect":false,"text":"","file":"FAF4FC0105"}]},
+{"audio":"player","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC035"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC0124"},
+{"isCorrect":false,"text":"","file":"FAF4FC034"}]},
+{"audio":"radio","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC088"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC0119"},
+{"isCorrect":false,"text":"","file":"FAF4FC034"}]},
+{"audio":"camcorder","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC086"},
+{"isCorrect":false,"text":"","file":"FAF4FC091"},
+{"isCorrect":false,"text":"","file":"FAF4FC081"},
+{"isCorrect":false,"text":"","file":"FAF4FC090"}]},
+{"audio":"advertisment","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC090"},
+{"isCorrect":false,"text":"","file":"FAF4FC086"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC0124"}]},
+{"audio":"remote-control","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC081"},
+{"isCorrect":false,"text":"","file":"FAF4FC035"},
+{"isCorrect":false,"text":"","file":"FAF4FC090"},
+{"isCorrect":false,"text":"","file":"FAF4FC0105"}]},
+{"audio":"cell-phone","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC084"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC0124"},
+{"isCorrect":false,"text":"","file":"FAF4FC086"}]},
+{"audio":"printer","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC091"},
+{"isCorrect":false,"text":"","file":"FAF4FC081"},
+{"isCorrect":false,"text":"","file":"FAF4FC088"},
+{"isCorrect":false,"text":"","file":"FAF4FC0124"}]},
+{"audio":"ocean","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0101"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC091"},
+{"isCorrect":false,"text":"","file":"FAF4FC033"}]},
+{"audio":"volcano","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0102"},
+{"isCorrect":false,"text":"","file":"FAF4FC086"},
+{"isCorrect":false,"text":"","file":"FAF4FC033"},
+{"isCorrect":false,"text":"","file":"FAF4FC0105"}]},
+{"audio":"rainforest","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0105"},
+{"isCorrect":false,"text":"","file":"FAF4FC081"},
+{"isCorrect":false,"text":"","file":"FAF4FC006"},
+{"isCorrect":false,"text":"","file":"FAF4FC0123"}]},
+{"audio":"smoothie","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0119"},
+{"isCorrect":false,"text":"","file":"FAF4FC018"},
+{"isCorrect":false,"text":"","file":"FAF4FC091"},
+{"isCorrect":false,"text":"","file":"FAF4FC033"}]},
+{"audio":"blender","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0123"},
+{"isCorrect":false,"text":"","file":"FAF4FC090"},
+{"isCorrect":false,"text":"","file":"FAF4FC012"},
+{"isCorrect":false,"text":"","file":"FAF4FC018"}]},
+{"audio":"strawberry","answers":[
+{"isCorrect":true,"text":"","file":"FAF4FC0124"},
+{"isCorrect":false,"text":"","file":"FAF4FC088"},
+{"isCorrect":false,"text":"","file":"FAF4FC033"},
+{"isCorrect":false,"text":"","file":"FAF4FC0102"}]}]
+        },
+        {
+            "prefs": [
+                {
+                "subScreens": 3,
+                "answerXspeed": 18000,
+                "answerYspeed": 2800,
+                "answerShotSpeed": 500,
+                "lives": 2,
+                "secsPerShot": 500
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 16000,
+                "answerYspeed": 2600,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 16000,
+                "answerYspeed": 2600,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+                }
+            ],
+
+
+
+            "pool": [
+{"audio":"glass-of-milk","answers":[
+{"isCorrect":true,"text":"glass of milk","file":""},
+{"isCorrect":false,"text":"mouse","file":""},
+{"isCorrect":false,"text":"speakers","file":""},
+{"isCorrect":false,"text":"cell phone","file":""},
+{"isCorrect":false,"text":"cave","file":""}]},
+{"audio":"bowl-of-soup","answers":[
+{"isCorrect":true,"text":"bowl of soup","file":""},
+{"isCorrect":false,"text":"violins","file":""},
+{"isCorrect":false,"text":"rainforest","file":""},
+{"isCorrect":false,"text":"drums","file":""},
+{"isCorrect":false,"text":"blender","file":""}]},
+{"audio":"plate-of-salad","answers":[
+{"isCorrect":true,"text":"plate of salad","file":""},
+{"isCorrect":false,"text":"strawberry","file":""},
+{"isCorrect":false,"text":"printer","file":""},
+{"isCorrect":false,"text":"cell phone","file":""},
+{"isCorrect":false,"text":"player","file":""}]},
+{"audio":"drums","answers":[
+{"isCorrect":true,"text":"drums","file":""},
+{"isCorrect":false,"text":"stage","file":""},
+{"isCorrect":false,"text":"blender","file":""},
+{"isCorrect":false,"text":"cell phone","file":""},
+{"isCorrect":false,"text":"violins","file":""}]},
+{"audio":"violins","answers":[
+{"isCorrect":true,"text":"violins","file":""},
+{"isCorrect":false,"text":"glass of milk","file":""},
+{"isCorrect":false,"text":"stage","file":""},
+{"isCorrect":false,"text":"memory stick","file":""},
+{"isCorrect":false,"text":"player","file":""}]},
+{"audio":"stage","answers":[
+{"isCorrect":true,"text":"stage","file":""},
+{"isCorrect":false,"text":"glass of milk","file":""},
+{"isCorrect":false,"text":"blender","file":""},
+{"isCorrect":false,"text":"mouse","file":""},
+{"isCorrect":false,"text":"cave","file":""}]},
+{"audio":"sneakers","answers":[
+{"isCorrect":true,"text":"trainers","file":""},
+{"isCorrect":false,"text":"blender","file":""},
+{"isCorrect":false,"text":"rainforest","file":""},
+{"isCorrect":false,"text":"stage","file":""},
+{"isCorrect":false,"text":"strawberry","file":""}]},
+{"audio":"trophy","answers":[
+{"isCorrect":true,"text":"trophy","file":""},
+{"isCorrect":false,"text":"plate of salad","file":""},
+{"isCorrect":false,"text":"desert","file":""},
+{"isCorrect":false,"text":"bowl of soup","file":""},
+{"isCorrect":false,"text":"rainforest","file":""}]},
+{"audio":"player","answers":[
+{"isCorrect":true,"text":"player","file":""},
+{"isCorrect":false,"text":"trainers","file":""},
+{"isCorrect":false,"text":"memory stick","file":""},
+{"isCorrect":false,"text":"violins","file":""},
+{"isCorrect":false,"text":"bowl of soup","file":""}]},
+{"audio":"cell-phone","answers":[
+{"isCorrect":true,"text":"cell phone","file":""},
+{"isCorrect":false,"text":"printer","file":""},
+{"isCorrect":false,"text":"strawberry","file":""},
+{"isCorrect":false,"text":"stage","file":""},
+{"isCorrect":false,"text":"mouse","file":""}]},
+{"audio":"printer","answers":[
+{"isCorrect":true,"text":"printer","file":""},
+{"isCorrect":false,"text":"memory stick","file":""},
+{"isCorrect":false,"text":"stage","file":""},
+{"isCorrect":false,"text":"player","file":""},
+{"isCorrect":false,"text":"bowl of soup","file":""}]},
+{"audio":"mouse","answers":[
+{"isCorrect":true,"text":"mouse","file":""},
+{"isCorrect":false,"text":"glass of milk","file":""},
+{"isCorrect":false,"text":"drums","file":""},
+{"isCorrect":false,"text":"blender","file":""},
+{"isCorrect":false,"text":"stage","file":""}]},
+{"audio":"speakers","answers":[
+{"isCorrect":true,"text":"speakers","file":""},
+{"isCorrect":false,"text":"blender","file":""},
+{"isCorrect":false,"text":"violins","file":""},
+{"isCorrect":false,"text":"memory stick","file":""},
+{"isCorrect":false,"text":"player","file":""}]},
+{"audio":"memory-stick","answers":[
+{"isCorrect":true,"text":"memory stick","file":""},
+{"isCorrect":false,"text":"glass of milk","file":""},
+{"isCorrect":false,"text":"cell phone","file":""},
+{"isCorrect":false,"text":"desert","file":""},
+{"isCorrect":false,"text":"strawberry","file":""}]},
+{"audio":"rainforest","answers":[
+{"isCorrect":true,"text":"rainforest","file":""},
+{"isCorrect":false,"text":"printer","file":""},
+{"isCorrect":false,"text":"trainers","file":""},
+{"isCorrect":false,"text":"trophy","file":""},
+{"isCorrect":false,"text":"player","file":""}]},
+{"audio":"desert","answers":[
+{"isCorrect":true,"text":"desert","file":""},
+{"isCorrect":false,"text":"stage","file":""},
+{"isCorrect":false,"text":"trophy","file":""},
+{"isCorrect":false,"text":"violins","file":""},
+{"isCorrect":false,"text":"blender","file":""}]},
+{"audio":"cave","answers":[
+{"isCorrect":true,"text":"cave","file":""},
+{"isCorrect":false,"text":"plate of salad","file":""},
+{"isCorrect":false,"text":"speakers","file":""},
+{"isCorrect":false,"text":"desert","file":""},
+{"isCorrect":false,"text":"blender","file":""}]},
+{"audio":"blender","answers":[
+{"isCorrect":true,"text":"blender","file":""},
+{"isCorrect":false,"text":"cave","file":""},
+{"isCorrect":false,"text":"strawberry","file":""},
+{"isCorrect":false,"text":"bowl of soup","file":""},
+{"isCorrect":false,"text":"mouse","file":""}]},
+{"audio":"strawberry","answers":[
+{"isCorrect":true,"text":"strawberry","file":""},
+{"isCorrect":false,"text":"trainers","file":""},
+{"isCorrect":false,"text":"bowl of soup","file":""},
+{"isCorrect":false,"text":"drums","file":""},
+{"isCorrect":false,"text":"trophy","file":""}]}
+            ]
+
+        }
+   ]
+
+
+
+
+
+
+
+
+}

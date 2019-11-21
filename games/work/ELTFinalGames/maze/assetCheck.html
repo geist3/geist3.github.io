@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pelmanism asset check</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <style>
+        .img {
+            background: #ffffff url("assets/elt/students/course/games/level/game/images.jpg") no-repeat 0 0;
+            width: 76px;
+            height: 76px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 20px;
+        }
+        
+        audio {
+            vertical-align: middle;
+            margin-left: 20px;
+        }
+        .warning {
+            color: red;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+
+    <div class="results"></div>
+
+
+
+
+
+    <script>
+        var $results = $('.results');
+        var difficulty = ["Easy", "Medium", "Hard"]
+        var myjson;
+        var spriteJson;
+
+        var path = 'assets/elt/students/course/games/level/game/';
+
+        $.getJSON(path + "data.json", function(json) {
+            myjson = json;
+            $.getJSON(path + "images.json", function(json2) {
+                spriteJson = json2;
+                loadPage();
+
+            });
+        });
+
+        function loadPage() {
+
+            // load all the difficulties assets
+            for (var diff = 0; diff < myjson.difficulties.length; diff++) {
+                var theDif = myjson.difficulties[diff];
+                
+                
+                var text = theDif.prompt.text ? "text" : "";
+                var img = theDif.prompt.img ? "image" : "";
+                var audio = theDif.prompt.text ? " audio" : "";
+                
+                $results.append("<h1>" + difficulty[diff] + "</h1>" +
+                    "<p><strong>game duration:</strong> " + theDif.gameDuration + " seconds" + '<br />' +   
+                    "<strong>lives:</strong> " + theDif.lives + '<br />' +  
+                    "<strong>prompt type:</strong> " + text + img + audio +
+                    "</p>"
+                );
+
+
+                for (var item = 0; item < theDif.pool.length; item++) {
+                    var thisPoolItem = theDif.pool[item];
+                    
+                    var id = thisPoolItem.id;
+                    var answerType = thisPoolItem.answerType;
+                    var img = thisPoolItem.img;
+                    var text = thisPoolItem.text;
+                    var audio = thisPoolItem.audio;
+                    
+                    
+
+                    if (thisPoolItem.img !== "") {
+                        try{
+                        var thisPoolItemImage = '<span class="img" style="background-position:-' + spriteJson.frames[thisPoolItem.img].frame.x + 'px -' + spriteJson.frames[thisPoolItem.img].frame.y + 'px;"></span>';
+                    }
+                    catch(err){
+                        var thisPoolItemImage = ' <strong>image:</strong> <span class="warning">problem with ' + thisPoolItem.img +'!!!!!! </span>';
+                    }
+                    } else {
+                        var thisPoolItemImage = ' <strong>image:</strong> no image ';
+                    }
+                    if (thisPoolItem.audio !== undefined) {
+                        var theAudio = '<audio controls><source src="' + path + '/audio/' +
+                        thisPoolItem.audio + '.mp3" type="audio/mpeg"></audio>'
+                    } else {
+                        var theAudio = ' no audio';
+                    }
+
+
+
+                    $results.append('<p>'+
+                        '<strong>id:</strong> ' + thisPoolItem.id  + '<br />' +
+                        ' <strong>answer type:</strong> ' + thisPoolItem.answerType + '<br />' +
+                                    
+                        ' <strong>text:</strong> ' + thisPoolItem.text + '<br />' +
+                        ' ' + thisPoolItemImage + '<br />' +
+                        ' <strong>audio:</strong> ' + theAudio +
+                                    
+                    '</p>')
+                }
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>

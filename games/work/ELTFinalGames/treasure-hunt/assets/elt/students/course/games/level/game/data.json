@@ -1,0 +1,288 @@
+{
+    "instancePath": "assets/elt/students/course/games/level/game/",
+    "templatePath": "assets/elt/students/templatescontent/opgames/treasurehunt/",
+    "localStorageTag": "ShineOnL5Braziltreasurehunt",
+    "closeBtn": {"x":989, "y":35,"url":"https://elt.oup.com/?cc=gb&selLanguage=en"},    
+    "copyright": {"x":512, "y":690, "text": " Oxford University Press 2016"},   
+    
+    "playBtn": {"x":512, "y":626, "width": 200, "height": 86},
+    "playAgain": {"x":512, "y":626, "width": 310, "height": 88},
+    "diff1Btn": {"x":320, "y":626, "width": 198, "height": 88},
+    "diff2Btn": {"x":512, "y":626, "width": 170, "height": 86},
+    "diff3Btn": {"x":704, "y":626, "width": 198, "height": 88},
+    
+    "infoBtn": {"x":100, "y":646, "width": 84, "height": 84, "text":"You play like this"},
+    "audioBtn": {"x": 975, "y": 655, "width": 84, "height": 84},
+    "loadingBar": {"x":512, "y":556, "width": 386, "height": 96},
+    "loadingBarInner": {"x":332, "y":559, "width": 354, "height": 27},
+    "playerSelect": [
+        {"x":340, "y":330, "width": 320, "height": 350},
+        {"x":680, "y":330, "width": 320, "height": 350}
+    ],
+	
+    "questionPanelTop": {"x":140, "y":50},
+    "questionPanelBottom": {"x":140, "y":280},
+    "questionPos": {"x":280, "y":160},
+    "answer1Btn": {"x":300, "y":370, "width": 198, "height": 88},
+    "answer2Btn": {"x":300, "y":470, "width": 170, "height": 86},
+    "answer3Btn": {"x":300, "y":570, "width": 198, "height": 88},
+    "activeArea": {"x":30, "y":70, "width": 964, "height": 540},
+	 
+	"questionimagePos": {"x":510, "y":157},
+	"answerimage1Btn": {"x":200, "y":420},
+    "answerimage2Btn": {"x":425, "y":420},
+    "answerimage3Btn": {"x":650, "y":420},
+    
+    "ansQCorrect": 1000,
+    "ansQWrong": -500,
+    "chestBonus": 100,
+    
+	
+    "score": {"prefix": "", "x": 100, "y": 38, "style": {"fill": "black", "font": "14px Arial"} },
+    "coinsGroup": {"x": 190, "y": 12},
+    
+    "screensCount": 3,
+    
+    "chestLocations": [
+        [
+        {"x":145,"y":180}, {"x":292,"y":170}, {"x":450,"y":220}, {"x":648,"y":127}, {"x":935,"y":130}, {"x":805,"y":277}, {"x":847,"y":380}, 
+        {"x":532,"y":330}, {"x":384,"y":402}, {"x":224,"y":427}, {"x":60,"y":489}, {"x":350,"y":514}, {"x":622,"y":436}, {"x":892,"y":600}
+        ],
+        [
+        {"x":37,"y":174}, {"x":270,"y":160}, {"x":443,"y":263}, {"x":595,"y":120}, {"x":866,"y":240}, {"x":958,"y":120}, {"x":320,"y":396}, 
+        {"x":430,"y":410}, {"x":556,"y":397}, {"x":778,"y":420}, {"x":900,"y":388}, {"x":271,"y":503}, {"x":870,"y":516}, {"x":66,"y":499}],
+        [
+        {"x":170,"y":128}, {"x":395,"y":145}, {"x":670,"y":160}, {"x":928,"y":178}, {"x":340,"y":240}, {"x":884,"y":271}, {"x":760,"y":371}, 
+        {"x":160,"y":378}, {"x":486,"y":440}, {"x":689,"y":446}, {"x":932,"y":388}, {"x":28,"y":540}, {"x":353,"y":617}, {"x":958,"y":615}
+        ]
+
+    ],
+    
+	
+    "difficulties": [
+        {
+            "numOfquestions": [7, 7, 14],
+            "questionsGoal": [1, 1, 2],
+            "showIncorrect": true,
+
+            "pool": [
+        
+                {
+				"prompt": {"image": "", "text": "When is Alan's birthday?", "audio": "alans_birthday"},
+				"answers": [{"correct": false, "image": "", "text": "March", "audio": ""}, 
+							{"correct": true, "image": "", "text": "July", "audio": ""},
+							{"correct": false, "image": "", "text": "September", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "violin"},
+				"answers": [{"correct": false, "image": "SH5SBIT007c", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT007f", "text": "", "audio": ""},
+							{"correct": true, "image": "SH5SBIT007e", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "", "text": "I'm playing the piano.", "audio": ""},
+				"answers": [{"correct": false, "image": "SH5SBIT009d", "text": "", "audio": ""}, 
+							{"correct": true, "image": "SH5SBIT009c", "text": "", "audio": ""},
+							{"correct": false, "image": "SH5SBIT009f", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "table_tennis"},
+				"answers": [{"correct": false, "image": "SH5SBIT010d", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT010b", "text": "", "audio": ""},
+							{"correct": true, "image": "SH5SBIT010a", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "", "text": "Are they playing volleyball? Yes, they are.", "audio": ""},
+				"answers": [{"correct": true, "image": "SH5SBIT011c", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT011d", "text": "", "audio": ""},
+							{"correct": false, "image": "SH5SBIT011e", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "brazil"},
+				"answers": [{"correct": false, "image": "SH5SBIT017b", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT017h", "text": "", "audio": ""},
+							{"correct": true, "image": "SH5SBIT017c", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "", "text": "Where are you from? We're from Spain.", "audio": ""},
+				"answers": [{"correct": false, "image": "SH5SBIT019d", "text": "", "audio": ""}, 
+							{"correct": true, "image": "SH5SBIT019e", "text": "", "audio": ""},
+							{"correct": false, "image": "SH5SBIT019f", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "the_suburbs"},
+				"answers": [{"correct": false, "image": "SH5SBBR020a", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBBR020d", "text": "", "audio": ""},
+							{"correct": true, "image": "SH5SBBR020c", "text": "", "audio": ""}]
+				}
+             ]
+        },
+        {
+            "numOfquestions": [7, 7, 14],
+            "questionsGoal": [1, 2, 3],
+            "showIncorrect": false,
+
+                "pool": [
+                
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "live_in_a_city"},
+				"answers": [{"correct": false, "image": "", "text": "I live in the suburbs.", "audio": ""}, 
+							{"correct": true, "image": "", "text": "I live in a city.", "audio": ""},
+							{"correct": false, "image": "", "text": "I live in the countryside.", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "tablet"},
+				"answers": [{"correct": false, "image": "SH5SBIT029a", "text": "", "audio": ""}, 
+							{"correct": true, "image": "SH5SBIT029e", "text": "", "audio": ""},
+							{"correct": false, "image": "SH5SBIT029g", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT031c", "text": "", "audio": ""},
+				"answers": [{"correct": false, "image": "", "text": "He wants a laptop.", "audio": ""}, 
+							{"correct": true, "image": "", "text": "He wants a camera.", "audio": ""},
+							{"correct": false, "image": "", "text": "He wants a mobile phone.", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "camera_bag"},
+				"answers": [{"correct": false, "image": "SH5SBIT032b", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT032c", "text": "", "audio": ""},
+							{"correct": true, "image": "SH5SBIT032d", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "want_laptop_cases"},
+				"answers": [{"correct": true, "image": "SH5SBIT033f", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT033i", "text": "", "audio": ""},
+							{"correct": false, "image": "SH5SBIT033g", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "", "text": "twenty-eight", "audio": ""},
+				"answers": [{"correct": false, "image": "SH5SBIT039e", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT039f", "text": "", "audio": ""},
+							{"correct": true, "image": "SH5SBIT039h", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "", "text": "It's fifty-four dollars.", "audio": ""},
+				"answers": [{"correct": false, "image": "SH5SBIT041c", "text": "", "audio": ""}, 
+							{"correct": true, "image": "SH5SBIT041d", "text": "", "audio": ""},
+							{"correct": false, "image": "SH5SBIT041e", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT042a", "text": "", "audio": ""},
+				"answers": [{"correct": true, "image": "", "text": "a box of chocolates", "audio": ""}, 
+							{"correct": false, "image": "", "text": "a bag of apples", "audio": ""},
+							{"correct": false, "image": "", "text": "a jar of olives", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "", "text": "There are fifty.", "audio": ""},
+				"answers": [{"correct": false, "image": "SH5SBIT043e", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT043c", "text": "", "audio": ""},
+							{"correct": true, "image": "SH5SBIT043d", "text": "", "audio": ""}]
+				}
+                
+             
+             ]
+        },
+        {
+            "numOfquestions": [7, 7, 14],
+            "questionsGoal": [2, 3, 3],
+            "showIncorrect": false,
+
+                "pool": [
+				
+                {
+				"prompt": {"image": "SH5SBIT051b", "text": "", "audio": ""},
+				"answers": [{"correct": false, "image": "", "text": "go to school", "audio": ""}, 
+							{"correct": true, "image": "", "text": "get dressed", "audio": ""},
+							{"correct": false, "image": "", "text": "do my homework", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT053d", "text": "", "audio": ""},
+				"answers": [{"correct": true, "image": "", "text": "He takes a shower at quarter to seven.", "audio": ""}, 
+							{"correct": false, "image": "", "text": "He takes a shower at half past three.", "audio": ""},
+							{"correct": false, "image": "", "text": "He takes a shower at quarter past six.", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT054d", "text": "", "audio": ""},
+				"answers": [{"correct": false, "image": "", "text": "have a snack", "audio": ""}, 
+							{"correct": false, "image": "", "text": "have lunch", "audio": ""},
+							{"correct": true, "image": "", "text": "have dinner", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "lunch_at_one_oclock"},
+				"answers": [{"correct": true, "image": "", "text": "I have lunch at one o'clock in the afternoon.", "audio": ""}, 
+							{"correct": false, "image": "", "text": "I have lunch at half past two in the afternoon.", "audio": ""},
+							{"correct": false, "image": "", "text": "I have lunch at quarter to one in the afternoon.", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT061g", "text": "", "audio": ""},
+				"answers": [{"correct": false, "image": "", "text": "wash the dishes", "audio": ""}, 
+							{"correct": true, "image": "", "text": "make the bed", "audio": ""},
+							{"correct": false, "image": "", "text": "do the laundry", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT063f", "text": "", "audio": ""},
+				"answers": [{"correct": true, "image": "", "text": "I often vacuum the carpet.", "audio": ""}, 
+							{"correct": false, "image": "", "text": "I never vacuum the carpet.", "audio": ""},
+							{"correct": false, "image": "", "text": "I always vacuum the carpet.", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT064b", "text": "", "audio": ""},
+				"answers": [{"correct": false, "image": "", "text": "walk the dog", "audio": ""}, 
+							{"correct": true, "image": "", "text": "water the plants", "audio": ""},
+							{"correct": false, "image": "", "text": "take out the trash", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "always_take_out_the_rubbish"},
+				"answers": [{"correct": true, "image": "SH5SBIT065b1", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT065b2", "text": "", "audio": ""},
+							{"correct": false, "image": "SH5SBIT065b3", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT073b", "text": "", "audio": ""},
+				"answers": [{"correct": true, "image": "", "text": "cough", "audio": ""}, 
+							{"correct": false, "image": "", "text": "earache", "audio": ""},
+							{"correct": false, "image": "", "text": "toothache", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT076a", "text": "", "audio": ""},
+				"answers": [{"correct": false, "image": "", "text": "take medicine", "audio": ""}, 
+							{"correct": true, "image": "", "text": "stay in bed", "audio": ""},
+							{"correct": false, "image": "", "text": "go to the dentist", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "got_a_headache_medicine"},
+				"answers": [{"correct": false, "image": "", "text": "go to the doctor", "audio": ""}, 
+							{"correct": false, "image": "", "text": "stay in bed", "audio": ""},
+							{"correct": true, "image": "", "text": "take medicine", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT083e", "text": "", "audio": ""},
+				"answers": [{"correct": false, "image": "", "text": "have a picnic", "audio": ""}, 
+							{"correct": true, "image": "", "text": "go on a boat ride", "audio": ""},
+							{"correct": false, "image": "", "text": "meet friends", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "", "text": "I like going on a boat ride.", "audio": ""},
+				"answers": [{"correct": true, "image": "SH5SBIT085c", "text": "", "audio": ""}, 
+							{"correct": false, "image": "SH5SBIT085d", "text": "", "audio": ""},
+							{"correct": false, "image": "SH5SBIT085f", "text": "", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "SH5SBIT086b", "text": "", "audio": ""},
+				"answers": [{"correct": true, "image": "", "text": "watch TV", "audio": ""}, 
+							{"correct": false, "image": "", "text": "read magazines", "audio": ""},
+							{"correct": false, "image": "", "text": "play computer games", "audio": ""}]
+				},
+                {
+				"prompt": {"image": "audio", "text": "", "audio": "painting_pictures_watching_tv"},
+				"answers": [{"correct": false, "image": "SH5SBIT087o", "text": "", "audio": ""}, 
+							{"correct": true, "image": "SH5SBIT087f", "text": "", "audio": ""},
+							{"correct": false, "image": "SH5SBIT087h", "text": "", "audio": ""}]
+				}             
+
+             
+             ]
+        }
+   ]
+    
+}

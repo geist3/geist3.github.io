@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Space Invaders asset check</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <style>
+        .img {
+            background: #ffffff url("assets/elt/students/course/games/level/game/images.png") no-repeat 0 0;
+            width: 160px;
+            height: 100px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 20px;
+        }
+        
+        .spacer {
+            /*            height: 40px;*/
+            border-top: 1px solid grey;
+        }
+        
+        audio {
+            vertical-align: middle;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="results"></div>
+
+
+
+
+
+    <script>
+        var $results = $('.results');
+        var difficulty = ["Easy", "Medium", "Hard"]
+        var myjson;
+        var spriteJson;
+
+        var path = 'assets/elt/students/course/games/level/game/';
+
+        $.getJSON(path + "data.json", function(json) {
+            myjson = json;
+            $.getJSON(path + "images.json", function(json2) {
+                spriteJson = json2;
+                loadPage();
+
+            });
+        });
+
+
+        function loadPage() {
+
+            
+            $results.append("<h1>Smash " + myjson.version + "</h1><p><strong>Save string: </strong>"+ myjson.localStorageTag + "</p>");
+            
+            
+            // load all the difficulties assets
+            for (var diff = 0; diff < myjson.difficulties.length; diff++) {
+                var theDif = myjson.difficulties[diff]
+                
+                $results.append("<h1>" + difficulty[diff] + "</h1>" +
+                    "<p><strong>lives:</strong> " + theDif.prefs[0].lives + "" + 
+                    "<p><strong>speed:</strong> " + theDif.prefs[0].answerXspeed + " / " + 
+                                                    theDif.prefs[0].answerYspeed + "<br />" +
+                                                    theDif.prefs[1].answerXspeed + " / " + 
+                                                    theDif.prefs[1].answerYspeed + "<br />" +
+                                                    theDif.prefs[2].answerXspeed + " / " + 
+                                                    theDif.prefs[2].answerYspeed + "" +
+                                "</p>"
+                );
+                
+                
+
+
+
+                for (var item = 0; item < theDif.pool.length; item++) {
+                    var thisPoolItem = theDif.pool[item];
+
+                    $results.append('<p class="spacer";><audio controls><source src="' + path + '/audio/' +
+                        thisPoolItem.audio + '.mp3" type="audio/mpeg"></audio></p>');
+
+                    for (var itemAnswer = 0; itemAnswer < thisPoolItem.answers.length; itemAnswer++) {
+                        var thisPoolItemAnswer = thisPoolItem.answers[itemAnswer];
+
+
+                        if (thisPoolItemAnswer.file !== "") {
+                            try {
+                                var thisPoolItemImage = '<span class="img" style="background-position:-' + spriteJson.frames['' + thisPoolItemAnswer.file].frame.x + 'px -' + spriteJson.frames['' + thisPoolItemAnswer.file].frame.y + 'px;"></span>';
+                            } catch (err) {
+                                var thisPoolItemImage = ' <strong>image:</strong> problem with ' + thisPoolItem.image + '!!!!!! ';
+                            }
+                        } else {
+                            var thisPoolItemImage = ' <strong>image:</strong> no image ';
+                        }
+
+
+                        $results.append('<p><strong>answer:</strong> ' + thisPoolItemAnswer.isCorrect +
+                            ' <strong>text:</strong> ' + thisPoolItemAnswer.text + thisPoolItemImage +
+                            '</p>')
+                    }
+
+                }
+
+
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>
