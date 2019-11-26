@@ -1,0 +1,416 @@
+{   "instancePath": "assets/elt/students/course/games/level/game/",
+    "templatePath": "assets/elt/students/templatescontent/opgames/smash-beach/",
+    "localStorageTag": "afaf2eL2Smash",
+    "copyright": {"x":512, "y":690, "text": "Ⓒ Oxford University Press 2015"},
+    "closeBtn": {"x":989, "y":35, "url":"https://elt.oup.com/?cc=gb&selLanguage=en"},
+     "version": 2,
+
+
+    "playBtn": {"x":512, "y":626},
+    "playAgain": {"x":512, "y":626},
+    "diff1Btn": {"x":320, "y":626},
+    "diff2Btn": {"x":512, "y":626},
+    "diff3Btn": {"x":704, "y":626},
+    "audioBtn": {"x": 989, "y": 669},
+    
+    "fireBtn": {"x":668, "y":660},
+    "upBtn": {"x":106, "y":660},
+    "downBtn": {"x":258, "y":660},
+    "playerSelect": [
+        {"x":345, "y":375, "width": 250, "height": 270},
+        {"x":678, "y":375, "width": 250, "height": 270}
+    ],
+    "activeArea": {"x":30, "y":70, "width": 964, "height": 540},
+    "answerHeight": 105,
+    "score": {"prefix": "", "x": 125, "y": 40, "style": {"fill": "black", "font": "14px Arial"} },
+    "lives": {"prefix": "", "x": 305, "y": 40, "style": {"fill": "black", "font": "14px Arial"}  },
+        
+    "defaultAudio": ["btn-click", "correct", "incorrect", "lvl-up", "player-explodes", "player-fires", "time-up", "good-job", "nice-try"],
+
+    "screensCount": 3,
+
+    "difficulties": [
+        
+        {
+            "prefs": [
+                {
+                "subScreens": 3,
+                "answerXspeed": 20000,
+                "answerYspeed": 3000,
+                "answerShotSpeed": 500,
+                "lives": 5,
+                "secsPerShot": 500
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 20000,
+                "answerYspeed": 3000,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 18000,
+                "answerYspeed": 2800,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+                }
+            ],
+
+            "pool": [
+               
+                {"audio":"pizza","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC040"},{"isCorrect":false,"text":"","file":"AFAF2E2FC132"}]},
+                {"audio":"milkshake","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC041"},{"isCorrect":false,"text":"","file":"AFAF2E2FC170"}]},
+                {"audio":"10","answers":[
+                    {"isCorrect":true,"text":"","file":"10"},{"isCorrect":false,"text":"","file":"40"}]},
+                {"audio":"20","answers":[
+                    {"isCorrect":true,"text":"","file":"20"},{"isCorrect":false,"text":"","file":"AFAF2E2FC041"}]},
+                {"audio":"30","answers":[
+                    {"isCorrect":true,"text":"","file":"30"},{"isCorrect":false,"text":"","file":"AFAF2E2FC081"}]},
+                {"audio":"40","answers":[
+                    {"isCorrect":true,"text":"","file":"40"},{"isCorrect":false,"text":"","file":"AFAF2E2FC130"}]},
+                {"audio":"50","answers":[
+                    {"isCorrect":true,"text":"","file":"50"},{"isCorrect":false,"text":"","file":"20"}]},
+                {"audio":"60","answers":[
+                    {"isCorrect":true,"text":"","file":"60"},{"isCorrect":false,"text":"","file":"100"}]},
+                {"audio":"70","answers":[
+                    {"isCorrect":true,"text":"","file":"70"},{"isCorrect":false,"text":"","file":"AFAF2E2FC081"}]},
+                {"audio":"80","answers":[
+                    {"isCorrect":true,"text":"","file":"80"},{"isCorrect":false,"text":"","file":"20"}]},
+                {"audio":"90","answers":[
+                    {"isCorrect":true,"text":"","file":"90"},{"isCorrect":false,"text":"","file":"20"}]},
+                {"audio":"100","answers":[
+                    {"isCorrect":true,"text":"","file":"100"},{"isCorrect":false,"text":"","file":"AFAF2E2FC129"}]},
+                {"audio":"chocolate","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC080"},{"isCorrect":false,"text":"","file":"50"}]},
+                {"audio":"candy","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC081"},{"isCorrect":false,"text":"","file":"AFAF2E2FC171"}]},
+                {"audio":"skirt","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC128"},{"isCorrect":false,"text":"","file":"AFAF2E2FC171"}]},
+                {"audio":"scarf","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC129"},{"isCorrect":false,"text":"","file":"AFAF2E2FC041"}]},
+                {"audio":"gloves","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC130"},{"isCorrect":false,"text":"","file":"AFAF2E2FC081"}]},
+                {"audio":"jeans","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC131"},{"isCorrect":false,"text":"","file":"70"}]},
+                {"audio":"boots","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC132"},{"isCorrect":false,"text":"","file":"100"}]},
+                {"audio":"fridge","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC168"},{"isCorrect":false,"text":"","file":"AFAF2E2FC131"}]},
+                {"audio":"photo","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC169"},{"isCorrect":false,"text":"","file":"60"}]},
+                {"audio":"neat","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC170"},{"isCorrect":false,"text":"","file":"60"}]},
+                {"audio":"messy","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC171"},{"isCorrect":false,"text":"","file":"60"}]}
+            ]
+        },
+        {
+            "prefs": [
+                {
+                "subScreens": 3,
+                "answerXspeed": 20000,
+                "answerYspeed": 3000,
+                "answerShotSpeed": 500,
+                "lives": 4,
+                "secsPerShot": 500
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 18000,
+                "answerYspeed": 2800,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 1600,
+                "answerYspeed": 2600,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+                }
+            ],
+
+            "pool": [
+                
+                
+                {"audio":"pizza","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC040"},
+                    {"isCorrect":false,"text":"","file":"20"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC082"}]},
+                {"audio":"milkshake","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC041"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC172"},
+                    {"isCorrect":false,"text":"","file":"20"}]},
+                {"audio":"10","answers":[
+                    {"isCorrect":true,"text":"","file":"10"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC130"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC170"}]},
+                {"audio":"20","answers":[
+                    {"isCorrect":true,"text":"","file":"20"},
+                    {"isCorrect":false,"text":"","file":"70"},
+                    {"isCorrect":false,"text":"","file":"80"}]},
+                {"audio":"30","answers":[
+                    {"isCorrect":true,"text":"","file":"30"},
+                    {"isCorrect":false,"text":"","file":"60"},
+                    {"isCorrect":false,"text":"","file":"80"}]},
+                {"audio":"40","answers":[
+                    {"isCorrect":true,"text":"","file":"40"},
+                    {"isCorrect":false,"text":"","file":"30"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC128"}]},
+                {"audio":"50","answers":[
+                    {"isCorrect":true,"text":"","file":"50"},
+                    {"isCorrect":false,"text":"","file":"70"},
+                    {"isCorrect":false,"text":"","file":"100"}]},
+                {"audio":"60","answers":[
+                    {"isCorrect":true,"text":"","file":"60"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC168"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC172"}]},
+                {"audio":"70","answers":[
+                    {"isCorrect":true,"text":"","file":"70"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC169"},
+                    {"isCorrect":false,"text":"","file":"40"}]},
+                {"audio":"80","answers":[
+                    {"isCorrect":true,"text":"","file":"80"},
+                    {"isCorrect":false,"text":"","file":"90"},
+                    {"isCorrect":false,"text":"","file":"30"}]},
+                {"audio":"90","answers":[
+                    {"isCorrect":true,"text":"","file":"90"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC169"},
+                    {"isCorrect":false,"text":"","file":"20"}]},
+                {"audio":"100","answers":[
+                    {"isCorrect":true,"text":"","file":"100"},
+                    {"isCorrect":false,"text":"","file":"30"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC131"}]},
+                {"audio":"balloon","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC082"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC168"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC171"}]},
+                {"audio":"present","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC083"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC040"},
+                    {"isCorrect":false,"text":"","file":"70"}]},
+                {"audio":"skirt","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC128"},
+                    {"isCorrect":false,"text":"","file":"70"},
+                    {"isCorrect":false,"text":"","file":"80"}]},
+                {"audio":"scarf","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC129"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC128"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC171"}]},
+                {"audio":"gloves","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC130"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC083"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC129"}]},
+                {"audio":"jeans","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC131"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC082"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC041"}]},
+                {"audio":"boots","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC132"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC170"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC169"}]},
+                {"audio":"fridge","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC168"},
+                    {"isCorrect":false,"text":"","file":"80"},
+                    {"isCorrect":false,"text":"","file":"30"}]},
+                {"audio":"photo","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC169"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC128"},
+                    {"isCorrect":false,"text":"","file":"10"}]},
+                {"audio":"neat","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC170"},
+                    {"isCorrect":false,"text":"","file":"100"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC129"}]},
+                {"audio":"messy","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC171"},
+                    {"isCorrect":false,"text":"","file":"100"},
+                    {"isCorrect":false,"text":"","file":"10"}]},
+                {"audio":"floor","answers":[
+                    {"isCorrect":true,"text":"","file":"AFAF2E2FC172"},
+                    {"isCorrect":false,"text":"","file":"20"},
+                    {"isCorrect":false,"text":"","file":"AFAF2E2FC169"}]}
+            ]
+        },
+        {
+            "prefs": [
+                {
+                "subScreens": 3,
+                "answerXspeed": 18000,
+                "answerYspeed": 2800,
+                "answerShotSpeed": 500,
+                "lives": 3,
+                "secsPerShot": 500
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 1600,
+                "answerYspeed": 2600,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+
+                },
+                {
+                "subScreens": 3,
+                "answerXspeed": 1600,
+                "answerYspeed": 2600,
+                "answerShotSpeed": 500,
+                "secsPerShot": 500
+                }
+            ],
+
+
+
+            "pool": [
+                {"audio":"pizza","answers":[
+                {"isCorrect":true,"text":"pizza","file":""},
+                {"isCorrect":false,"text":"20","file":""},
+                {"isCorrect":false,"text":"90","file":""},
+                {"isCorrect":false,"text":"jeans","file":""}]},
+                {"audio":"milkshake","answers":[
+                {"isCorrect":true,"text":"milkshake","file":""},
+                {"isCorrect":false,"text":"60","file":""},
+                {"isCorrect":false,"text":"boots","file":""},
+                {"isCorrect":false,"text":"floor","file":""}]},
+                {"audio":"10","answers":[
+                {"isCorrect":true,"text":"10","file":""},
+                {"isCorrect":false,"text":"floor","file":""},
+                {"isCorrect":false,"text":"photo","file":""},
+                {"isCorrect":false,"text":"90","file":""}]},
+                {"audio":"20","answers":[
+                {"isCorrect":true,"text":"20","file":""},
+                {"isCorrect":false,"text":"30","file":""},
+                {"isCorrect":false,"text":"scarf","file":""},
+                {"isCorrect":false,"text":"neat","file":""}]},
+                {"audio":"30","answers":[
+                {"isCorrect":true,"text":"30","file":""},
+                {"isCorrect":false,"text":"fridge","file":""},
+                {"isCorrect":false,"text":"jeans","file":""},
+                {"isCorrect":false,"text":"50","file":""}]},
+                {"audio":"40","answers":[
+                {"isCorrect":true,"text":"40","file":""},
+                {"isCorrect":false,"text":"10","file":""},
+                {"isCorrect":false,"text":"60","file":""},
+                {"isCorrect":false,"text":"neat","file":""}]},
+                {"audio":"50","answers":[
+                {"isCorrect":true,"text":"50","file":""},
+                {"isCorrect":false,"text":"boots","file":""},
+                {"isCorrect":false,"text":"fridge","file":""},
+                {"isCorrect":false,"text":"two fifteen","file":""}]},
+                {"audio":"60","answers":[
+                {"isCorrect":true,"text":"60","file":""},
+                {"isCorrect":false,"text":"milkshake","file":""},
+                {"isCorrect":false,"text":"10","file":""},
+                {"isCorrect":false,"text":"scarf","file":""}]},
+                {"audio":"70","answers":[
+                {"isCorrect":true,"text":"70","file":""},
+                {"isCorrect":false,"text":"100","file":""},
+                {"isCorrect":false,"text":"milkshake","file":""},
+                {"isCorrect":false,"text":"10","file":""}]},
+                {"audio":"80","answers":[
+                {"isCorrect":true,"text":"80","file":""},
+                {"isCorrect":false,"text":"two thirty","file":""},
+                {"isCorrect":false,"text":"10","file":""},
+                {"isCorrect":false,"text":"pizza","file":""}]},
+                {"audio":"90","answers":[
+                {"isCorrect":true,"text":"90","file":""},
+                {"isCorrect":false,"text":"80","file":""},
+                {"isCorrect":false,"text":"pizza","file":""},
+                {"isCorrect":false,"text":"10","file":""}]},
+                {"audio":"100","answers":[
+                {"isCorrect":true,"text":"100","file":""},
+                {"isCorrect":false,"text":"present","file":""},
+                {"isCorrect":false,"text":"milkshake","file":""},
+                {"isCorrect":false,"text":"gloves","file":""}]},
+                {"audio":"balloon","answers":[
+                {"isCorrect":true,"text":"balloon","file":""},
+                {"isCorrect":false,"text":"40","file":""},
+                {"isCorrect":false,"text":"gloves","file":""},
+                {"isCorrect":false,"text":"jeans","file":""}]},
+                {"audio":"present","answers":[
+                {"isCorrect":true,"text":"present","file":""},
+                {"isCorrect":false,"text":"two thirty","file":""},
+                {"isCorrect":false,"text":"30","file":""},
+                {"isCorrect":false,"text":"trash","file":""}]},
+                {"audio":"skirt","answers":[
+                {"isCorrect":true,"text":"skirt","file":""},
+                {"isCorrect":false,"text":"90","file":""},
+                {"isCorrect":false,"text":"10","file":""},
+                {"isCorrect":false,"text":"balloon","file":""}]},
+                {"audio":"scarf","answers":[
+                {"isCorrect":true,"text":"scarf","file":""},
+                {"isCorrect":false,"text":"gloves","file":""},
+                {"isCorrect":false,"text":"50","file":""},
+                {"isCorrect":false,"text":"100","file":""}]},
+                {"audio":"gloves","answers":[
+                {"isCorrect":true,"text":"gloves","file":""},
+                {"isCorrect":false,"text":"40","file":""},
+                {"isCorrect":false,"text":"scarf","file":""},
+                {"isCorrect":false,"text":"milkshake","file":""}]},
+                {"audio":"jeans","answers":[
+                {"isCorrect":true,"text":"jeans","file":""},
+                {"isCorrect":false,"text":"100","file":""},
+                {"isCorrect":false,"text":"two fifteen","file":""},
+                {"isCorrect":false,"text":"messy","file":""}]},
+                {"audio":"boots","answers":[
+                {"isCorrect":true,"text":"boots","file":""},
+                {"isCorrect":false,"text":"two thirty","file":""},
+                {"isCorrect":false,"text":"80","file":""},
+                {"isCorrect":false,"text":"10","file":""}]},
+                {"audio":"two-fifteen","answers":[
+                {"isCorrect":true,"text":"two fifteen","file":""},
+                {"isCorrect":false,"text":"scarf","file":""},
+                {"isCorrect":false,"text":"milkshake","file":""},
+                {"isCorrect":false,"text":"two thirty","file":""}]},
+                {"audio":"two-thirty","answers":[
+                {"isCorrect":true,"text":"two thirty","file":""},
+                {"isCorrect":false,"text":"gloves","file":""},
+                {"isCorrect":false,"text":"photo","file":""},
+                {"isCorrect":false,"text":"pizza","file":""}]},
+                {"audio":"fridge","answers":[
+                {"isCorrect":true,"text":"fridge","file":""},
+                {"isCorrect":false,"text":"pizza","file":""},
+                {"isCorrect":false,"text":"10","file":""},
+                {"isCorrect":false,"text":"messy","file":""}]},
+                {"audio":"photo","answers":[
+                {"isCorrect":true,"text":"photo","file":""},
+                {"isCorrect":false,"text":"100","file":""},
+                {"isCorrect":false,"text":"floor","file":""},
+                {"isCorrect":false,"text":"gloves","file":""}]},
+                {"audio":"neat","answers":[
+                {"isCorrect":true,"text":"neat","file":""},
+                {"isCorrect":false,"text":"fridge","file":""},
+                {"isCorrect":false,"text":"floor","file":""},
+                {"isCorrect":false,"text":"messy","file":""}]},
+                {"audio":"messy","answers":[
+                {"isCorrect":true,"text":"messy","file":""},
+                {"isCorrect":false,"text":"neat","file":""},
+                {"isCorrect":false,"text":"boots","file":""},
+                {"isCorrect":false,"text":"80","file":""}]},
+                {"audio":"floor","answers":[
+                {"isCorrect":true,"text":"floor","file":""},
+                {"isCorrect":false,"text":"present","file":""},
+                {"isCorrect":false,"text":"30","file":""},
+                {"isCorrect":false,"text":"40","file":""}]},
+                {"audio":"trash","answers":[
+                {"isCorrect":true,"text":"trash","file":""},
+                {"isCorrect":false,"text":"skirt","file":""},
+                {"isCorrect":false,"text":"fridge","file":""},
+                {"isCorrect":false,"text":"80","file":""}]}
+            ]
+
+        }
+   ]
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class=”no-js”>
+
+<head>
+    <title>Space Invaders</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Welcome to the New Treetops Student’s Site. Here you will find lots of fun and interesting activities to help you get the most out of Treetops. We hope you enjoy using these extra resources." />
+    <meta name="keywords" content=" learn English, exercise, practice" />
+    <meta name="author" content="Oxford University Press, English Language Teaching - elt.enquiry@oup.com" />
+    <meta name="key phrases" content="learn English, Student's Sites, English File, Headway, natural English, Clockwise, Business English" />
+    <meta name="contact" content="elt.enquiry@oup.com" />
+    <meta name="Copyright" content="Oxford University Press 2009" />
+    <meta name="DCSext.ItemID" content="4393894" />
+    <meta name="DCSext.ItemTypeName" content="ELT Students Site" />
+    <meta name="DCSext.View" content='null' />
+    <meta name="DCSext.SiteID" content="100" />
+    <meta name="DCSext.Author" content="Simon Darby" />
+    <meta name="DCSext.LastUpdateDate" content="Wed Oct 01 16:46:53 UTC 2014" />
+    <!-- <link href="familyandfriends.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="familyandfriends_level01.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- <script type="text/javascript" src="/system/js/helperscripts.js"></script> -->
+
+    <!-- [**additional scripts inserted here from new Alterian item type field**] -->
+
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- header-->
+        <div id="header">
+            <div id="oup_logo">
+                <a href="/?cc=gb&amp;selLanguage=en">
+                    <!-- <img src="/system/images/logo.gif" alt="Oxford University Press" width="168" height="48"> -->
+                </a>
+            </div>
+            <div id="banner">
+                <!-- <img src="/elt/students/images/interface/familyandfriends_level01_ban.gif" alt="Oxford University Press English Language Teaching Student's Site"> -->
+            </div>
+            <div id="book_logo">
+                <a href="/student/familyandfriends/?cc=gb&amp;selLanguage=en">
+                    <!-- <img src="/elt/students/images/interface/familyandfriends_level01.gif" alt="Oxford University Press English Language Teaching Student's Site" width="185" height="66" border="0"> -->
+                </a>
+            </div>
+        </div>
+
+        <div id="breadcrumb">
+            <a href="/learning_resources/?cc=gb&amp;selLanguage=en" class="breadcrumblink" id="studentlink">Students</a>
+            <span class="breadcrumbsep" id="studentsep">&gt;</span>
+            <a href="/student/familyandfriends/?cc=gb&amp;selLanguage=en" class="breadcrumblink">Family and Friends</a>
+            <span class="breadcrumbsep">&gt;</span>
+            <a href="/student/familyandfriends/level01/?cc=gb&amp;selLanguage=en" class="breadcrumblink">Level 1</a>
+            <span class="breadcrumbsep">&gt;</span>
+            <a href="/student/familyandfriends/level01/stories/?cc=gb&amp;selLanguage=en" class="breadcrumblink">Stories</a>
+            <span class="breadcrumbsep">&gt;</span>
+            <a href="/student/familyandfriends/level01/stories/ff_level1_story_00?cc=gb&amp;selLanguage=en" class="breadcrumblink">Starter</a>
+        </div>
+
+        <!--middlematter-->
+        <div id="middle_matter">
+            <!--navigation-->
+            <div id="navigation">
+                <ul>
+                    <li class="choice"><a href="/student/familyandfriends/level01/stories/?cc=gb&amp;selLanguage=en" class="choicelink">Stories</a>
+                    </li>
+                    <li class="choice"><a href="/student/familyandfriends/level01/songs/?cc=gb&amp;selLanguage=en" class="choicelink">Songs</a>
+                    </li>
+                    <li class="choice"><a href="/student/familyandfriends/level01/phonics?cc=gb&amp;selLanguage=en" class="choicelink">Phonics</a>
+                    </li>
+                    <li class="choice"><a href="/student/familyandfriends/level01/downloadables?cc=gb&amp;selLanguage=en" class="choicelink">Downloadables</a>
+                </ul>
+                <div id="book_image">
+                    <a href="/student/familyandfriends/?cc=gb&amp;selLanguage=en">
+                        <!-- <img src="/elt/students/images/interface/familyandfriends_level01_jkt.gif" alt="Oxford University Press English Language Teaching Student's Site" width="109" height="137" border="0"> -->
+                    </a>
+                </div>
+            </div>
+            <!--end navigation-->
+
+            <!--content-->
+            <div id="content">
+                <div id="exercise">
+
+                    <div id="children">
+
+
+
+
+                        <!-- My overrides to make game fill screen -->
+                        <style>
+                        html, body, #container, #middle_matter, #content, #exercise, #children, #phaser-game {
+                            height: 100%;
+                            padding: 0;
+                            margin: 0;
+                            background-color:black;
+                        }
+                        #container, #content {
+                            width: 100%;
+                        }
+                        #middle_matter {
+                            border-radius: 0;
+                            background-color: transparent;
+                        }
+                        #phaser-game {
+                            border-top: 1px solid black;
+                            margin-top: -1px;
+                        }
+                        #footer {
+                            margin-top: 0;
+                        }
+                        #header, #breadcrumb, #footer, #navigation {
+                            display: none;
+                        } 
+                            
+                                                        
+                        </style> 
+
+
+
+
+
+
+
+
+  <div id="phaser-game"></div>
+<img src="assets/elt/students/templatescontent/opgames/smash-beach/smash-png.png" alt="" style='display: none'>
+
+
+  <script> dataPath = 'assets/elt/students/course/games/level/game/data.json'</script>
+
+  <script src="assets/elt/students/javascript/game-js/smash-game.js"></script>
+  <script src="assets/elt/students/javascript/phaser-arcade-physics.min.js"></script>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- end of exercise content-->
+
+
+        </div>
+        <div id="bottom">
+        </div>
+    </div>
+    <!--container end-->
+
+    <div id="footer">
+        <div id="footerinner">
+            <p class="fl-left">Copyright © Oxford University Press, 2014. All Rights Reserved.</p>
+            <ul class="fl-right">
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
