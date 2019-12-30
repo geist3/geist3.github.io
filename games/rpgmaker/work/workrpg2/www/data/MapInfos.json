@@ -1,0 +1,14 @@
+[
+null,
+{"id":1,"expanded":false,"name":"World","order":1,"parentId":0,"scrollX":1081.3333333333333,"scrollY":836},
+{"id":2,"expanded":false,"name":"House","order":2,"parentId":0,"scrollX":1092,"scrollY":604},
+{"id":3,"expanded":false,"name":"WorkSquare","order":3,"parentId":0,"scrollX":1092,"scrollY":604},
+{"id":4,"expanded":true,"name":"Hall1","order":4,"parentId":0,"scrollX":1092,"scrollY":604},
+{"id":5,"expanded":false,"name":"Map100","order":5,"parentId":0,"scrollX":1081.3333333333333,"scrollY":713.3333333333334},
+{"id":6,"expanded":true,"name":"Hall2","order":6,"parentId":0,"scrollX":1089.3333333333333,"scrollY":596},
+{"id":7,"expanded":true,"name":"Fairway","order":7,"parentId":0,"scrollX":1078.6666666666667,"scrollY":800},
+{"id":8,"expanded":true,"name":"Inn 1F","order":8,"parentId":0,"scrollX":1089.3333333333333,"scrollY":596},
+{"id":9,"expanded":false,"name":"Pub","order":10,"parentId":0,"scrollX":1089.3333333333333,"scrollY":596},
+{"id":10,"expanded":false,"name":"Castle 1F","order":9,"parentId":0,"scrollX":1078.6666666666667,"scrollY":889.3333333333334},
+{"id":11,"expanded":false,"name":"Ice Cave","order":11,"parentId":0,"scrollX":1212,"scrollY":1281.3333333333333}
+]
