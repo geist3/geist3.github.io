@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="beer.png" width="50" height="53" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="beer2.png" width="44" height="58" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="black.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="blue.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="broccoli.png" width="40" height="48" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="brocolli.png" width="48" height="75" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="choc.png" width="54" height="74" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="cupcake.png" width="42" height="63" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="egg.png" width="71" height="62" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="eyes1.png" width="430" height="160" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="face.png" width="800" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="face.png~" width="800" height="600" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="fishbones.png" width="61" height="88" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="giraffe.png" width="49" height="90" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="grass1.png" width="84" height="90" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="grassdown.png" width="65" height="70" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="green.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="mud.png" width="80" height="70" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="mushroom.png" width="72" height="114" pivot_x="0" pivot_y="1"/>
+        <file id="19" name="platform.png" width="500" height="64" pivot_x="0" pivot_y="1"/>
+        <file id="20" name="player.png" width="27" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="21" name="poke.png" width="51" height="198" pivot_x="0" pivot_y="1"/>
+        <file id="22" name="purple.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="23" name="red.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="24" name="snowflake.png" width="55" height="57" pivot_x="0" pivot_y="1"/>
+        <file id="25" name="teeth-31-08-2019.png" width="705" height="354" pivot_x="0" pivot_y="1"/>
+        <file id="26" name="teeth.png" width="705" height="354" pivot_x="0" pivot_y="1"/>
+        <file id="27" name="toothbrush.png" width="51" height="198" pivot_x="0" pivot_y="1"/>
+        <file id="28" name="watermelon.png" width="38" height="87" pivot_x="0" pivot_y="1"/>
+        <file id="29" name="white.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+        <file id="30" name="yellow.png" width="50" height="50" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="1">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                </key>
+                <key id="2" time="101">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="704">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="teeth">
+                <key id="0" spin="0">
+                    <object folder="0" file="26" x="-365" y="170"/>
+                </key>
+                <key id="1" time="101" spin="0">
+                    <object folder="0" file="26" x="-365" y="170" scale_x="1.16243" scale_y="1.262931"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="broccoli">
+                <key id="0" time="704" spin="0">
+                    <object folder="0" file="4" x="288.311688" y="255.844156"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="broccoli_000">
+                <key id="0" time="1" spin="0">
+                    <object folder="0" file="4" x="162.337662" y="329.87013"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -1,0 +1,71 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"brocolli": {
+		"type": "fromPhysicsEditor",
+		"label": "brocolli",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": []
+			},
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": []
+			},
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":34, "y":3 }, { "x":31, "y":5 }, { "x":36, "y":6 } ],
+					[ { "x":47, "y":7 }, { "x":45, "y":7 }, { "x":42, "y":9 }, { "x":38, "y":64 }, { "x":46, "y":74 }, { "x":48, "y":74 }, { "x":48, "y":9 } ],
+					[ { "x":27, "y":61 }, { "x":31, "y":61 }, { "x":25, "y":56 } ],
+					[ { "x":30, "y":2 }, { "x":27, "y":2 }, { "x":15, "y":12 }, { "x":10, "y":17 }, { "x":11, "y":19 }, { "x":38, "y":64 }, { "x":31, "y":5 } ],
+					[ { "x":41, "y":6 }, { "x":36, "y":6 }, { "x":42, "y":9 } ],
+					[ { "x":19, "y":56 }, { "x":25, "y":56 }, { "x":11, "y":19 }, { "x":8, "y":22 }, { "x":8, "y":26 }, { "x":15, "y":51 } ],
+					[ { "x":34, "y":64 }, { "x":38, "y":64 }, { "x":31, "y":61 } ],
+					[ { "x":2, "y":30 }, { "x":3, "y":33 }, { "x":15, "y":51 }, { "x":8, "y":26 } ],
+					[ { "x":8, "y":52 }, { "x":15, "y":51 }, { "x":3, "y":33 }, { "x":0, "y":36 }, { "x":0, "y":38 } ],
+					[ { "x":43, "y":74 }, { "x":46, "y":74 }, { "x":38, "y":64 } ],
+					[ { "x":16, "y":8 }, { "x":15, "y":12 }, { "x":27, "y":2 } ],
+					[ { "x":31, "y":61 }, { "x":38, "y":64 }, { "x":11, "y":19 }, { "x":25, "y":56 } ],
+					[ { "x":36, "y":6 }, { "x":31, "y":5 }, { "x":38, "y":64 }, { "x":42, "y":9 } ]
+				]
+			}
+		]
+	},
+	"brocolli (2)": {
+		"type": "fromPhysicsEditor",
+		"label": "brocolli (2)",
+		"isStatic": false,
+		"density": 0.10000000149011612,
+		"restitution": 0,
+		"friction": 0.10000000149011612,
+		"frictionAir": 0.009999999776482582,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": []
+			}
+		]
+	}
+}
