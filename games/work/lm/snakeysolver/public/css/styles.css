@@ -1,0 +1,1156 @@
+/*--------------------------- Heading variations ----------------------*/
+/*--------------------------- Color variations ----------------------*/
+/* - Brand Gradient */
+.btn-default {
+  background: #000000;
+  color: #EB0104;
+  border-color: #fff;
+  border-width: 3px;
+  border-radius: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: .375rem 1.5rem;
+  font-family: 'museo_sans_rounded900';
+}
+
+.btn-default:hover {
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #EB0104;
+}
+
+.btn-default:active {
+  background: #fff;
+}
+
+.btn-primary {
+  background: #1B60F4;
+  border-color: #1B60F4;
+}
+
+.btn-primary:hover {
+  background: #0b4ddc;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:active {
+  background: #073089;
+}
+
+.btn-success {
+  background: #00A417;
+  border-color: #00A417;
+}
+
+.btn-success:hover {
+  background: #007b11;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn-success:active {
+  background: #002505;
+}
+
+.btn-danger {
+  background: #EB0104;
+  border-color: #EB0104;
+}
+
+.btn-danger:hover {
+  background: #c20103;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:active {
+  background: #6c0002;
+}
+
+.btn-info {
+  background: #5185C1;
+  border-color: #5185C1;
+}
+
+.btn-info:hover {
+  background: #3d71ac;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn-info:active {
+  background: #26476c;
+}
+.play{
+  background: #00A417;
+  border-color: #00A417;
+  /* position: relative; */
+  width: 100px;
+  height: 52px;
+  margin-left: 407px;
+  margin-top: 261px;
+}
+/* Medium Layout: 1920px */
+/* Medium Layout: 1440px */
+/* Tablet Layout: 768px */
+/* Mobile Layout: 576px */
+/* Wide Mobile Layout: 320px */
+/* Medium Layout: 2560px */
+/* Medium Layout: 1920px */
+/* Tablet Layout: 1440px */
+/* Mobile Layout: 1200px */
+/* Wide Mobile Layout: 0px */
+/* Medium Layout: 1920px */
+/* Medium Layout: 1440px */
+/* Tablet Layout: 768px */
+/* Mobile Layout: 576px */
+/* Wide Mobile Layout: 320px */
+/* Medium Layout: 2560px Above */
+/* Medium Layout: 1920px - 2559px */
+/* Tablet Layout: 1440px - 1919px */
+/* Mobile Layout: 1201px - 1439px */
+/* Wide Mobile Layout: 0px - 1200px */
+/* =================================== */
+/*  Basic Style 
+/* =================================== */
+::-moz-selection, ::-moz-selection {
+  /* Code for Firefox */
+  background-color: #3bacf0;
+  color: #fff;
+}
+::-moz-selection, ::selection {
+  /* Code for Firefox */
+  background-color: #3bacf0;
+  color: #fff;
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, :-ms-input-placeholder {
+  color: #595959;
+  font-weight: 300;
+  opacity: 1;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+select {
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: 0;
+}
+
+.gray-bg {
+  background: #f9f9ff;
+}
+
+h1,
+.h1 {
+  font-size: 2rem;
+}
+
+h2,
+.h2 {
+  font-size: 1.75rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.5rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.25rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.125rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+small,
+.small {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 0.875rem;
+  color: #222222;
+  line-height: 1.5;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #222222;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+td,
+th {
+  border-radius: 0px;
+}
+
+.clearfix::before, .clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.transition {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.section-full {
+  padding: 100px 0;
+}
+
+.section-half {
+  padding: 75px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-rigth {
+  text-align: right;
+}
+
+:root {
+  /* Medium Layout: 1920px */
+  /* Medium Layout: 1440px */
+  /* Tablet Layout: 768px */
+  /* Mobile Layout: 576px */
+  /* Wide Mobile Layout: 320px */
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+}
+
+small {
+  line-height: 1.5;
+}
+
+.h1, h1 {
+  font-size: 2rem;
+}
+
+.h2, h2 {
+  font-size: 1.75rem;
+}
+
+.h3, h3 {
+  font-size: 1.5rem;
+}
+
+.h4, h4 {
+  font-size: 1.25rem;
+}
+
+.h5, h5 {
+  font-size: 1.125rem;
+}
+
+.h6, h6 {
+  font-size: 1rem;
+}
+
+@media (min-width: 2560px) and (max-width: 6000px) {
+  .fa, .icon {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .fa, .icon {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .fa, .icon {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .fa, .icon {
+    font-size: 1.25rem;
+    font-weight: normal;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1199px) {
+  .fa, .icon {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+}
+
+.icon, a .icon {
+  text-decoration: none;
+}
+
+.icon:visited, a .icon:visited {
+  color: #1B60F4;
+}
+
+.icon:hover, .icon:visited:hover, a .icon:hover, a .icon:visited:hover {
+  color: #1B60F4;
+  text-decoration: none;
+}
+
+.btn.btn-primary .icon {
+  text-decoration: none;
+}
+
+.btn.btn-primary .icon:visited {
+  color: #fff;
+}
+
+.btn.btn-primary .icon:hover, .btn.btn-primary .icon:visited:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.c-screen {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c-screen.theme1 .c-content-instruction{ 
+  background-color: rgba(2, 51, 27, 0.75);
+}
+.c-screen.two {
+  background-image: url("../assets/images/Escape-landing-pageV2.svg");
+}
+
+.c-screen.three {
+  background-image: url("../assets/images/Escape-Start-screenV3.svg");
+}
+
+.c-screen.theme1.c-snakey--startscreen {
+  /* background-image: url("../assets/images/Snakey-start-screen-primaryV2-theme1.png"); */
+}
+.c-screen.theme2.c-snakey--startscreen {
+  /* background-image: url("../assets/images/Snakey-start-screen-secondaryV2-theme2.png"); */
+}
+
+/* .c-screen.theme1.c-snakey--gameplayscreen {
+  background-image: url("../assets/images/theme1/Snakey-gameplay-screen-primaryV2.svg");
+}
+.c-screen.theme2.c-snakey--gameplayscreen {
+  background-image: url("../assets/images/theme2/Snakey-gameplay-screen-secondaryV2.svg");
+} */
+
+#c-skip-header {
+  padding: 6px;
+  position: absolute;
+  top: -60px;
+  left: 0px;
+  color: white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-bottom-right-radius: 8px;
+  background: #BF1722;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 100;
+}
+
+#c-skip-header:focus {
+  left: 0px;
+  top: 0px;
+  outline-color: transparent;
+  -webkit-transition: top .1s ease-in;
+  transition: top .1s ease-in;
+}
+
+.c-header__standard {
+  background-color: #000000;
+  height: 68px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.c-site-branding {
+  padding: 16px 0 15px;
+}
+
+.c-site-branding .c-logo {
+  width: 37px;
+  height: 37px;
+  /* background-image: url("../assets/images/logo.svg");
+  background-repeat: no-repeat;
+  background-position: 1px 2px;
+    text-indent: -9999em;
+  background-color: #fff;
+  background-size: 92%; */
+  display: block;
+}
+
+.c-site-title {
+  margin: 0 260px;
+  overflow: hidden;
+  padding: 4px 0;
+}
+
+.c-site-title .c-site-title__images {
+    width: 350px;
+    display: block;
+    line-height: 60px;
+    font-family: 'Chewy', cursive;
+    font-size: 40px;
+    color: #fff200;
+    margin: 0px auto;
+}
+
+.c-site-title .c-site-title__images.c-site-title__snakeysums {
+  /* background-image: url("../assets/images/snakeysums_title.svg"); */
+}
+#c-page{ height: 100%;}
+.c-page-title {
+  font-size: 35px;
+  font-family: 'museo_sans_rounded700';
+  font-style: italic;
+  color: #fff;
+}
+
+.c-page-subtitle {
+  font-size: 65px;
+  color: #fff;
+  font-family: 'museo_sans_rounded700';
+}
+
+.c-template-question {
+  font-size: 26px;
+  color: #fff;
+  padding-top: 70px;
+  font-weight: 600;
+}
+.c-screen-content{    
+  height: 100%;
+  position: relative;
+}
+
+.c-instruction-content {
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+}
+
+.c-instruction-content .c-game-instruction {
+  background-color: rgba(34, 91, 89, 0.75);
+  width: 330px !important;
+  border-radius: 65px;
+  padding: 25px;
+  border: 4px solid #fff;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.c-snakeysum-container {
+  position: relative;
+}
+html, body, .main-wrapper {
+  height: 100%;
+}
+ 
+body {
+  background-attachment: fixed;
+  margin: 0;
+  background: black;
+}
+ 
+a.btn-primary:focus, a.btn-primary:active, button.btn-primary:focus, button.btn-primary:active {
+  color: #fff !important;
+}
+ 
+input:-webkit-autofill {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+ 
+input:-webkit-autofill:active, input:-webkit-autofill:focus, input:-webkit-autofill:hover {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+ 
+/*==============Class Page CSS Start Here =======================*/
+/*# sourceMappingURL=styles.css.map */
+.parent-container {
+  position: relative;
+  background: black;
+}
+#qustionContainer {
+}
+#qustionContainer > span {
+  font-family: 'museo_sans_rounded700';
+}
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+ 
+/* #leftArrow,
+#rightArrow {
+    background: blue;
+    height: 20px;
+    width: 50px;
+    display: inline-block;
+ 
+    
+} */
+ 
+.control-button {
+  background: blue;
+  height: 20px;
+  width: 50px;
+  display: inline-block;
+ 
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+ 
+#touchDevicesControllerDiv {
+  /* display: none; */
+  position: absolute;
+  top: 94%;
+}
+.right-touch-control-area {
+  position: absolute;
+  top: 94%;
+  right: 0;
+}  
+
+.c-common-relative{ position:relative;}
+.c-site-info {
+  position: absolute;
+  right: 15px;
+  top: 16px;
+  width: 37px;
+  height: 37px;
+  background-image: url("../assets/images/info.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  display: block;
+  text-indent: -9999em;
+}
+
+.c-snakeysum-container .c-snakeysum-startscreen {
+  /* height: calc(100vh - 190px); */
+}
+
+.c-snakeysum-container .c-snakeysum-startscreen .c-snakeysum--btn {
+  
+}
+
+.c-snakeysum-container .c-snakeysum-content {
+  position: relative;
+  z-index: 1;
+}
+
+.c-snakeysum-container .c-snakeysum-content .c-question-state {
+  position: absolute;
+  left: 50%;
+  top: 16px;
+  width: 230px;
+  height: 110px;
+  background-image: url("../assets/images/question-box.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  display: block;
+  margin-left: -140px;
+}
+
+.c-snakeysum-container .c-snakeysum-content .c-live-state {
+  position: absolute;
+  right: 50px;
+  top: 16px;
+  width: 110px;
+  height: 85px;
+  background-image: url("../assets/images/live-box.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  display: block;
+  margin-right: -35px;
+}
+
+html, body, .main-wrapper {
+  height: 100%;
+}
+
+body {
+  background-attachment: fixed;
+}
+
+a.btn-primary:focus, a.btn-primary:active, button.btn-primary:focus, button.btn-primary:active {
+  color: #fff !important;
+}
+
+input:-webkit-autofill {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-webkit-autofill:active, input:-webkit-autofill:focus, input:-webkit-autofill:hover {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+#c-maincontent{
+  position: relative;
+  height:100%;
+}
+#game{
+  position: absolute;
+  top:68px;
+  left:0;
+  width:100%;
+  height:calc(100% - 68px) ;
+}
+canvas{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#player_lives {
+  color: white;
+}
+
+#game_end_screen {
+display: none;
+color: white;
+text-align: center;
+margin-top: 190px;
+font-weight: bold;
+font-size: 40px;
+}
+
+
+.c-sequence-screen{ 
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 400px;
+  border: 3px solid #fff;
+  position: absolute;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 45px;
+  margin-left: -200px;
+  left: 50%;
+  top: 70px;
+}
+
+.c-sequence-point{
+height: 50px;
+background-color: rgba(255, 255, 255, 0.75);
+width: 80px;
+border: 3px solid #fff;
+position: absolute;
+border-radius: 30px;
+text-align: center;
+font-weight: 600;
+font-size: 22px;
+line-height: 45px;
+top: 70px;
+right:0px;
+font-family: 'museo_sans_rounded700';
+}
+
+.c-sequence-locker{
+height: 50px;
+background-color: rgba(0, 0, 0, 1);
+width: 150px;
+position: absolute;
+border-radius: 30px;
+text-align: center;
+font-weight: 600;
+font-size: 22px;
+line-height: 45px;
+top: 70px;
+right: 100px;
+overflow: hidden;
+padding-left: 13px;
+}
+
+.c-sequence--locker__green{
+width: 25px;
+height: 32px;
+background-image: url("../assets/images/locker-green.svg");
+background-repeat: no-repeat;
+background-position: 2px 0px;
+
+display: block;
+background-size: 80%;
+position: relative;
+overflow: hidden;
+float: left;
+margin-top: 10px;
+margin-left: 0px;
+}
+
+.c-sequence--locker__red{
+
+
+
+width: 25px;
+height: 32px;
+background-image: url("../assets/images/locker-red.svg");
+background-repeat: no-repeat;
+background-position: 2px -5px;
+
+display: block;
+background-size: 90%;
+position: relative;
+overflow: hidden;
+float: left;
+margin-top: 12px;
+margin-left: 0px;
+}
+
+.c-gameover-screen{ 
+position: absolute;
+width: 100%;
+text-align: center;
+height: 60px;
+}
+
+.c-playerlives-count{
+height: 95px;
+background-color: rgba(0, 0, 0, 1);
+width: 150px;
+top:70px;
+border-radius: 42px;
+position: absolute;
+left: 0px;
+overflow: hidden;
+padding: 10px 12px;
+}
+
+.c-playerlives-images{ 
+  width: 38px;
+  height: 80px;
+  background-image: url("../assets/images/lives.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  display: block;
+  float: left;
+  margin: 0 2px;
+}
+
+.c-playerlives-images:before{
+
+
+
+}
+
+#c-maincontent .container{ position: relative; height: 100%;}
+
+#game-score-section {
+display: none;
+position: relative;
+z-index: 1;
+}
+
+.container {
+  max-width: 79%;
+}
+.c-high-score{
+position: absolute;
+right: 0;
+vertical-align: middle;
+display: flex;
+top: 20px;
+right: 65px;
+color: #fff;
+font-family: 'museo_sans_rounded700';
+line-height: 31px;
+}
+.c-high-score label{
+min-width: 70px;
+height: 30px;
+background-color: #fff;
+border-radius: 30px;
+margin-left: 5px;
+margin-bottom: 0;
+text-align: center;
+color: #ff0000;
+font-family: 'museo_sans_rounded700';
+}
+
+/*==============Class Page CSS Start Here =======================*/
+/*# sourceMappingURL=styles.css.map */
+
+
+.c-content-instruction{ 
+  background-color: rgba(72, 32, 15, 0.75);
+  padding: 25px;
+  position: absolute;
+  width: 530px;
+  bottom: 0;
+  right: 20px;
+  border-radius: 22px 22px 0 0;
+  text-align: left;
+}
+.c-content-instruction h2{
+  font-size: 27px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: 'museo_sans_rounded900';
+}  
+.c-content-instruction p{
+  color: #fff;
+  text-align: left;
+  font-size: 21px;
+  font-family: 'museo_sans_rounded300';
+} 
+.c-instruction--game{
+  margin-bottom: 60px;
+  max-width: 280px;
+  margin: 0 auto;
+}
+.c-runner--control{ 
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.c-runner--plate{
+  width: 90px;
+  height: 90px;
+  background-image: url("../assets/images/plate-control.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -45px;
+  margin-top: -45px;
+}
+.c-btn--runner{
+  width: 56px;
+  height: 56px;
+  background-image: url("../assets/images/control-btn.svg");
+  background-repeat: no-repeat;
+  background-position: -1px 2px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -28.5px;
+  margin-top: -28.5px;
+  border-radius: 50%;
+}
+.c-runner--jump{ 
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.c-runner--jumpplate{
+  width: 110px;
+  height: 110px;
+  background-image: url("./assets/images/jump-control.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -55px;
+  margin-top: -55px;
+}
+.c-btn--runnerjump{
+  width: 85px;
+  height: 85px;
+  /* background-image: url("../assets/images/jumpcontrol-btn.svg"); */
+  background-repeat: no-repeat;
+  background-position: 0px -3px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -28.5px;
+  margin-top: -45px;
+  border-radius: 50%;
+}
+
+.loading {
+  height: 0;
+  width: 0;
+  padding: 15px;
+  border: 6px solid #ccc;
+  border-right-color: #888;
+  border-radius: 22px;
+  -webkit-animation: rotate 1s infinite linear;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+/* 
+@media (min-width: 0px) and (max-width: 767px) { 
+  .game-controller {
+    display: block !important
+  }
+
+
+}
+
+
+@media screen and (max-width: 1150px) {
+.c-site-title .c-site-title__images {
+  width: 300px;}
+} */
+/*-------------------------------------------------------------
+------------------Custom CSS for landing page--------------------------*/
+.landing-page.description-container{
+    height: 99%;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    padding: 32px;
+    position: absolute;
+    right: 32px !important;
+    bottom: -30px !important;
+}
+
+.landing-page.ready-to-play {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-family: 'museo_sans_rounded900';
+}
+
+.landing-page.btn-play{
+  font-size: 42px;
+    bottom: 40px;
+    right: 8px;
+    position: absolute;
+}
+
+.landing-page > .c-game-instruction{
+  color: #fff;
+  text-align : left;
+  font-size : 32px;
+  font-family : 'museo_sans_rounded300';
+}
+
+.landing-page.controllerImage {
+  height: 45%;
+}
+/*-------------------------------------------------------------
+------------------Custom CSS for landing page--------------------------*/
+
+
+/*-------------------------------------------------------------
+------------------Custom CSS for main page--------------------------*/
+.main-page.question-container{
+  top: 132px;
+  left: 870px;
+}
+
+.main-page.score-container{
+  top: 132px;
+  right: 234px;
+}
+
+.main-page.question-container > .lbl-question, 
+.main-page.score-container > .lbl-score {
+  font: bold 55px Arial;
+  color: #000000;
+}
+
+.main-page.answer-ball-container > .lbl-balls {
+  font: bold 50px Arial;
+  color: #000000;
+}
+
+
+/* answer balls */
+.main-page.answer-ball-container{
+  /* border: 2px solid red; */
+}
+
+
+
+
+/*-------------------------------------------------------------
+------------------Custom CSS for main page--------------------------*/
+
+
+
+
+/*-------------------------------------------------------------
+------------------@media Rule Start--------------------------*/
+
+
+@media (min-width: 1400px) {
+
+}
+
+@media only screen and (min-width:1170px) and (max-width:1399px) {
+
+}
+
+
+/* ------------------------ SMALL DESKTOP ------------------------*/
+@media only screen and (min-width:992px) and (max-width:1169px) {
+  
+  .c-site-title .c-site-title__images {width: 200px; font-size: 30px;} 
+  .game-controller {display: block !important}
+}
+/* ------------------------ TABLET ------------------------*/
+
+@media (min-width: 992px) {
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+}
+
+/* ------------------------ Mobile ------------------------*/
+@media only screen and (max-width:767px) {
+
+  
+
+
+}
+/* ------------------------ Mobile XS ------------------------*/
+@media (max-width: 575px) {
+
+}

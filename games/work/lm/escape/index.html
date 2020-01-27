@@ -1,0 +1,108 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <title>OUP 24 - Main Scene</title>
+</head>
+
+<body class="main c-screen three">
+        <div class="loading" style="display: none;"></div>
+    <!-- <div id="game" style="display:none;"></div> -->
+    <div id="c-page">
+        <a id="c-skip-header" role="navigation" aria-label="Skip Header Content" href="#c-maincontent">Skip</a>
+        <!-- Header Start Here -->
+        <header id="c-header" class="c-header__standard" role="banner">
+            <div class="container c-common-relative">
+                <div class="c-site-branding float-left">
+                    <a href="#escape" class="c-logo" rel="home" title="Site Name"><img src="img/burger_menu.svg" alt="Burger Menu"/></a>
+                </div>
+                <div class="c-site-title  text-center">
+                    <span class="c-site-title__images c-site-title__snakeysums" title="Escape to the city !"><img src="img/escape_title.svg" alt="Escape to the city !"/></span>
+                </div>
+                <div class="c-high-score">
+                    Your High Score
+                    <label> 3 33</label>
+                </div>
+                <button class="c-site-info btn" type="button">
+                    Info
+                </button>
+            </div>
+        </header>
+        <main id="c-maincontent" role="main" class="">
+            <div class="container">
+                <div class="c-screen-content c-screen-two text-center" style="display:none; padding-top: 80px;">
+                    <h1 class="c-page-title pb-3 pt-5">
+                       
+                    </h1>
+                    <h2 class="c-page-subtitle pt-4" id="splashHeader">
+                      
+                    </h2>
+                </div>
+                
+                <div class="c-screen-content  c-screen-three">
+                    <div class="c-content-instruction">
+                        <h2>Are you ready to escape?</h2>
+                        <p class="c-game-instruction">
+                        You have been caught and imprisoned by jellymen! Answer 5 questions correctly to unlock the
+                            doors to escape each level, avoiding the nasty Jellymen! Navigate using your arrow keys and
+                            use the space bar to jump. To answer a question walk to the screen and press jump.</p>
+                        <h2 class="m-0">Keyboard:</h2>
+                        <div class="c-instruction--game text-center"><img src="img/instruction_game.png" alt="Instruction Game"/></div>
+                        <p class="text-right m-0"><button class="btn btn-default c-snakeysum--btn" id="play_btn">Next</button></p>
+                    </div>
+                </div>
+                <div id="game-score-section">
+                    <span class="c-playerlives-count">
+                        <!-- <span id="player_lives" class="c-playerlives-images"></span> -->
+                    </span>
+                    <div id="qustionContainer" class="c-sequence-screen"><span></span></div>
+                    <div id="score_section" class="c-sequence-point">0</div>
+                    <div id="" class="c-sequence-locker" style="display:none;">
+                        <!-- <span class="c-sequence--locker__green"></span> -->
+                        <span class="c-sequence--locker__red"></span>
+                        <span class="c-sequence--locker__red"></span>
+                        <span class="c-sequence--locker__red"></span>
+                        <span class="c-sequence--locker__red"></span>
+                        <span class="c-sequence--locker__red"></span>
+                    </div>
+                </div>
+        </main>
+
+        <div id="game_end_screen" class="c-gameover-screen">Game Over</div>
+        <div id="game">
+                <!-- <div class="c-runner--control">
+                        <div class="c-runner--plate">
+                            <button type="button" class="btn c-btn--runner"></button>
+                        </div>
+                </div>
+                <div class="c-runner--jump">
+                        <div class="c-runner--jumpplate">
+                            <button type="button" class="btn c-btn--runnerjump"></button>
+                        </div>
+                </div> -->
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
