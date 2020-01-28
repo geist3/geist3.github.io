@@ -2,11 +2,11 @@
 /*--------------------------- Color variations ----------------------*/
 /* - Brand Gradient */
 .btn-default {
-  background: #000000;
-  color: #EB0104;
+  background: #fff;
+  color: #000;
   border-color: #fff;
   border-width: 3px;
-  border-radius: 30px;
+  border-radius: 45px;
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 900;
@@ -941,34 +941,51 @@ font-family: 'museo_sans_rounded700';
   width: 150px;
   height: 150px;
   position: absolute;
-  left: 0;
-  bottom: 0;
+  /* left:70px;
+  bottom: 70px; */
+  left:0px;
+  bottom: 00px;
 }
 .c-runner--plate{
-  width: 90px;
-  height: 90px;
-  background-image: url("../assets/images/plate-control.svg");
-  background-repeat: no-repeat;
-  background-position: 0px 0px;
+  width: 50px;
+  height: 50px;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -45px;
-  margin-top: -45px;
+  margin-left: -25px;
+  margin-top: -25px;
 }
-.c-btn--runner{
+.btn-clusterins{
   width: 56px;
   height: 56px;
-  background-image: url("../assets/images/control-btn.svg");
-  background-repeat: no-repeat;
-  background-position: -1px 2px;
   position: absolute;
   left: 50%;
   top: 50%;
   margin-left: -28.5px;
   margin-top: -28.5px;
-  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 100%;
+  text-indent: -999em;
+  display: block;
 }
+.btn-left-cluster{
+  left: -50%; 
+  /* background-image: url("../assets/images/left_arrow_cluster.png"); */
+}
+.btn-up-cluster{
+  top: -50%;
+  /* background-image: url("../assets/images/top_arrow_cluster.png"); */
+}
+.btn-right-cluster{
+  left: 150%;
+  /* background-image: url("../assets/images/right_arrow_cluster.png"); */
+}
+.btn-down-cluster{
+  top: 150%;
+  /* background-image: url("../assets/images/bottom_arrow_cluster.png"); */
+}
+
 .c-runner--jump{ 
   width: 150px;
   height: 150px;
@@ -1037,14 +1054,14 @@ font-family: 'museo_sans_rounded700';
 /*-------------------------------------------------------------
 ------------------Custom CSS for landing page--------------------------*/
 .landing-page.description-container{
-    height: 99%;
+    height: 90%;
     width: 40%;
     background: rgba(0, 0, 0, 0.6);
-    border-radius: 12px;
+    border-radius: 12px 12px 0 0;
     padding: 32px;
     position: absolute;
     right: 32px !important;
-    bottom: -30px !important;
+    bottom:0px !important;
 }
 
 .landing-page.ready-to-play {
@@ -1057,7 +1074,7 @@ font-family: 'museo_sans_rounded700';
 .landing-page.btn-play{
   font-size: 42px;
     bottom: 40px;
-    right: 8px;
+    right: 32px;
     position: absolute;
 }
 
@@ -1069,7 +1086,13 @@ font-family: 'museo_sans_rounded700';
 }
 
 .landing-page.controllerImage {
-  height: 45%;
+  height: auto;
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+}
+.landing-page.controllerImage.desktop {
+  width: 85%;
 }
 /*-------------------------------------------------------------
 ------------------Custom CSS for landing page--------------------------*/
@@ -1130,7 +1153,7 @@ font-family: 'museo_sans_rounded700';
 @media only screen and (min-width:992px) and (max-width:1169px) {
   
   .c-site-title .c-site-title__images {width: 200px; font-size: 30px;} 
-  .game-controller {display: block !important}
+  /* .game-controller {display: block !important} */
 }
 /* ------------------------ TABLET ------------------------*/
 
