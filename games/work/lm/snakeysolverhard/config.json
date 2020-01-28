@@ -1,0 +1,51 @@
+{
+    "theme": "theme2",
+    "bodylength": 2,
+    "canvas":{
+        "width":1920,
+        "height":1080
+    },
+    "initialPosition": {
+        "x": 200,
+        "y": 150
+    },
+    "speed": {
+        "0" : 300,
+        "1" : 200,
+        "2" : 100
+    },
+    "question": {
+        "noOfDigitsForQus": 1,
+        "noOfOptions": 5
+    },
+    "obstacles": {
+        "theme1" : {
+            "bush": [
+                {
+                    "x": 1057,
+                    "y": 810
+                }
+            ],
+            "branch": [
+                {
+                    "x": 1057,
+                    "y": 490
+                }
+            ]
+        },
+        "theme2" : {
+            "bush": [
+                {
+                    "x": 1240,
+                    "y": 780
+                }
+            ],
+            "branch": [
+                {
+                    "x": 820,
+                    "y": 490
+                }
+            ]
+        }
+    }
+}
