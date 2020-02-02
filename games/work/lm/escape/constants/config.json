@@ -1,0 +1,144 @@
+{
+    "level1": {
+        "platformsObject": [
+            {
+                "startPointX": 40,
+                "startPointY": 580,
+                "repeat": 50,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            },
+            {
+                "startPointX": 50,
+                "startPointY": 461,
+                "repeat": 47,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            },
+            {
+                "startPointX": 107,
+                "startPointY": 350,
+                "repeat": 19,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            },
+            {
+                "startPointX": 500,
+                "startPointY": 310,
+                "repeat": 8,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            },
+            {
+                "startPointX": 735,
+                "startPointY": 350,
+                "repeat": 15,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            },
+            {
+                "startPointX": 103,
+                "startPointY": 248,
+                "repeat": 14,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            },
+            {
+                "startPointX": 650,
+                "startPointY": 250,
+                "repeat": 11,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            },
+            {
+                "startPointX": 206,
+                "startPointY": 180,
+                "repeat": 11,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            },
+            {
+                "startPointX": 545,
+                "startPointY": 184,
+                "repeat": 11,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            },
+            {
+                "startPointX": 835,
+                "startPointY": 182,
+                "repeat": 9,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 20
+            }
+        ],
+        "ladderObject":[{
+            "startPointX": 240,
+            "startPointY": 350,
+            "repeat": 7,
+            "ladders": [],
+            "ladderName": "ladder",
+            "ladderHeight": 16,
+            "ladderWidth": 26
+        },
+        {
+            "startPointX": 355,
+            "startPointY": 180,
+            "repeat": 25,
+            "ladders": [],
+            "ladderName": "ladder",
+            "ladderHeight": 16,
+            "ladderWidth": 26
+        },
+        {
+            "startPointX": 615,
+            "startPointY": 460,
+            "repeat": 8,
+            "ladders": [],
+            "ladderName": "ladder",
+            "ladderHeight": 16,
+            "ladderWidth": 26
+        },
+        {
+            "startPointX": 795,
+            "startPointY": 250,
+            "repeat": 21,
+            "ladders": [],
+            "ladderName": "ladder",
+            "ladderHeight": 16,
+            "ladderWidth": 26
+        }],
+        "optionPositions" : [
+            {
+                "positionX": 150,
+                "positionY": 315
+            },
+            {
+                "positionX": 460,
+                "positionY": 545
+            },
+            {
+                "positionX": 565,
+                "positionY": 275
+            },
+            {
+                "positionX": 560,
+                "positionY": 148
+            },
+            {
+                "positionX": 952,
+                "positionY": 425
+            }
+        ]
+    }
+}
