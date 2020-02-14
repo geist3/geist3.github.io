@@ -155,7 +155,7 @@
 /* =================================== */
 
 
-/*  Basic Style
+/*  Basic Style 
   /* =================================== */
 
  ::-moz-selection,
@@ -980,12 +980,12 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
 }
 
 #settingContainer #sliderSwitch{
-    position: absolute;
+    position: absolute;    
     height: 90px;
     width: 90px;
     left: 18px;
     bottom: 30px;
-        cursor: pointer;
+	cursor: pointer;
     -webkit-transition: .4s;
     transition: .4s;
     background-size: 100%;
