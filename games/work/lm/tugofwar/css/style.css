@@ -991,7 +991,7 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
     background-size: 100%;
 }
 
-#settingContainer #chkTimer:checked~#sliderSwitch {
+#settingContainer #chkTimer #sliderSwitch.checked {
     -webkit-transform: translateX(95px);
     -ms-transform: translateX(95px);
     transform: translateX(95px);
