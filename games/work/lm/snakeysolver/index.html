@@ -28,67 +28,97 @@
                 </div>
                 <div class="c-site-title  text-center">
                     <h1 class="c-site-title__images c-site-title__snakeysums" title="Snakey Solver!">
-                        Snakey Solver!
+                        Snakey Solver
                     </h1>
                 </div>
                 <div class="c-high-score">
                     Your High Score
                     <label> 333</label>
                 </div>
-                <button class="c-site-info btn" type="button">
+                <!-- <button id="infoBtn" class="c-site-info btn" type="button" data-toggle="modal" data-target="#instructionModal">
                     Info
-                </button>
+                </button> -->
+                <div class="c-site-info">
+                    <a href="javascript:void(0);" title="Info Button" id="infoBtn" data-toggle="modal" data-target="#instructionModal">
+                        <img class="" src="assets/images/info.svg" alt="Info Button">
+                    </a>
+                </div>
             </div>
         </header>
-        <!-- Contatiner Start Here -->
-        <!-- <main id="c-maincontent" role="main" class="">
-            <div class="container c-snakeysum-container">
-                <div class="c-screen-content c-snakeysum-startscreen text-center">
-                    <div class="c-content-instruction">
-                        <h2>Ready to Slither?</h2>
-                        <p class="c-game-instruction">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim </p>
-                        <h2 class="m-0">Keyboard:</h2>
-                        <div class="c-instruction--game text-center">
-                            <img src="assets/images/instruction_game.svg" alt="Instruction Game"/>
-                        </div>
-                        <p class="text-right m-0"><button class="btn btn-default c-snakeysum--btn" id="play">Next</button></p>
-                    </div>
-                    
-                </div>
-                <div class="c-screen-content  c-snakeysum-content" style="display: none;">
-                    <div class="c-question-state"></div>
-                    <div class="c-live-state"></div>
-                </div>
-            </div>
-            <div id="game" style="display: none;">
-                <div class="c-runner--control game-controller" style="display:none;">
-                    <div class="c-runner--plate">
-                        <button type="button" class="btn c-btn--runner"></button>
-                    </div>
-                </div>
-            </div>
-        </main> -->
-
         <div id="game"></div>
-        <!-- <div id="game-controller" style="display: none;"> -->
-            <!-- <div class="c-runner--control game-controller" style="display:none;">
-                <div class="c-runner--plate" style="position: absolute;">
-                    <button type="button" keycode="37" tabindex="1" class="btn btn-gamepad btn-clusterins btn-left-cluster" aria-label="Left">
-                        <span aria-hidden="true">Left</span>
-                    </button>
-                    <button type="button" keycode="38" tabindex="1" class="btn btn-gamepad btn-clusterins btn-up-cluster" aria-label="Up">
-                        <span aria-hidden="true">Up</span>
-                    </button>
-                    <button type="button" keycode="39" tabindex="1" class="btn btn-gamepad btn-clusterins btn-right-cluster" aria-label="Right">
-                        <span aria-hidden="true">Right</span>
-                    </button>
-                    <button type="button" keycode="40" tabindex="1" class="btn btn-gamepad btn-clusterins btn-down-cluster" aria-label="Down">
-                        <span aria-hidden="true">Down</span>
-                    </button>
-                </div>
-            </div> -->
-        <!-- </div> -->
     </div>
+
+    <!-- instruction Modal -->
+    <div class="c-modal-main modal fade" id="instructionModal" tabindex="-1" role="dialog" aria-labelledby="instructionModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="container h-100">
+                    <!-- Instruction guide page start -->
+                    <div class="row justify-content-between c-modal--guide">
+                        <div class="col-12 mb-4">
+                            <h2 class="c-modal--guide__head h2">Ready to slither?</h2>
+                        </div>
+                        <div class="col-6 col-xl-5">
+                            <ul class="c-slither">
+                                <li class="row align-items-center">
+                                    <figure class="block col">
+                                        <img src="assets/images/info-instruction/info-ball.png" alt="" class="img-fluid"/>
+                                    </figure>
+                                    <p class="col">Collect eggs to make your snake grow.</p>
+                                </li>
+                                <li class="row align-items-center">
+                                    <figure class="block col">
+                                        <img src="assets/images/info-instruction/theme1/info-score-theme.png" alt="" class="info-score-theme img-fluid"/>
+                                    </figure>
+                                    <p class="col">Each correct egg gets you 2 points.  </p>
+                                </li>
+                                <li class="row align-items-center">
+                                    <figure class="block col">
+                                        <img src="assets/images/info-instruction/theme1/info-snake-theme.png" alt="" class="info-snake-theme img-fluid"/>
+                                    </figure>
+                                    <p class="col">Incorrect eggs cost you 1 point and make the snake move faster! </p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-6 col-xl-5">
+                            <ul class="c-slither">
+                                <li class="row align-items-center">
+                                    <figure class="block col">
+                                        <img src="assets/images/info-instruction/theme1/info-jungle-theme.png" alt="" class="info-jungle-theme img-fluid"/>
+                                    </figure>
+                                    <p class="col">Avoid the jungle and your own tail</p>
+                                </li>
+                            </ul>
+                            <div class="c-introcontrol">
+                                <figure>
+                                    <!-- <img src="assets/images/joysticks/instruction_game_mobile.png" alt="" class="img-fluid d-none d-xl-block"/> -->
+                                    <img src="assets/images/joysticks/instruction_game_desktop.png" alt="Press UP, DOWN, LEFT and RIGHT to move the snake." class="info-controller img-fluid d-block"/>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Instruction guide page end -->
+
+                    <button class="btn close-btn info-close-btn" data-dismiss="modal">
+                        <img src="assets/images/close-btn.svg" alt="Close the modal"/>
+                    </button>
+                </div>        
+            </div>
+        </div>
+    </div>
+    <!-- instruction Modal -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
   </body>
 
 </html>
