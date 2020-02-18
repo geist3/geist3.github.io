@@ -2,16 +2,16 @@
 /*--------------------------- Color variations ----------------------*/
 /* - Brand Gradient */
 .btn-default {
-  background: #000000;
-  color: #EB0104;
-  border-color: #fff;
-  border-width: 3px;
-  border-radius: 30px;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: 900;
-  padding: .375rem 1.5rem;
-  font-family: 'museo_sans_rounded900';
+  background: #fff;
+    color: #000;
+    border-color: #fff;
+    border-width: 3px;
+    border-radius: 50px;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding:.6rem 1.5rem .4rem 1.5rem;
+    font-family: 'museo_sans_rounded900';
 }
 
 .btn-default:hover {
@@ -430,12 +430,12 @@ small {
 }
 
 .c-screen.two {
-  background-image: url("../img/escape-landingPage_screen2.svg");
+  /* background-image: url("../img/escape-landingPage_screen2.svg"); */
 }
 .c-screen.two .c-game-instruction{ text-align: center;}
 
 .c-screen.three {
-  background-image: url("../img/escape-Start-screen.svg");
+  /* background-image: url("../img/escape-Start-screen.svg"); */
 }
 
 .c-screen.theme1.c-snakey--startscreen {
@@ -500,20 +500,23 @@ small {
 }
 
 .c-site-title {
-  margin: 0 260px;
+  margin: 0 270px;
   overflow: hidden;
   padding: 5px 0;
 }
 
 .c-site-title .c-site-title__images {
-  width: 380px;
+  width: 270px;
   /* background-image: url("../images/escape_title.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100%; */
   display: block;
   margin: 0 auto;
-  line-height: 50px;
+  line-height: 60px;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 25px;
+  color: #ED1C24;
 }
 
 .c-site-title .c-site-title__images.c-site-title__snakeysums {
@@ -720,8 +723,9 @@ input:-webkit-autofill:active, input:-webkit-autofill:focus, input:-webkit-autof
 }
 
 #c-maincontent{
-  position: relative;
-  height: 100%;
+  /* background-image: url("../img/escape-Start-screen.svg"); */
+  /* position: relative;
+  height: 100%; */
 }
 #game{
   position: absolute;
@@ -749,23 +753,23 @@ font-size: 40px;
 
 
 .c-sequence-screen{ 
-  height: 50px;
+  height: 60px;
   background-color: rgba(255, 255, 255, 0.75);
-  width: 400px;
+  width: 600px;
   border: 3px solid #fff;
   position: absolute;
   border-radius: 30px;
   text-align: center;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 45px;
-  margin-left: -200px;
+  font-size: 24px;
+  line-height: 55px;
+  margin-left: -300px;
   left: 50%;
   top: 70px;
 }
 
 .c-sequence-point{
-height: 50px;
+height: 60px;
 background-color: rgba(255, 255, 255, 0.75);
 width: 80px;
 border: 3px solid #fff;
@@ -773,17 +777,17 @@ position: absolute;
 border-radius: 30px;
 text-align: center;
 font-weight: 600;
-font-size: 22px;
-line-height: 45px;
+font-size: 24px;
+line-height: 55px;
 top: 70px;
-right:0px;
+right:20px;
 font-family: 'museo_sans_rounded700';
 }
 
 .c-sequence-locker{
-height: 50px;
+height: 60px;
 background-color: rgba(0, 0, 0, 1);
-width: 150px;
+width: 180px;
 position: absolute;
 border-radius: 30px;
 text-align: center;
@@ -791,14 +795,14 @@ font-weight: 600;
 font-size: 22px;
 line-height: 45px;
 top: 70px;
-right: 100px;
+right: 120px;
 overflow: hidden;
 padding-left: 13px;
 }
 
 .c-sequence--locker__green{
-width: 25px;
-height: 32px;
+width: 31px;
+height: 38px;
 background-image: url("../img/locker-green.svg");
 background-repeat: no-repeat;
 background-position: 2px 0px;
@@ -813,11 +817,8 @@ margin-left: 0px;
 }
 
 .c-sequence--locker__red{
-
-
-
-width: 25px;
-height: 32px;
+width: 31px;
+height: 38px;
 background-image: url("../img/locker-red.svg");
 background-repeat: no-repeat;
 background-position: 2px -5px;
@@ -839,27 +840,27 @@ height: 60px;
 }
 
 .c-playerlives-count{
-height: 95px;
-background-color: rgba(0, 0, 0, 1);
-width: 150px;
-top:70px;
-border-radius: 42px;
-position: absolute;
-left: 0px;
-overflow: hidden;
-padding: 10px 12px;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 1);
+  width: 190px;
+  top: 70px;
+  border-radius: 60px;
+  position: absolute;
+  left: 20px;
+  overflow: hidden;
+  padding: 10px 12px;
 }
 
 .c-playerlives-images{ 
-  width: 38px;
-  height: 80px;
-  background-image: url("../img/lives.svg");
+  width: 48px;
+  height: 95px;
+  background-image: url(../img/lives.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100%;
   display: block;
   float: left;
-  margin: 0 2px;
+  margin: 0 3px;
 }
 
 .c-playerlives-images:before{
@@ -874,8 +875,19 @@ padding: 10px 12px;
 display: none;
 position: relative;
 z-index: 1;
+top: 60px;
 }
 
+@media only screen and (max-width:1250px) {
+  #game-score-section {
+    top: -50px;
+  }
+}
+@media only screen and (max-width:1150px) {
+  #game-score-section {
+    /* top: 80px; */
+  }
+}
 .container {
   max-width: 85%;
 }
@@ -910,14 +922,14 @@ font-family: 'museo_sans_rounded700';
   background-color: rgba(2, 51, 27, 0.75);
   padding: 25px;
   position: absolute;
-  width: 530px;
+  width: 630px;
   bottom: 0;
   right: 20px;
   border-radius: 22px 22px 0 0;
   text-align: left;
 }
 .c-content-instruction h2{
-  font-size: 27px;
+  font-size: 32px;
   margin-bottom: 15px;
   color: #fff;
   font-family: 'museo_sans_rounded900';
@@ -925,11 +937,11 @@ font-family: 'museo_sans_rounded700';
 .c-content-instruction p{
   color: #fff;
   text-align: left;
-  font-size: 18px;
+  font-size: 24px;
   font-family: 'museo_sans_rounded300';
 } 
 .c-instruction--game{
-  max-width: 350px;
+  max-width: 450px;
   margin: 10px auto 20px;
 }
 .c-instruction--game img{
@@ -937,67 +949,67 @@ font-family: 'museo_sans_rounded700';
 
 }
 .c-runner--control{ 
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   position: absolute;
   left: 0;
   bottom: 0;
 }
 .c-runner--plate{
-  width: 90px;
-  height: 90px;
+  width: 200px;
+  height: 200px;
   background-image: url("../img/plate-control.svg");
   background-repeat: no-repeat;
   background-position: 0px 0px;
   position: absolute;
   left: 50%;
-  top: 50%;
-  margin-left: -45px;
+  top: 25%;
+  margin-left: -100px;
   margin-top: -45px;
 }
 .c-btn--runner{
-  width: 56px;
-  height: 56px;
+  width: 100px;
+  height: 100px;
   background-image: url("../img/control-btn.svg");
   background-repeat: no-repeat;
   background-position: -1px 2px;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -28.5px;
-  margin-top: -28.5px;
+  /* left: 50%;
+  top: 50%; */
+  margin-left: -50px;
+  margin-top: -50px;
   border-radius: 50%;
 }
 .c-runner--jump{ 
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   position: absolute;
   right: 0;
   bottom: 0;
 }
 .c-runner--jumpplate{
-  width: 110px;
-  height: 110px;
+  width: 240px;
+  height: 240px;
   background-image: url("../img/jump-control.svg");
   background-repeat: no-repeat;
   background-position: 0px 0px;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -55px;
-  margin-top: -55px;
+  margin-left: -120px;
+  margin-top: -120px;
 }
 .c-btn--runnerjump{
-    width: 80px;
-    height: 80px;
+    width: 130px;
+    height:130px;
     background-image: url(../img/jumpcontrol-btn.svg);
     background-repeat: no-repeat;
     background-position: 0px -3px;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-left: -35.5px;
-    margin-top: -55px;
+    margin-left: -54px;
+    margin-top: -87px;
     border-radius: 50%;
 }
 
@@ -1042,10 +1054,244 @@ font-family: 'museo_sans_rounded700';
 }
 
 @media only screen and (max-width:1150px) {
-  .c-site-title .c-site-title__images {
-    width: 320px;
-  }
   .c-sequence-screen {
-    width: 375px;
+    width: 500px;
   }
+}
+
+
+.c-modal-main .modal-dialog{ width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin: 0;}
+.c-modal-main .modal-content{height: 100%; background-color: rgba(0, 0, 0, 0.5);}
+.c-modal-main .container{ position: relative;}
+.c-modal--guide{height: 100%; padding-top: 80px; box-sizing: border-box;}
+.c-modal--guide__head{font-weight: 500;}
+.c-modal--guide h3, .c-modal--guide p{color: #fff; font-family: 'museo_sans_rounded300';}
+.c-jellycont{ padding: 0; margin-bottom: 15px;}
+.c-jellycont .block{max-width: 130px; list-style: none; font-family: 'museo_sans_rounded300';}
+.escapeguide{margin-bottom: 30px;}
+.escapeguide + .escapeguide{margin-bottom: 0;}
+.escapeguide ul{padding: 0; margin-bottom: 30px;}
+.escapeguide__icon{width: 155px; list-style: none; padding-left: 7px; padding-right: 7px;}
+.h2{
+  font-size: 27px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-family: 'museo_sans_rounded900';
+} 
+
+.close-btn{position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 30px;
+  padding: 0;
+  margin: 0;
+  bottom: 0px;}
+body.modal-open .c-header__standard{z-index: 10000;}
+body.modal-open  .c-content-instruction{ display: none;}
+.c-form--status {color: #fff; }
+.c-form--status  .btn-default {
+  padding: 0.3rem 1.5rem;
+}
+
+.c-settings--container, .c-progress-wrapper{ height: 100%;}
+#settings:before {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  content: "";
+  left: 0;
+  top: 0;
+}
+.c-progress-col{width: 650px; position: relative;}
+.c-progress-col p{color: #fff; font-size: 22px;}
+.c-progress-col .c-progress-col__title{
+  position: absolute; 
+  width: 100%; 
+  text-align: center;
+  font-family: 'museo_sans_rounded900';  
+  text-shadow: 1px 1px #000; 
+  font-size: 35px;
+  top: -150px;
+  color: #fff;
+  margin: 0;
+}
+.c-progress-col__image{width: 150px; margin-right: 25px;}
+.c-progress-col__progress {
+  width:325px;
+  border-radius: 20px;
+  background-color: #3da2fe;
+  padding: 3px;
+  box-sizing: border-box;
+  position: relative;
+  height: 39px;
+  box-shadow: 1px 5px 5px #000;
+  -moz-box-shadow:1px 5px 5px #000;
+  -webkit-box-shadow: 1px 5px 5px #000;
+}
+.c-progress-col__progress .progress{
+  width: calc(100% - 6px); 
+  height: calc(100% - 6px); 
+  overflow: visible;
+  position: absolute; 
+  left: 3px;
+  top: 3px;
+  border-radius: 20px;
+  z-index: 1;
+  border: 2px solid #fff;
+  background-color: #062f42;
+  box-shadow: inset 0 0 10px #000000;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+}
+.progress-bar{
+position: relative;
+border: 1px solid #000;
+border-radius:20px;
+background: #0f3851; /* Old browsers */
+background: -moz-linear-gradient(top,  #0f3851 2%, #f98dff 2%, #f98dff 2%, #fddaff 11%, #eb87ee 49%, #d41fdb 52%, #cd00d4 92%, #cd00d4 92%, #f98dff 93%, #f98dff 98%, #f98dff 98%, #0f3851 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #0f3851 2%,#f98dff 2%,#f98dff 2%,#fddaff 11%,#eb87ee 49%,#d41fdb 52%,#cd00d4 92%,#cd00d4 92%,#f98dff 93%,#f98dff 98%,#f98dff 98%,#0f3851 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #0f3851 2%,#f98dff 2%,#f98dff 2%,#fddaff 11%,#eb87ee 49%,#d41fdb 52%,#cd00d4 92%,#cd00d4 92%,#f98dff 93%,#f98dff 98%,#f98dff 98%,#0f3851 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f3851', endColorstr='#0f3851',GradientType=0 ); /* IE6-9 */
+
+}
+.progress-bar span.handler{
+  background-image: url(../img/progress-handler.png);
+  width: 60px;
+  height: 84px;
+  position: absolute;
+  right: -22px;
+  top: -26px;
+  background-size: contain;
+cursor: pointer;
+}
+.c-progress-col__text{
+  color: #fff;
+  font-family: 'museo_sans_rounded900';
+  text-shadow: 2px 2px #000;
+  font-size: 28px;
+  padding-left: 25px;
+}
+.c-progress--text{
+  text-align: center;
+  padding-left: 0px;
+}
+
+.c-escapesettingsplay--btn#play_btn {
+  right: 0;
+  bottom: 40px;
+  left: inherit;
+  top: inherit;
+}
+
+.c-form--container{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.c-form--container img{ 
+  max-width: 82%;
+  height: auto;
+  position: absolute;
+  bottom: -50px;
+}
+.c-form--container .no-gutters{ 
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.c-form--robotimage{
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.c-form--status{
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.c-form--status h2{
+  font-size: 42px;
+}
+.c-form--status p{
+  font-size: 28px;
+}
+.c-form--status .form-group label{
+  font-size: 26px;
+}
+.c-form--status .form-group .form-control {
+  height: auto;
+  padding: 0.8rem .75rem;
+}
+.golabel{ width: 100%;}
+/*-------------------------------------------------------------
+------------------@media Rule Start--------------------------*/
+
+
+@media (min-width: 1400px) {
+
+}
+
+@media only screen and (min-width:1170px) and (max-width:1399px) {
+
+}
+
+
+/* ------------------------ SMALL DESKTOP ------------------------*/
+@media only screen and (min-width:992px) and (max-width:1169px) {
+  
+  
+  .escapeguide__icon { width: 130px;}
+}
+/* ------------------------ TABLET ------------------------*/
+
+@media (min-width: 992px) {
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+}
+
+/* ------------------------ Mobile ------------------------*/
+@media only screen and (max-width:767px) {
+
+  
+
+
+}
+/* ------------------------ Mobile XS ------------------------*/
+@media (max-width: 575px) {
+
+}
+
+
+.progress{
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#play_btn{
+  position: absolute;
+  top: 282px;
+  left: 392px;
+}
+
+#draggable{
+  position: relative;
+}
+
+#draggableParent{
+  position: relative;
+  top: 50%;
+  left: 50%;
 }

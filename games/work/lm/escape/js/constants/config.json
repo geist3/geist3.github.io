@@ -102,7 +102,7 @@
                 "ladderWidth": 35
             },
             {
-                "startPointX": 1110,
+                "startPointX": 1106,
                 "startPointY": 835,
                 "repeat": 7,
                 "ladders": [],
@@ -202,7 +202,7 @@
             {
                 "startPointX": 0,
                 "startPointY": 1045,
-                "repeat": 55,
+                "repeat": 56,
                 "platforms": [],
                 "platformName": "platform",
                 "platformWidth": 35
@@ -1754,7 +1754,7 @@
             },
             {
                 "positionX": 225,
-                "positionY": 360
+                "positionY": 362
             },
             {
                 "positionX": 840,
@@ -1770,7 +1770,7 @@
             },
             {
                 "positionX": 711,
-                "positionY": 560
+                "positionY": 562
             },
             {
                 "positionX": 1155,
@@ -1778,7 +1778,7 @@
             },
             {
                 "positionX": 1155,
-                "positionY": 360
+                "positionY": 362
             },
             {
                 "positionX": 1552,
@@ -1804,6 +1804,958 @@
                 "positionX": 1582,
                 "positionY": 441
             }
+        ],
+        "redBlocks": [
+            {
+                "positionX": 145,
+                "positionY": 587,
+                "height": 830               
+            },
+            {
+                "positionX": 403,
+                "positionY": 517,
+                "height": 610               
+            },
+            {
+                "positionX": 415,
+                "positionY": 517,
+                "height": 610               
+            },
+            {
+                "positionX": 550,
+                "positionY": 687,
+                "height": 630               
+            },
+            {
+                "positionX": 1305,
+                "positionY": 687,
+                "height": 630               
+            },
+            {
+                "positionX": 1438,
+                "positionY": 507,
+                "height": 700               
+            },
+            {
+                "positionX": 1450,
+                "positionY": 507,
+                "height": 700               
+            },
+            {
+                "positionX": 1775,
+                "positionY": 587,
+                "height": 830               
+            },
+            {
+                "positionX": 1785,
+                "positionY": 587,
+                "height": 830               
+            }
+            
+        ],
+        "floatingPlatform": [
+            {
+                "startPointX": 478,
+                "startPointY": 340,
+                "endPointY": 970
+            },
+            {
+                "startPointX": 1378,
+                "startPointY": 340,
+                "endPointY": 970
+            }           
+            
+        ]
+    },
+    "level8": {
+        "platformsObject": [
+            {
+                "startPointX": 20,
+                "startPointY": 1000,
+                "repeat": 56,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35
+            },
+            {
+                "startPointX": 545,
+                "startPointY": 865,
+                "repeat": 11,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 36
+            },
+            {
+                "startPointX": 1390,
+                "startPointY": 865,
+                "repeat": 10,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 36
+            },
+            {
+                "startPointX": 668,
+                "startPointY": 750,
+                "repeat": 28,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 36
+            },
+            {
+                "startPointX": 345,
+                "startPointY": 640,
+                "repeat": 9,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35
+            },           
+            {
+                "startPointX": 1160,
+                "startPointY": 620,
+                "repeat": 19,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35.7
+            },
+            {
+                "startPointX": 500,
+                "startPointY": 487,
+                "repeat": 11,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35
+            }, 
+            {
+                "startPointX": 1075,
+                "startPointY": 487,
+                "repeat": 10,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 34.5
+            }, 
+            {
+                "startPointX": 1480,
+                "startPointY": 455,
+                "repeat": 11,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 36
+            },
+            {
+                "startPointX": 310,
+                "startPointY": 310,
+                "repeat": 7,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35.5
+            }, 
+            {
+                "startPointX": 755,
+                "startPointY": 310,
+                "repeat": 24,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35.5
+            }
+            
+        ],
+        "ladderObject": [
+            {
+                "startPointX": 555,
+                "startPointY": 867,
+                "repeat": 5,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 26.5,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1520,
+                "startPointY": 867,
+                "repeat": 5,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 26.5,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 848,
+                "startPointY": 753,
+                "repeat": 4,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 28.2,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1418,
+                "startPointY": 753,
+                "repeat": 4,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 28.2,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 590,
+                "startPointY": 490,
+                "repeat": 5,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 30,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1300,
+                "startPointY": 490,
+                "repeat": 5,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 26,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1227,
+                "startPointY": 620,
+                "repeat": 5,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 26,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 715,
+                "startPointY": 490,
+                "repeat": 10,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 26,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1565,
+                "startPointY": 313,
+                "repeat": 5,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 28,
+                "ladderWidth": 30
+            }
+        ],
+        "optionPositions": [           
+            {
+                "positionX": 1670,
+                "positionY": 932
+            },        
+            {
+                "positionX": 1510,
+                "positionY": 682
+            }, 
+            {
+                "positionX": 405,
+                "positionY": 572
+            },           
+            {
+                "positionX": 1750,
+                "positionY": 552
+            },
+            {
+                "positionX": 1205,
+                "positionY": 420
+            }         
+        ],
+        "platformLadderCrossingPositions": [
+            {
+                "positionX": 555,
+                "positionY": 997
+            },
+            {
+                "positionX": 555,
+                "positionY": 862
+            },
+            {
+                "positionX": 1520,
+                "positionY": 997
+            },
+            {
+                "positionX": 1520,
+                "positionY": 862
+            },
+            {
+                "positionX": 848,
+                "positionY": 862
+            },
+            {
+                "positionX": 848,
+                "positionY": 747
+            },
+            {
+                "positionX": 1418,
+                "positionY": 862
+            },
+            {
+                "positionX": 1418,
+                "positionY": 747
+            },
+            {
+                "positionX": 590,
+                "positionY": 637
+            },
+            {
+                "positionX": 590,
+                "positionY": 484
+            },
+            {
+                "positionX": 1300,
+                "positionY": 617
+            },
+            {
+                "positionX": 1300,
+                "positionY": 484
+            },
+            {
+                "positionX": 1227,
+                "positionY": 747
+            },
+            {
+                "positionX": 1227,
+                "positionY": 617
+            },
+            {
+                "positionX": 715,
+                "positionY": 747
+            },
+            {
+                "positionX": 715,
+                "positionY": 484
+            },
+            {
+                "positionX": 1565,
+                "positionY": 452
+            },
+            {
+                "positionX": 1565,
+                "positionY": 307
+            }
+        ],
+        "redBlocks": [
+            {
+                "positionX": 925,
+                "positionY": 890,
+                "height": 250               
+            },
+            {
+                "positionX": 945,
+                "positionY": 890,
+                "height": 250               
+            },
+            {
+                "positionX": 1360,
+                "positionY": 890,
+                "height": 250               
+            },
+            {
+                "positionX": 665,
+                "positionY": 620,
+                "height": 250               
+            },
+            {
+                "positionX": 645,
+                "positionY": 620,
+                "height": 250               
+            },
+            {
+                "positionX": 1167,
+                "positionY": 560,
+                "height": 120               
+            },
+            {
+                "positionX": 535,
+                "positionY": 398,
+                "height": 170               
+            },
+            {
+                "positionX": 755,
+                "positionY": 398,
+                "height": 170               
+            },
+            {
+                "positionX": 1110,
+                "positionY": 398,
+                "height": 170               
+            },
+            {
+                "positionX": 1355,
+                "positionY": 398,
+                "height": 170               
+            },
+            {
+                "positionX": 1515,
+                "positionY": 385,
+                "height": 130               
+            }
+            
+        ],
+        "floatingPlatform": [
+            {
+                "startPointX": 230,
+                "startPointY": 290,
+                "endPointY": 970
+            }        
+            
+        ]
+    },
+    "level9": {
+        "platformsObject": [
+            {
+                "startPointX": 20,
+                "startPointY": 1000,
+                "repeat": 56,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35
+            },
+            {
+                "startPointX": 526,
+                "startPointY": 827,
+                "repeat": 24,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 34
+            },
+            {
+                "startPointX": 1500,
+                "startPointY": 892,
+                "repeat": 7,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 34.3
+            },
+            {
+                "startPointX": 815,
+                "startPointY": 687,
+                "repeat": 4,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 34.3
+            },
+            {
+                "startPointX": 1065,
+                "startPointY": 687,
+                "repeat": 4,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 34.3
+            },
+            {
+                "startPointX": 745,
+                "startPointY": 490,
+                "repeat": 16,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 34.3
+            },
+            {
+                "startPointX": 210,
+                "startPointY": 345,
+                "repeat": 9,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 34.3
+            },
+            {
+                "startPointX": 680,
+                "startPointY": 310,
+                "repeat": 24,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 34.3
+            },
+            {
+                "startPointX": 1742,
+                "startPointY": 370,
+                "repeat": 4,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 33
+            }
+        ],
+        "ladderObject": [
+            {
+                "startPointX": 462,
+                "startPointY": 347,
+                "repeat": 25,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 26.1,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1228,
+                "startPointY": 493,
+                "repeat": 13,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 25.5,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1383,
+                "startPointY": 313,
+                "repeat": 27,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 25.3,
+                "ladderWidth": 30
+            }
+            
+        ],
+        "optionPositions": [           
+            {
+                "positionX": 310,
+                "positionY": 282
+            },        
+            {
+                "positionX": 877,
+                "positionY": 932
+            }, 
+            {
+                "positionX": 805,
+                "positionY": 425
+            },           
+            {
+                "positionX": 1070,
+                "positionY": 245
+            },
+            {
+                "positionX": 1790,
+                "positionY": 305
+            }         
+        ],
+        "platformLadderCrossingPositions": [
+            {
+                "positionX": 460,
+                "positionY": 997
+            },
+            {
+                "positionX": 460,
+                "positionY": 342
+            },
+            {
+                "positionX": 1228,
+                "positionY": 824
+            },
+            {
+                "positionX": 1228,
+                "positionY": 487
+            },
+            {
+                "positionX": 1383,
+                "positionY": 997
+            },
+            {
+                "positionX": 1383,
+                "positionY": 307
+            }
+            
+        ],
+        "redBlocks": [
+            {
+                "positionX": 200,
+                "positionY": 600,
+                "height": 500               
+            },
+            {
+                "positionX": 405,
+                "positionY": 690,
+                "height": 650               
+            },
+            
+            {
+                "positionX": 560,
+                "positionY": 470,
+                "height": 700               
+            },
+            {
+                "positionX": 670,
+                "positionY": 510,
+                "height": 400               
+            },
+            {
+                "positionX": 805,
+                "positionY": 600,
+                "height": 200               
+            },
+            {
+                "positionX": 1180,
+                "positionY": 600,
+                "height": 200               
+            },
+            {
+                "positionX": 1285,
+                "positionY": 580,
+                "height": 500               
+            },
+            {
+                "positionX": 1435,
+                "positionY": 660,
+                "height": 700               
+            },
+            {
+                "positionX": 1583,
+                "positionY": 460,
+                "height": 700               
+            },
+            {
+                "positionX": 1733,
+                "positionY": 680,
+                "height": 630               
+            }
+            
+        ],
+        "floatingPlatform": [
+            {
+                "startPointX": 120,
+                "startPointY": 330,
+                "endPointY": 970
+            },
+            {
+                "startPointX": 615,
+                "startPointY": 280,
+                "endPointY": 795,
+                "catagory": "short"
+            },
+            {
+                "startPointX": 1530,
+                "startPointY": 285,
+                "endPointY": 857,
+                "catagory": "short"
+            },
+            {
+                "startPointX": 1680,
+                "startPointY": 342,
+                "endPointY": 857,
+                "catagory": "short"
+            }          
+            
+        ]
+    },
+    "level10": {
+        "platformsObject": [
+            {
+                "startPointX": 20,
+                "startPointY": 1000,
+                "repeat": 56,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35
+            },
+            {
+                "startPointX": 172,
+                "startPointY": 690,
+                "repeat": 16,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 36.5
+            },
+            {
+                "startPointX": 758,
+                "startPointY": 820,
+                "repeat": 16,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 36
+            },
+            {
+                "startPointX": 1458,
+                "startPointY": 860,
+                "repeat": 9,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 36
+            },
+            {
+                "startPointX": 171,
+                "startPointY": 510,
+                "repeat": 5,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 37
+            },
+            {
+                "startPointX": 978,
+                "startPointY": 570,
+                "repeat": 7,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 33
+            },
+            {
+                "startPointX": 1525,
+                "startPointY": 582,
+                "repeat": 7,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 36.5
+            },
+            {
+                "startPointX": 171,
+                "startPointY": 395,
+                "repeat": 10,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 37.5
+            },
+            {
+                "startPointX": 610,
+                "startPointY": 405,
+                "repeat": 4,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35
+            },
+            {
+                "startPointX": 913,
+                "startPointY": 455,
+                "repeat": 11,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35
+            },
+            {
+                "startPointX": 1318,
+                "startPointY": 317,
+                "repeat": 13,
+                "platforms": [],
+                "platformName": "platform",
+                "platformWidth": 35.5
+            }
+            
+        ],
+        "ladderObject": [
+            {
+                "startPointX": 480,
+                "startPointY": 692,
+                "repeat": 12,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 25.8,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 645,
+                "startPointY": 407,
+                "repeat": 11,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 25.7,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 204,
+                "startPointY": 398,
+                "repeat": 4,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 28.5,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1013,
+                "startPointY": 458,
+                "repeat": 4,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 28.5,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1548,
+                "startPointY": 862,
+                "repeat": 5,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 28,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1698,
+                "startPointY": 584,
+                "repeat": 10,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 27.5,
+                "ladderWidth": 30
+            },
+            {
+                "startPointX": 1558,
+                "startPointY": 319,
+                "repeat": 10,
+                "ladders": [],
+                "ladderName": "ladder",
+                "ladderHeight": 26,
+                "ladderWidth": 30
+            }             
+            
+        ],
+        "optionPositions": [           
+            {
+                "positionX": 1040,
+                "positionY": 935
+            },        
+            {
+                "positionX": 655,
+                "positionY": 340
+            }, 
+            {
+                "positionX": 960,
+                "positionY": 390
+            },           
+            {
+                "positionX": 1685,
+                "positionY": 517
+            },
+            {
+                "positionX": 1685,
+                "positionY": 252
+            }         
+        ],
+        "platformLadderCrossingPositions": [
+            {
+                "positionX": 480,
+                "positionY": 997
+            },
+            {
+                "positionX": 480,
+                "positionY": 687
+            },
+            {
+                "positionX": 645,
+                "positionY": 687
+            },
+            {
+                "positionX": 645,
+                "positionY": 402
+            },
+            {
+                "positionX": 204,
+                "positionY": 507
+            },
+            {
+                "positionX": 204,
+                "positionY": 392
+            },
+            {
+                "positionX": 1013,
+                "positionY": 567
+            },
+            {
+                "positionX": 1013,
+                "positionY": 457
+            },
+            {
+                "positionX": 1548,
+                "positionY": 997
+            },
+            {
+                "positionX": 1548,
+                "positionY": 857
+            },
+            {
+                "positionX": 1698,
+                "positionY": 857
+            },
+            {
+                "positionX": 1698,
+                "positionY": 579
+            },
+            {
+                "positionX": 1558,
+                "positionY": 579
+            },
+            {
+                "positionX": 1558,
+                "positionY": 314
+            }
+            
+            
+        ],
+        "redBlocks": [
+            {
+                "positionX": 98,
+                "positionY": 600,
+                "height": 800               
+            },
+            {
+                "positionX": 142,
+                "positionY": 600,
+                "height": 800               
+            },
+            {
+                "positionX": 744,
+                "positionY": 455,
+                "height": 720               
+            },
+            {
+                "positionX": 794,
+                "positionY": 455,
+                "height": 720               
+            },
+            {
+                "positionX": 902,
+                "positionY": 595,
+                "height": 250               
+            },
+            {
+                "positionX": 945,
+                "positionY": 595,
+                "height": 250               
+            },
+            {
+                "positionX": 1188,
+                "positionY": 645,
+                "height": 140               
+            },
+            {
+                "positionX": 1040,
+                "positionY": 765,
+                "height": 100               
+            },
+            {
+                "positionX": 1443,
+                "positionY": 592,
+                "height": 520               
+            },
+            {
+                "positionX": 1493,
+                "positionY": 592,
+                "height": 520               
+            },
+            {
+                "positionX": 1775,
+                "positionY": 552,
+                "height": 900               
+            },
+            {
+                "positionX": 1819,
+                "positionY": 552,
+                "height": 900               
+            }
+            
+        ],
+        "floatingPlatform": [
+            {
+                "startPointX": 846,
+                "startPointY": 435,
+                "endPointY": 790,
+                "catagory": "short"
+            },
+            {
+                "startPointX": 1383,
+                "startPointY": 297,
+                "endPointY": 970
+            }         
+            
         ]
     }
 }
