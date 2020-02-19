@@ -1,21 +1,25 @@
 {
     "theme": "theme2",
-    "bodylength": 2,
-    "canvas":{
-        "width":1920,
-        "height":1080
-    },
-    "initialPosition": {
-        "x": 200,
-        "y": 150
-    },
     "speed": {
-        "0" : 300,
-        "1" : 200,
-        "2" : 100
+        "easy" : {
+            "value": 300,
+            "speedIncrease" : false
+        },
+        "medium" : {
+            "value": 200,
+            "speedIncrease" : false
+        },
+        "hard" : {
+            "value": 100,
+            "speedIncrease" : true
+        }
+    },
+    "controllerPosition":{
+        "bottomLeft" : false,
+        "bottomCentre" : true,
+        "bottomRight" : false
     },
     "question": {
-        "noOfDigitsForQus": 1,
         "noOfOptions": 5
     },
     "obstacles": {

@@ -902,7 +902,7 @@ border-radius: 30px;
 margin-left: 5px;
 margin-bottom: 0;
 text-align: center;
-color: #ff0000;
+color: #000000;
 font-family: 'museo_sans_rounded700';
 }
 
@@ -937,15 +937,28 @@ font-family: 'museo_sans_rounded700';
   max-width: 280px;
   margin: 0 auto;
 }
-.c-runner--control{ 
+.c-runner--control.bottomLeft{ 
   width: 280px;
   height: 280px;
   position: absolute;
-  /* left:70px;
-  bottom: 70px; */
   left:0px;
-  bottom: 00px;
+  bottom: 0px;
 }
+.c-runner--control.bottomRight{ 
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  right:0px;
+  bottom: 0px;
+}
+.c-runner--control.bottomCentre{ 
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  left:868px;
+  bottom: 0px;
+}
+
 .c-runner--plate{
   width: 80px;
   height: 80px;
@@ -1397,4 +1410,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f3851', end
 .leaderboard-screen-page.btn-close > .close-btn img{ width: 100px;}
 .save-score-page.leaderboard-container{ 
   width: 100%;
+}
+
+p.setting_page_title.c-progress-col__title:focus {
+  outline: none;
 }
