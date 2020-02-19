@@ -151,6 +151,9 @@
             "saveScorePage": {
                 "background": { "src": "assets/images/theme1/background-save-score.png" }
             },
+            "leaderBoard": {
+                "background": { "src": "assets/images/theme1/background-leader-board.png" }
+            },
             "background": {
                 "src": "assets/images/theme1/background-main.png"
             },
@@ -176,7 +179,8 @@
             "lostPageTitle": "Lost Screen",
             "settingPageTitle": "Setting Screen",
             "infoPageTitle": "Information Screen",
-            "saveScorePageTitle": "Save score screen"
+            "saveScorePageTitle": "Save score screen",
+            "leaderBoardPageTitle":"Leader Board"
         }
     },
     "theme2": {
@@ -327,6 +331,9 @@
                 "infoRobot": { "src": "assets/images/theme2/info-robot.png" },
                 "closeButton": { "src": "assets/images/shared-images/cross-button.png" }
             },
+            "leaderBoard": {
+                "background": { "src": "assets/images/theme2/background-leader-board.png" }
+            },
             "saveScorePage": {
                 "background": { "src": "assets/images/theme2/background-save-score.png" }
             },
@@ -355,7 +362,8 @@
             "lostPageTitle": "Lost Screen",
             "settingPageTitle": "Setting Screen",
             "infoPageTitle": "Information Screen",
-            "saveScorePageTitle": "Save score screen"
+            "saveScorePageTitle": "Save score screen",
+            "leaderBoardPageTitle":"Leader Board"
         }
     }
 }

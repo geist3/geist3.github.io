@@ -979,13 +979,13 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
     height: 105px;
 }
 
-#settingContainer #sliderSwitch{
-    position: absolute;    
+#settingContainer #sliderSwitch {
+    position: absolute;
     height: 90px;
     width: 90px;
     left: 18px;
     bottom: 30px;
-	cursor: pointer;
+    cursor: pointer;
     -webkit-transition: .4s;
     transition: .4s;
     background-size: 100%;
@@ -1136,6 +1136,38 @@ label {
     bottom: -216px;
     right: 128px;
     cursor: pointer;
+}
+
+
+/***** Leader Board *******/
+
+#leaderBoard {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#leaderBoard #txtTitleTodaysHighscore {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 56px;
+    font-family: 'Helvetica', serif;
+    font-weight: bold;
+}
+
+#leaderBoard #txtTitleAllTimeHighscore {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 416px;
+    font-family: 'Helvetica', serif;
+    font-weight: bold;
+}
+
+#btnLeaderBoardClose {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 144px;
 }
 
 
