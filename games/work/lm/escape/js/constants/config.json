@@ -679,12 +679,12 @@
                 "platformWidth": 35.5
             },
             {
-                "startPointX": 857,
+                "startPointX": 860,
                 "startPointY": 846,
                 "repeat": 7,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 39
+                "platformWidth": 38
             },
             {
                 "startPointX": 874,
@@ -857,7 +857,7 @@
             },
             {
                 "positionX": 500,
-                "positionY": 635
+                "positionY": 632
             },
             {
                 "positionX": 390,
@@ -903,7 +903,7 @@
         ],
         "redBlocks": [
             {
-                "positionX": 135,
+                "positionX": 145,
                 "positionY": 587,
                 "height": 830               
             },
@@ -913,17 +913,12 @@
                 "height": 150               
             },
             {
-                "positionX": 825,
-                "positionY": 627,
+                "positionX": 847,
+                "positionY": 618,
                 "height": 520               
             },
             {
-                "positionX": 845,
-                "positionY": 627,
-                "height": 520               
-            },
-            {
-                "positionX": 1115,
+                "positionX": 1105,
                 "positionY": 597,
                 "height": 520              
             },
@@ -1200,7 +1195,7 @@
         ],
         "redBlocks": [
             {
-                "positionX": 125,
+                "positionX": 132,
                 "positionY": 587,
                 "height": 830               
             },
@@ -1210,12 +1205,17 @@
                 "height": 300               
             },
             {
-                "positionX": 990,
+                "positionX": 985,
                 "positionY": 677,
                 "height": 620               
             },
             {
-                "positionX": 1645,
+                "positionX": 1000,
+                "positionY": 677,
+                "height": 620               
+            },
+            {
+                "positionX": 1638,
                 "positionY": 620,
                 "height": 560              
             },
@@ -1477,12 +1477,12 @@
         ],
         "redBlocks": [
             {
-                "positionX": 125,
+                "positionX": 135,
                 "positionY": 587,
                 "height": 830               
             },
             {
-                "positionX": 380,
+                "positionX": 390,
                 "positionY": 577,
                 "height": 430               
             },
@@ -1493,21 +1493,21 @@
             },
             {
                 "positionX": 903,
-                "positionY": 690,
+                "positionY": 680,
                 "height": 200               
             },
             {
-                "positionX": 1103,
-                "positionY": 577,
-                "height": 430               
+                "positionX": 1095,
+                "positionY": 575,
+                "height": 420               
             },
             {
-                "positionX": 1193,
+                "positionX": 1198,
                 "positionY": 527,
                 "height": 330               
             },
             {
-                "positionX": 1633,
+                "positionX": 1628,
                 "positionY": 580,
                 "height": 460              
             },
@@ -1517,8 +1517,8 @@
                 "height": 220              
             },
             {
-                "positionX": 1353,
-                "positionY": 690,
+                "positionX": 1343,
+                "positionY": 685,
                 "height": 200               
             },
             {
@@ -1527,7 +1527,7 @@
                 "height": 420               
             },
             {
-                "positionX": 1785,
+                "positionX": 1770,
                 "positionY": 587,
                 "height": 830               
             }
@@ -1609,12 +1609,12 @@
                 "platformWidth": 33.5
             },
             {
-                "startPointX": 561,
+                "startPointX": 556,
                 "startPointY": 365,
                 "repeat": 21,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 36.7
+                "platformWidth": 37
             },
             {
                 "startPointX": 1482,
@@ -1822,12 +1822,22 @@
                 "height": 610               
             },
             {
-                "positionX": 550,
+                "positionX": 552,
+                "positionY": 687,
+                "height": 630               
+            },
+            {
+                "positionX": 545,
                 "positionY": 687,
                 "height": 630               
             },
             {
                 "positionX": 1305,
+                "positionY": 687,
+                "height": 630               
+            },
+            {
+                "positionX": 1308,
                 "positionY": 687,
                 "height": 630               
             },
@@ -1855,7 +1865,7 @@
         ],
         "floatingPlatform": [
             {
-                "startPointX": 478,
+                "startPointX": 480,
                 "startPointY": 340,
                 "endPointY": 970
             },
@@ -2398,6 +2408,11 @@
             },
             {
                 "positionX": 1435,
+                "positionY": 660,
+                "height": 700               
+            },
+            {
+                "positionX": 1475,
                 "positionY": 660,
                 "height": 700               
             },
