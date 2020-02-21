@@ -29,8 +29,9 @@
                     "end": 2
                 },
                 "save": {
-                    "start": 1,
-                    "end": 1
+                    "start": 3,
+                    "end": 1,
+                    "frames": [3, 1]
                 },
                 "drop": {
                     "start": 3,
@@ -180,7 +181,7 @@
             "settingPageTitle": "Setting Screen",
             "infoPageTitle": "Information Screen",
             "saveScorePageTitle": "Save score screen",
-            "leaderBoardPageTitle":"Leader Board"
+            "leaderBoardPageTitle": "Leader Board"
         }
     },
     "theme2": {
@@ -213,8 +214,9 @@
                     "end": 2
                 },
                 "save": {
-                    "start": 1,
-                    "end": 1
+                    "start": 3,
+                    "end": 1,
+                    "frames": [3, 1]
                 },
                 "drop": {
                     "start": 3,
@@ -363,7 +365,7 @@
             "settingPageTitle": "Setting Screen",
             "infoPageTitle": "Information Screen",
             "saveScorePageTitle": "Save score screen",
-            "leaderBoardPageTitle":"Leader Board"
+            "leaderBoardPageTitle": "Leader Board"
         }
     }
 }

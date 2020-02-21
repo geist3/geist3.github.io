@@ -683,7 +683,7 @@ canvas {
     margin-left: 5px;
     margin-bottom: 0;
     text-align: center;
-    color: #ff0000;
+    color: #000000;
     font-family: 'museo_sans_rounded700';
 }
 
@@ -815,6 +815,12 @@ canvas {
     padding: 0 12px 0 12px;
     color: #000000;
     outline: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .theme1 .btn-go {
@@ -865,6 +871,13 @@ canvas {
     padding: 0 12px 0 12px;
     color: #000000;
     outline: none;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .theme2 .btn-go {
@@ -1012,6 +1025,15 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
     width: 100%;
     padding: 74px;
     z-index: 999 !important;
+    display: none;
+    margin-top: -70px;
+    transition: margin-top .3s ease-out, opacity .5s ease-in-out;
+    opacity: 0 !important;
+}
+
+#informationHtml.animate {
+    margin-top: 0px;
+    opacity: 1 !important;
 }
 
 .theme1 #informationHtml {
