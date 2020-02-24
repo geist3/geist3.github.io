@@ -567,12 +567,15 @@ small {
 }
 html, body, .main-wrapper {
   height: 100%;
+
 }
  
 body {
   background-attachment: fixed;
   margin: 0;
   background: black;
+  font-family: 'museo_sans_rounded500';
+  font-size: 18px;
 }
  
 a.btn-primary:focus, a.btn-primary:active, button.btn-primary:focus, button.btn-primary:active {
@@ -656,7 +659,11 @@ canvas {
   display: block;
   /* text-indent: -9999em; */
 }
-
+.c-site-info a, .c-site-info img{ 
+  display: block;
+  width: 37px;
+  height: 37px;
+}
 .c-snakeysum-container .c-snakeysum-startscreen {
   /* height: calc(100vh - 190px); */
 }
@@ -891,8 +898,9 @@ display: flex;
 top: 20px;
 right: 65px;
 color: #fff;
-font-family: 'museo_sans_rounded700';
+font-family: 'museo_sans_rounded500';
 line-height: 31px;
+font-size: 18px;
 }
 .c-high-score label{
 min-width: 70px;
@@ -1080,7 +1088,7 @@ font-family: 'museo_sans_rounded700';
   font-size: 50px;
   margin-bottom: 15px;
   color: #fff;
-  font-family: 'museo_sans_rounded900';
+  font-family: 'museo_sans_rounded700';
 }
 
 .landing-page.btn-play{
@@ -1093,8 +1101,8 @@ font-family: 'museo_sans_rounded700';
 .landing-page > .c-game-instruction{
   color: #fff;
   text-align : left;
-  font-size : 32px;
-  font-family : 'museo_sans_rounded300';
+  font-size : 30px;
+  font-family : 'museo_sans_rounded500';
 }
 
 .landing-page.controllerImage {
@@ -1257,7 +1265,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f3851', end
   padding-left: 15px;
 }
 .c-settingcontent-details{ 
-  font-size: 16px;
+  font-size: 18px;
   clear: both;
   text-align: center;
   padding-top: 25px;
