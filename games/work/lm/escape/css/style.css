@@ -575,6 +575,8 @@ body {
   background-attachment: fixed;
   margin: 0;
   background: black;
+  font-size: 18px;
+  font-family: 'museo_sans_rounded500';
 }
  
 a.btn-primary:focus, a.btn-primary:active, button.btn-primary:focus, button.btn-primary:active {
@@ -929,16 +931,16 @@ font-family: 'museo_sans_rounded700';
   text-align: left;
 }
 .c-content-instruction h2{
-  font-size: 32px;
+  font-size: 50px;
   margin-bottom: 15px;
   color: #fff;
-  font-family: 'museo_sans_rounded900';
+  font-family: 'museo_sans_rounded700';
 }  
 .c-content-instruction p{
   color: #fff;
   text-align: left;
-  font-size: 24px;
-  font-family: 'museo_sans_rounded300';
+  font-size: 30px;
+  font-family: 'museo_sans_rounded500';
 } 
 .c-instruction--game{
   max-width: 450px;
@@ -1107,7 +1109,7 @@ body.modal-open  .c-content-instruction{ display: none;}
   top: 0;
 }
 .c-progress-col{width: 650px; position: relative;}
-.c-progress-col p{color: #fff; font-size: 22px;}
+.c-progress-col p{color: #fff; font-size: 21px; font-family: 'museo_sans_rounded500'; }
 .c-progress-col .c-progress-col__title{
   position: absolute; 
   width: 100%; 
@@ -1216,7 +1218,8 @@ cursor: pointer;
   font-size: 42px;
 }
 .c-form--status p{
-  font-size: 28px;
+  font-size: 30px;
+  font-family: 'museo_sans_rounded500';  
 }
 .c-form--status .form-group label{
   font-size: 26px;
