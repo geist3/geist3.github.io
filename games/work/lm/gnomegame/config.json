@@ -1,0 +1,486 @@
+{
+    "theme1": {
+        "name": "theme1",
+        "title": "Gnome Game",
+        "numberOfRows": 10,
+        "numberOfColumns": 10,
+        "gridStartPosition": {
+            "x": 380,
+            "y": 140
+        },
+        "block": {
+            "width": 121,
+            "height": 84,
+            "adjust": {
+                "width": 23,
+                "height": 10
+            }
+        },
+        "playerOne": {
+
+        },
+        "playerTwo": {
+
+        },
+        "movement": {
+            "up": {
+                "angle": 180,
+                "origin": {
+                    "x": 0.75,
+                    "y": 0.69
+                }
+            },
+            "down": {
+                "angle": 0,
+                "origin": {
+                    "x": 0.25,
+                    "y": 0.32
+                }
+            },
+            "left": {
+                "angle": 90,
+                "origin": {
+                    "x": 0.32,
+                    "y": 0.78
+                }
+            },
+            "right": {
+                "angle": -90,
+                "origin": {
+                    "x": 0.69,
+                    "y": 0.25
+                }
+            }
+        },
+        "assets": {
+            "landingPage": {
+                "background": { "src": "assets/images/theme1/background-landing-page.png" },
+                "titleText": "Ready to Splash ?",
+                "descriptionText": "Jump to answer questions to win points and splash your opponent! \nEach correct answer gets you 1 point. \nIncorrect answers cost you 1 point. Get 10 points to win the game!",
+                "controller": { "src": "assets/images/theme1/controller.png" }
+            },
+            "mainPage": {
+                "background": { "src": "assets/images/theme1/background-main-page.png" },
+                "questionBackground": { "position": { "x": 648, "y": 20 } },
+                "obstacle": {
+                    "src": "assets/images/theme1/flower.png",
+                    "scale": 0.9,
+                    "adjust": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "board": { "src": "assets/images/theme1/background-board.png", "position": { "x": 346.5, "y": 108 } },
+                "numberBox": {
+                    "backgrounds": [
+                        { "src": "assets/images/theme1/background-number-first.png" },
+                        { "src": "assets/images/theme1/background-number-second.png" },
+                        { "src": "assets/images/theme1/background-number-third.png" },
+                        { "src": "assets/images/theme1/background-number-fourth.png" },
+                        { "src": "assets/images/theme1/background-number-fifth.png" }
+                    ],
+                    "scale": 1,
+                    "adjust": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "nameBackground": {
+                    "playerOnePosition": { "x": 45, "y": 50 },
+                    "playerTwoPosition": { "x": 1615, "y": 50 }
+                },
+                "scoreBackground": {
+                    "playerOnePosition": { "x": 45, "y": 180 },
+                    "playerTwoPosition": { "x": 1615, "y": 180 }
+                },
+                "walkBackground": { "src": "assets/images/theme1/background-walk.png" },
+                "playerOne": {
+
+                    "walk": {
+                        "background": { "x": 40, "y": 290 },
+                        "sprite": {
+                            "src": "assets/images/theme1/player-one-walk.png",
+                            "frame": { "width": 395, "height": 425 },
+                            "position": { "x": -20, "y": 300 }
+                        },
+                        "animation": {
+                            "walk": {
+                                "start": 0,
+                                "end": 0,
+                                "frames": [0, 1, 2, 0]
+                            },
+                            "jump": {
+                                "correct": {
+                                    "start": 3,
+                                    "end": 0,
+                                    "frames": [3, 5, 4, 0]
+                                },
+                                "incorrect": {
+                                    "start": 3,
+                                    "end": 0,
+                                    "frames": [3, 5, 6, 0]
+                                }
+                            }
+                        }
+                    },
+                    "board": {
+                        "sprite": { "src": "assets/images/theme1/player-one.png", "frame": { "width": 327, "height": 315 } },
+                        "animation": {
+                            "walk": {
+                                "start": 1,
+                                "end": 0,
+                                "frames": [1, 0, 1, 2, 0]
+                            },
+                            "jump": {
+                                "correct": {
+                                    "start": 3,
+                                    "end": 1,
+                                    "frames": [3, 4, 5, 1]
+                                },
+                                "incorrect": {
+                                    "start": 3,
+                                    "end": 1,
+                                    "frames": [3, 4, 6, 7, 1]
+                                }
+                            }
+                        }
+                    }
+
+                },
+                "playerTwo": {
+
+                    "walk": {
+                        "background": { "x": 1620, "y": 290 },
+                        "sprite": {
+                            "src": "assets/images/theme1/player-two-walk.png",
+                            "frame": { "width": 395, "height": 425 },
+                            "position": { "x": 1560, "y": 300 }
+                        },
+                        "animation": {
+                            "walk": {
+                                "start": 0,
+                                "end": 0,
+                                "frames": [0, 1, 2, 0]
+                            },
+                            "jump": {
+                                "correct": {
+                                    "start": 3,
+                                    "end": 0,
+                                    "frames": [3, 4, 5, 0]
+                                },
+                                "incorrect": {
+                                    "start": 3,
+                                    "end": 0,
+                                    "frames": [3, 4, 6, 0]
+                                }
+                            }
+                        }
+                    },
+                    "board": {
+                        "sprite": { "src": "assets/images/theme1/player-two.png", "frame": { "width": 327, "height": 315 } },
+                        "animation": {
+                            "walk": {
+                                "start": 1,
+                                "end": 0,
+                                "frames": [1, 0, 1, 2, 0]
+                            },
+                            "jump": {
+                                "correct": {
+                                    "start": 3,
+                                    "end": 1,
+                                    "frames": [3, 4, 5, 1]
+                                },
+                                "incorrect": {
+                                    "start": 3,
+                                    "end": 1,
+                                    "frames": [3, 4, 6, 7, 1]
+                                }
+                            }
+                        }
+                    }
+
+                },
+
+                "controller": {
+
+                    "up": { "src": "assets/images/theme1/joysticks/btn-arrow-up.png" },
+                    "down": { "src": "assets/images/theme1/joysticks/btn-arrow-down.png" },
+                    "left": { "src": "assets/images/theme1/joysticks/btn-arrow-left.png" },
+                    "right": { "src": "assets/images/theme1/joysticks/btn-arrow-right.png" },
+                    "jumpPlayerOne": { "src": "assets/images/theme1/joysticks/btn-jump-player-one.png" },
+                    "jumpPlayerTwo": { "src": "assets/images/theme1/joysticks/btn-jump-player-two.png" }
+
+                }
+
+            },
+            "infoPage": {
+                "background": { "src": "assets/images/theme1/background-info-page.png" },
+                "titleText": "Ready to Splash ?",
+                "infoDescription": {
+                    "src": "assets/images/theme1/info-description.png",
+                    "text": "Jump to answer questions to win points and splash your opponent!"
+                },
+                "infoCorrect": {
+                    "src": "assets/images/theme1/info-correct.png",
+                    "text": "Each correct answer gets you 1 point."
+                },
+                "infoInCorrect": {
+                    "src": "assets/images/theme1/info-incorrect.png",
+                    "text": "Incorrect answers cost you 1 point."
+                },
+                "infoController": {
+                    "src": "assets/images/theme1/controller.png",
+                    "text": "Get 10 points to win the game!"
+                },
+                "closeButton": { "src": "assets/images/shared-images/btn-close.png" }
+            }
+        },
+        "titles": {
+            "loadingPageTitle": "Loading Game",
+            "landingPageTitle": "Landing Page",
+            "mainPageTitle": "Game Screen",
+            "winPageTitle": "Win Screen",
+            "lostPageTitle": "Lost Screen",
+            "settingPageTitle": "Setting Screen",
+            "infoPageTitle": "Information Screen",
+            "saveScorePageTitle": "Save score screen"
+        }
+
+    },
+    "theme2": {
+        "name": "theme2",
+        "title": "Astro Runner",
+        "numberOfRows": 10,
+        "numberOfColumns": 10,
+        "gridStartPosition": {
+            "x": 400,
+            "y": 160
+        },
+        "block": {
+            "width": 115,
+            "height": 80,
+            "adjust": {
+                "width": 5,
+                "height": 1
+            }
+        },
+        "movement": {
+            "up": {
+                "angle": 180,
+                "origin": {
+                    "x": 0.78,
+                    "y": 0.75
+                }
+            },
+            "down": {
+                "angle": 0,
+                "origin": {
+                    "x": 0.17,
+                    "y": 0.21
+                }
+            },
+            "left": {
+                "angle": 90,
+                "origin": {
+                    "x": 0.25,
+                    "y": 0.85
+                }
+            },
+            "right": {
+                "angle": -90,
+                "origin": {
+                    "x": 0.7,
+                    "y": 0.1
+                }
+            }
+        },
+        "assets": {
+            "landingPage": {
+                "background": { "src": "assets/images/theme2/background-landing-page.png" },
+                "titleText": "Ready to Launch ?",
+                "descriptionText": "Jump to answer questions to win points and shock your opponent! \n Each correct answer gets you 1 point. \nIncorrect answers cost you 1 point. Get 10 points to win the game!",
+                "controller": { "src": "assets/images/theme2/controller.png" }
+            },
+            "mainPage": {
+                "background": { "src": "assets/images/theme2/background-main-page.png" },
+                "questionBackground": { "position": { "x": 648, "y": 20 } },
+                "obstacle": {
+                    "src": "assets/images/theme2/obstacle.png",
+                    "scale": 0.9,
+                    "adjust": {
+                        "x": -20,
+                        "y": -40
+                    }
+                },
+                "board": { "src": "assets/images/theme2/background-board.png", "position": { "x": 346.5, "y": 108 } },
+                "numberBox": {
+                    "backgrounds": [
+                        { "src": "assets/images/theme2/background-number-first.png" }
+                    ],
+                    "scale": 1,
+                    "adjust": {
+                        "x": -22,
+                        "y": -40
+                    }
+                },
+                "nameBackground": {
+                    "playerOnePosition": { "x": 50, "y": 30 },
+                    "playerTwoPosition": { "x": 1615, "y": 30 }
+                },
+                "scoreBackground": {
+                    "playerOnePosition": { "x": 55, "y": 130 },
+                    "playerTwoPosition": { "x": 1620, "y": 130 }
+                },
+                "playerOne": {
+
+                    "walk": {
+                        "sprite": {
+                            "src": "assets/images/theme2/player-one-walk.png",
+                            "frame": { "width": 425, "height": 450 },
+                            "position": { "x": -25, "y": 270 }
+                        },
+                        "animation": {
+                            "walk": {
+                                "start": 0,
+                                "end": 0,
+                                "frames": [0, 1, 2, 0]
+                            },
+                            "jump": {
+                                "correct": {
+                                    "start": 3,
+                                    "end": 0,
+                                    "frames": [3, 4, 0]
+                                },
+                                "incorrect": {
+                                    "start": 3,
+                                    "end": 0,
+                                    "frames": [3, 5, 0]
+                                }
+                            }
+                        }
+
+                    },
+                    "board": {
+                        "sprite": { "src": "assets/images/theme2/player-one.png", "frame": { "width": 255, "height": 210 } },
+                        "animation": {
+                            "walk": {
+                                "start": 1,
+                                "end": 0,
+                                "frames": [1, 0, 1, 2, 0]
+                            },
+                            "jump": {
+                                "correct": {
+                                    "start": 3,
+                                    "end": 1,
+                                    "frames": [3, 4, 0]
+                                },
+                                "incorrect": {
+                                    "start": 3,
+                                    "end": 1,
+                                    "frames": [3, 5, 6, 0]
+                                }
+                            }
+                        }
+                    }
+
+                },
+                "playerTwo": {
+
+                    "walk": {
+                        "sprite": {
+                            "src": "assets/images/theme2/player-two-walk.png",
+                            "frame": { "width": 425, "height": 450 },
+                            "position": { "x": 1515, "y": 270 }
+                        },
+                        "animation": {
+                            "walk": {
+                                "start": 0,
+                                "end": 0,
+                                "frames": [0, 1, 2, 0]
+                            },
+                            "jump": {
+                                "correct": {
+                                    "start": 3,
+                                    "end": 0,
+                                    "frames": [3, 4, 0]
+                                },
+                                "incorrect": {
+                                    "start": 3,
+                                    "end": 0,
+                                    "frames": [3, 5, 0]
+                                }
+                            }
+                        }
+                    },
+                    "board": {
+                        "sprite": { "src": "assets/images/theme2/player-two.png", "frame": { "width": 255, "height": 210 } },
+                        "animation": {
+                            "walk": {
+                                "start": 1,
+                                "end": 0,
+                                "frames": [1, 0, 1, 2, 0]
+                            },
+                            "jump": {
+                                "correct": {
+                                    "start": 3,
+                                    "end": 1,
+                                    "frames": [3, 4, 0]
+                                },
+                                "incorrect": {
+                                    "start": 3,
+                                    "end": 1,
+                                    "frames": [3, 5, 6, 0]
+                                }
+                            }
+                        }
+                    }
+
+                },
+                "controller": {
+
+                    "up": { "src": "assets/images/theme2/joysticks/btn-arrow-up.png" },
+                    "down": { "src": "assets/images/theme2/joysticks/btn-arrow-down.png" },
+                    "left": { "src": "assets/images/theme2/joysticks/btn-arrow-left.png" },
+                    "right": { "src": "assets/images/theme2/joysticks/btn-arrow-right.png" },
+                    "jumpPlayerOne": { "src": "assets/images/theme2/joysticks/btn-jump-player-one.png" },
+                    "jumpPlayerTwo": { "src": "assets/images/theme2/joysticks/btn-jump-player-two.png" }
+
+                }
+
+            },
+            "infoPage": {
+                "background": { "src": "assets/images/theme2/background-info-page.png" },
+                "titleText": "Ready to Launch ?",
+                "infoDescription": {
+                    "src": "assets/images/theme2/info-description.png",
+                    "text": "Jump to answer questions to win points and shock your opponent!"
+                },
+                "infoCorrect": {
+                    "src": "assets/images/theme2/info-correct.png",
+                    "text": "Each correct answer gets you 1 point."
+                },
+                "infoInCorrect": {
+                    "src": "assets/images/theme2/info-incorrect.png",
+                    "text": "Incorrect answers cost you 1 point."
+                },
+                "infoController": {
+                    "src": "assets/images/theme2/controller.png",
+                    "text": "Get 10 points to win the game!"
+                },
+                "closeButton": {
+                    "src": "assets/images/shared-images/btn-close.png"
+                }
+            }
+        },
+        "titles": {
+            "loadingPageTitle": "Loading Game",
+            "landingPageTitle": "Landing Page",
+            "mainPageTitle": "Game Screen",
+            "winPageTitle": "Win Screen",
+            "lostPageTitle": "Lost Screen",
+            "settingPageTitle": "Setting Screen",
+            "infoPageTitle": "Information Screen",
+            "saveScorePageTitle": "Save score screen"
+        }
+    }
+}
