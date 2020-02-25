@@ -506,16 +506,9 @@ small {
 }
 
 .c-site-title .c-site-title__images {
-  width: 270px;
-  /* background-image: url("../images/escape_title.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: 100%; */
-  display: block;
-  margin: 0 auto;
   line-height: 60px;
   font-family: 'Bowlby One SC', cursive;
-  font-size: 25px;
+  font-size: 32px;
   color: #ED1C24;
 }
 
@@ -756,18 +749,23 @@ font-size: 40px;
 
 .c-sequence-screen{ 
   height: 60px;
-  background-color: rgba(255, 255, 255, 0.75);
-  width: 600px;
-  border: 3px solid #fff;
+  width: 800px;
   position: absolute;
+  margin-left: -400px;
+  left: 50%;
+  top: 70px;
+  text-align: center;
+}
+.c-sequence-screen span{ 
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 3px solid #fff;
   border-radius: 30px;
   text-align: center;
   font-weight: 600;
   font-size: 24px;
   line-height: 55px;
-  margin-left: -300px;
-  left: 50%;
-  top: 70px;
+  display: inline-block;
+  padding: 0 15px;
 }
 
 .c-sequence-point{
