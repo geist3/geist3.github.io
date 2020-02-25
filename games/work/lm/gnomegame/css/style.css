@@ -574,7 +574,7 @@ a .icon:visited:hover {
 .c-site-title .c-site-title__images {
     width: 350px;
     display: block;
-    margin: 0 auto;    
+    margin: 0 auto;
     font-size: 48px;
     line-height: 48px;
 }
@@ -662,6 +662,7 @@ canvas {
     display: block;
 }
 
+
 /*==============Class Page CSS Start Here =======================*/
 
 
@@ -687,14 +688,14 @@ canvas {
 }
 
 .landing-page .description {
-    font-size: 34px;
+    font-size: 30px;
     color: #fff;
     padding-top: 30px;
-    font-family: 'museo_sans_rounded300';
+    font-family: 'museo_sans_rounded500';
 }
 
 .landing-page .ready-to {
-    font-size: 62px;
+    font-size: 50px;
     margin-bottom: 15px;
     color: #fff;
     font-family: 'museo_sans_rounded700';
@@ -769,6 +770,7 @@ canvas {
     background: url('../assets/images/theme1/background-question.png') no-repeat;
     background-size: contain;
     padding: 14px 0px;
+    font-weight: bold;
 }
 
 .theme1 .lbl-player-name {
@@ -779,6 +781,8 @@ canvas {
     background-size: contain;
     padding: 12px 0px;
     font-size: 45px;
+    font-family: 'museo_sans_rounded700';
+    font-weight: bold;
 }
 
 .theme1 .lbl-player-score {
@@ -789,6 +793,8 @@ canvas {
     background-size: contain;
     padding: 12px 0px;
     font-size: 45px;
+    font-family: 'museo_sans_rounded700';
+    font-weight: bold;
 }
 
 
@@ -810,6 +816,7 @@ canvas {
     background: url('../assets/images/theme1/background-question.png') no-repeat;
     background-size: contain;
     padding: 14px 0px;
+    font-weight: bold;
 }
 
 .theme2 .lbl-player-name {
@@ -820,6 +827,8 @@ canvas {
     background-size: contain;
     padding: 12px 0px;
     font-size: 45px;
+    font-family: 'museo_sans_rounded700';
+    font-weight: bold;
 }
 
 .theme2 .lbl-player-score {
@@ -830,14 +839,16 @@ canvas {
     background-size: contain;
     padding: 12px 0px;
     font-size: 45px;
+    font-family: 'museo_sans_rounded700';
+    font-weight: bold;
 }
 
 
 /* Common */
 
-#lblPlayerOneName {}
-
-#lblPlayerTwoName {}
+.lbl-option {
+    opacity: 0 !important;
+}
 
 .input-container {
     width: 630px;
@@ -864,14 +875,23 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
     height: 100%;
     padding: 74px;
     z-index: 999;
+    display: none;
+    margin-top: -70px;
+    transition: margin-top .3s ease-out, opacity .5s ease-in-out;
+    opacity: 0 !important;
+}
+
+#informationHtml.animate {
+    margin-top: 0px;
+    opacity: 1 !important;
 }
 
 .theme1 #informationHtml {
-    background: url('../assets/images/theme1/background-info-page.png');
+    background: url('../assets/images/theme1/background-info-page.png') no-repeat;
 }
 
 .theme2 #informationHtml {
-    background: url('../assets/images/theme2/background-info-page.png');
+    background: url('../assets/images/theme2/background-info-page.png') no-repeat;
 }
 
 #informationHtml #lblReadyToPlay {
@@ -912,81 +932,6 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
 #informationHtml #btnInfoClose {
     float: right;
     margin: 14px 128px 0px 0px;
-    cursor: pointer;
-}
-
-
-/**** Save Score Page ****/
-
-#saveScoreHtml {
-    padding-left: 72px;
-    width: 100%;
-    margin-top: 218px;
-}
-
-#saveScoreHtml #lblWellDone {
-    color: #fff;
-    font-size: 50px;
-    font-family: 'museo_sans_rounded700';
-}
-
-#saveScoreHtml #lblAddScore {
-    color: #fff;
-    font-size: 30px;
-    font-family: 'museo_sans_rounded500';
-    margin-top: 28px;
-    margin-bottom: 78px;
-}
-
-#saveScoreContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#saveScoreContainer input,
-label {
-    display: block;
-    font-size: 30px;
-    font-family: 'museo_sans_rounded500';
-    margin-bottom: 24px;
-}
-
-#saveScoreContainer label {
-    color: #fff;
-}
-
-#saveScoreContainer input {
-    width: 10em;
-    height: 78px;
-    border: none;
-    border-radius: 7px;
-    padding: 0 16px;
-}
-
-#saveScoreContainer #btnGo {
-    width: 4em;
-    height: 78px;
-    font-size: 40px;
-    font-family: 'museo_sans_rounded700';
-    margin-top: 34px;
-    margin-left: 32px;
-    cursor: pointer;
-}
-
-#saveScoreHtml #lblNoThanks {
-    color: #fff;
-    font-size: 30px;
-    font-family: 'museo_sans_rounded500';
-    text-decoration: underline;
-    margin-top: 2.7em;
-    cursor: pointer;
-}
-
-#saveScoreHtml #btnClose {
-    position: absolute;
-    bottom: -216px;
-    right: 128px;
     cursor: pointer;
 }
 
