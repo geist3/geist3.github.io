@@ -1067,7 +1067,7 @@ font-family: 'museo_sans_rounded700';
 .c-modal-main .modal-content{height: 100%; background-color: rgba(0, 0, 0, 0.5);}
 .c-modal-main .container{ position: relative;}
 .c-modal--guide{height: 100%; padding-top: 80px; box-sizing: border-box;}
-.c-modal--guide__head{font-weight: 500;}
+.c-modal--guide__head{font-family: 'museo_sans_rounded700'; font-size: 30px;}
 .c-modal--guide h3, .c-modal--guide p{color: #fff; font-family: 'museo_sans_rounded300';}
 .c-jellycont{ padding: 0; margin-bottom: 15px;}
 .c-jellycont .block{max-width: 130px; list-style: none; font-family: 'museo_sans_rounded300';}
@@ -1106,15 +1106,15 @@ body.modal-open  .c-content-instruction{ display: none;}
   left: 0;
   top: 0;
 }
-.c-progress-col{width: 650px; position: relative;}
-.c-progress-col p{color: #fff; font-size: 21px; font-family: 'museo_sans_rounded500'; }
+.c-progress-col{width: 740px; position: relative;}
+.c-progress-col p{color: #fff; font-size: 25px; font-family: 'museo_sans_rounded500'; }
 .c-progress-col .c-progress-col__title{
   position: absolute; 
   width: 100%; 
   text-align: center;
-  font-family: 'museo_sans_rounded900';  
+  font-family: 'museo_sans_rounded700';  
   text-shadow: 1px 1px #000; 
-  font-size: 35px;
+  font-size: 50px;
   top: -150px;
   color: #fff;
   margin: 0;
@@ -1170,14 +1170,15 @@ cursor: pointer;
 }
 .c-progress-col__text{
   color: #fff;
-  font-family: 'museo_sans_rounded900';
+  font-family: 'museo_sans_rounded700';
   text-shadow: 2px 2px #000;
-  font-size: 28px;
+  font-size: 50px;
   padding-left: 25px;
 }
 .c-progress--text{
   text-align: center;
   padding-left: 0px;
+  margin-top: 3rem !important;
 }
 
 .c-escapesettingsplay--btn#play_btn {
@@ -1212,15 +1213,21 @@ cursor: pointer;
   padding-left: 50px !important;
   padding-right: 50px !important;
 }
+.c-form--status .form-row{
+  margin-bottom: 3rem;
+}
 .c-form--status h2{
-  font-size: 42px;
+  font-size: 50px;
+  font-family: 'museo_sans_rounded700';  
+
 }
 .c-form--status p{
   font-size: 30px;
   font-family: 'museo_sans_rounded500';  
+  margin-bottom: 4rem;
 }
 .c-form--status .form-group label{
-  font-size: 26px;
+  font-size: 30px;
 }
 .c-form--status .form-group .form-control {
   height: auto;
