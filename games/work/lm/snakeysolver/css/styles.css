@@ -1181,6 +1181,7 @@ body.modal-open  .c-content-instruction{ display: none;}
 .modal-open #game .settings-container{display: none !important;}
 .modal-open #game .playGame{display: none !important;}
 .modal-open #game .leaderboard-container{display: none !important;}
+.modal-open #game .leaderboard-screen-page.btn-close{display: none !important;}
 .c-introcontrol figure{max-width: 350px; margin: 0 auto;}
 
 .c-progress-col{width: 550px; position: relative;}
@@ -1191,7 +1192,7 @@ body.modal-open  .c-content-instruction{ display: none;}
   text-align: center;
   font-family: 'museo_sans_rounded700';  
   text-shadow: 1px 1px #000; 
-  font-size: 25px;
+  font-size: 30px;
   top: -100px;
   color: #fff;
   margin: 0;
@@ -1233,6 +1234,7 @@ body.modal-open  .c-content-instruction{ display: none;}
   float: left;
 }
 .progress-bar{
+outline: none;
 position: relative;
 border: 1px solid #000;
 border-radius:20px;
@@ -1253,22 +1255,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f3851', end
   background-size: contain;
   cursor: pointer;
   background-repeat: no-repeat;
+  outline: none;
 }
 .c-progress-col__text{
   color: #fff;
   font-family: 'museo_sans_rounded700';
   text-shadow: 1px 1px #000;
-  font-size: 25px;
+  font-size: 30px;
   float: left;
   width: 90px;
   padding-top: 33px;
   padding-left: 15px;
 }
 .c-settingcontent-details{ 
-  font-size: 18px;
+  font-size: 20px;
   clear: both;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 3rem;
+  
 }
 
 
@@ -1348,16 +1352,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f3851', end
   height: 100%;
 }
 .c-form--status h2{
-  font-size: 30px;
+  font-size: 34px;
   font-family: 'museo_sans_rounded700';
 }
 .c-form--status p{ 
-  font-size: 18px;
+  font-size: 20px;
 
 }
+.c-form--status .form-row{margin-bottom: 2rem;}
 .c-form--status form{ padding-top: 30px;} 
 .c-form--status form .form-group{
-  font-size: 16px;
+  font-size: 20px;
 }
 .c-form--status form .form-control {
   padding: 0.5rem .75rem;
@@ -1420,6 +1425,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f3851', end
   width: 100%;
 }
 
+.leaderboard-screen-page.btn-close{
+  left: -45px;
+  top: -25px;
+  cursor: pointer;
+}
+
 p.setting_page_title.c-progress-col__title:focus {
   outline: none;
+}
+
+button.info-close-btn > img {
+  width: 38px;
+  height: 38px;
 }
