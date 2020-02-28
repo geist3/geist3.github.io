@@ -1104,6 +1104,12 @@ font-family: 'museo_sans_rounded700';
   font-size : 30px;
   font-family : 'museo_sans_rounded500';
 }
+.landing-page.description {
+  font-size: 30px;
+  color: #fff;
+  padding-top: 30px;
+  font-family: 'museo_sans_rounded500';
+}
 
 .landing-page.controllerImage {
   height: auto;
@@ -1123,6 +1129,7 @@ font-family: 'museo_sans_rounded700';
 .main-page.question-container{
   top: 132px;
   left: 870px;
+  outline: none;
 }
 
 .main-page.question-container.three-digit{
@@ -1134,6 +1141,7 @@ font-family: 'museo_sans_rounded700';
 .main-page.score-container{
   top: 132px;
   right: 234px;
+  outline: none;
 }
 
 .main-page.question-container > .lbl-question, 
@@ -1156,6 +1164,10 @@ font-family: 'museo_sans_rounded700';
 
 .main-page.answer-ball-container.one-digit{
   left: 15px;
+}
+
+.main-page.answer-ball-container{
+  outline: none;
 }
 
 
