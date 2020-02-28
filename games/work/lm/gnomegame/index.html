@@ -8,7 +8,8 @@
     <script src="pollyfills/promise.js"></script>
     <script src="js/main.js"></script>
     <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Changa+One:400,400i&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Changa+One:400,400i&display=swap&subset=latin-ext"
+        rel="stylesheet">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
     <title>GNOME Game</title>
@@ -16,23 +17,24 @@
 
 <body class="c-screen">
     <div id="c-page">
-        <a id="c-skip-header" role="navigation" aria-label="Skip Header Content" href="" tabindex="-1">Skip</a>
         <!-- Header Start Here -->
         <header id="header" class="c-header__standard" role="banner">
             <div class="container c-common-relative">
                 <div class="c-site-branding float-left">
-                    <a href="#gnome" class="c-logo" rel="home">
-                        <img src="assets/images/burger_menu.svg" alt="MyMaths Logo" /></a>
+
+                    <img class="c-logo" src="assets/images/burger_menu.svg" alt="MyMaths Logo" tabindex="0" />
                 </div>
 
                 <div class="c-site-title  text-center">
-                    <h1 id="gameTitle" class="c-site-title__images" title="Gnome Game" tabindex="0">Gnome Game</h1>
+                    <h1 id="gameTitle" class="c-site-title__images" title="Gnome Game">Gnome Game</h1>
                 </div>
 
                 <div class="c-site-info">
-                    <a href="javascript:void(0);" title="Info Button" id="btnInfo">
-                        <img class="" src="assets/images/info.svg" alt="Info Button" />
-                    </a>
+
+                    <button id="btnInfo" tabindex="0" class="btn-transparent">
+                        <img class="" src="assets/images/info.svg" alt="Info" style="width: 37px;height: 37px;" />
+                    </button>
+
                 </div>
 
             </div>

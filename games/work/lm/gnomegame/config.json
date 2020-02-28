@@ -239,11 +239,7 @@
             "loadingPageTitle": "Loading Game",
             "landingPageTitle": "Landing Page",
             "mainPageTitle": "Game Screen",
-            "winPageTitle": "Win Screen",
-            "lostPageTitle": "Lost Screen",
-            "settingPageTitle": "Setting Screen",
-            "infoPageTitle": "Information Screen",
-            "saveScorePageTitle": "Save score screen"
+            "infoPageTitle": "Information Screen"
         }
 
     },
@@ -476,11 +472,7 @@
             "loadingPageTitle": "Loading Game",
             "landingPageTitle": "Landing Page",
             "mainPageTitle": "Game Screen",
-            "winPageTitle": "Win Screen",
-            "lostPageTitle": "Lost Screen",
-            "settingPageTitle": "Setting Screen",
-            "infoPageTitle": "Information Screen",
-            "saveScorePageTitle": "Save score screen"
+            "infoPageTitle": "Information Screen"
         }
     }
 }

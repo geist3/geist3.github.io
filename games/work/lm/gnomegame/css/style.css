@@ -9,8 +9,7 @@
 .btn-default {
     background: #fff;
     color: #000;
-    border-color: #fff;
-    border-width: 3px;
+    border: 3px solid #fff;
     border-radius: 50px;
     font-size: 24px;
     text-transform: uppercase;
@@ -613,6 +612,14 @@ a .icon:visited:hover {
     background: none;
     border: none;
     display: block;
+    cursor: pointer;
+}
+
+
+.btn-transparent {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 html {
@@ -933,6 +940,8 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
     float: right;
     margin: 14px 128px 0px 0px;
     cursor: pointer;
+    background: none;
+    border: none;
 }
 
 
