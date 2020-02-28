@@ -8,9 +8,8 @@
 
 .btn-default {
     background: #fff;
-    color: #000;
-    border-color: #fff;
-    border-width: 3px;
+    color: #000;    
+    border: 3px solid #fff;
     border-radius: 50px;
     font-size: 24px;
     text-transform: uppercase;
@@ -18,6 +17,7 @@
     padding: .575rem 1.5rem .4rem;
     font-family: 'museo_sans_rounded900';
     cursor: pointer;
+
 }
 
 .btn-default:hover {
@@ -563,10 +563,12 @@ a .icon:visited:hover {
     width: 37px;
     height: 37px;
     display: block;
+    pointer-events: none;
+    cursor: default;
 }
 
 .c-site-title {
-    margin: 0 260px;
+    margin: 0 272px;
     overflow: hidden;
     padding: 6px 0;
 }
@@ -614,6 +616,13 @@ a .icon:visited:hover {
     background: none;
     border: none;
     display: block;
+    cursor: pointer;
+}
+
+.btn-transparent {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 html {
@@ -671,8 +680,9 @@ canvas {
     top: 20px;
     right: 65px;
     color: #fff;
-    font-family: 'museo_sans_rounded700';
+    font-family: 'museo_sans_rounded500';
     line-height: 31px;
+    font-size: 18px;
 }
 
 .c-high-score label {
@@ -685,6 +695,7 @@ canvas {
     text-align: center;
     color: #000000;
     font-family: 'museo_sans_rounded700';
+    font-size: 18px;
 }
 
 
@@ -728,9 +739,9 @@ canvas {
 
 .landing-page .btn-play {
     position: absolute;
-    bottom: 56px;
+    bottom: 50px;
     right: 24px;
-    font-size: 45px;
+    font-size: 42px;
     font-family: 'museo_sans_rounded900';
 }
 
@@ -815,13 +826,18 @@ canvas {
     padding: 0 12px 0 12px;
     color: #000000;
     outline: none;
-   
 }
 
 .theme1 .btn-go {
     float: right;
+    margin-left: -35px;
     margin-right: 70px;
     margin-top: 13px;
+    height: 60px;
+    width: 125px;
+}
+
+.img-btn-go {
     height: 60px;
     width: 125px;
 }
@@ -866,11 +882,11 @@ canvas {
     padding: 0 12px 0 12px;
     color: #000000;
     outline: none;
-
 }
 
 .theme2 .btn-go {
     float: right;
+    margin-left: -35px;
     margin-right: 70px;
     margin-top: 13px;
     height: 60px;
@@ -1072,6 +1088,8 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
     float: right;
     margin: 14px 128px 0px 0px;
     cursor: pointer;
+    background: none;
+    border: none;
 }
 
 
@@ -1140,6 +1158,7 @@ label {
     text-decoration: underline;
     margin-top: 2.7em;
     cursor: pointer;
+    width: fit-content;
 }
 
 #saveScoreHtml #btnSaveScoreClose {
