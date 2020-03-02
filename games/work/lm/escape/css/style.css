@@ -1089,6 +1089,16 @@ font-family: 'museo_sans_rounded700';
   padding: 0;
   margin: 0;
   bottom: 0px;}
+
+  #showScore {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    right: 151px;
+    padding: 0;
+    margin: 0;
+    bottom: 55px;
+  }
 body.modal-open .c-header__standard{z-index: 10000;}
 body.modal-open  .c-content-instruction{ display: none;}
 .c-form--status {color: #fff; }

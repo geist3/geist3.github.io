@@ -103,7 +103,7 @@
             },
             {
                 "startPointX": 1106,
-                "startPointY": 835,
+                "startPointY": 834,
                 "repeat": 7,
                 "ladders": [],
                 "ladderName": "ladder",
@@ -913,9 +913,14 @@
                 "height": 150               
             },
             {
-                "positionX": 847,
-                "positionY": 618,
-                "height": 520               
+                "positionX": 842,
+                "positionY": 604,
+                "height": 550               
+            },
+            {
+                "positionX": 1095,
+                "positionY": 597,
+                "height": 520              
             },
             {
                 "positionX": 1105,
@@ -1202,7 +1207,7 @@
             {
                 "positionX": 595,
                 "positionY": 507,
-                "height": 300               
+                "height": 310               
             },
             {
                 "positionX": 985,
@@ -1817,22 +1822,28 @@
                 "height": 610               
             },
             {
-                "positionX": 415,
+                "positionX": 420,
                 "positionY": 517,
                 "height": 610               
+            },
+            {
+                "positionX": 540,
+                "positionY": 687,
+                "height": 630               
             },
             {
                 "positionX": 552,
                 "positionY": 687,
                 "height": 630               
             },
+            
             {
-                "positionX": 545,
+                "positionX": 1305,
                 "positionY": 687,
                 "height": 630               
             },
             {
-                "positionX": 1305,
+                "positionX": 1315,
                 "positionY": 687,
                 "height": 630               
             },
@@ -1882,10 +1893,10 @@
             {
                 "startPointX": 20,
                 "startPointY": 1000,
-                "repeat": 56,
+                "repeat": 55,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 35
+                "platformWidth": 34.8
             },
             {
                 "startPointX": 545,
@@ -2219,103 +2230,103 @@
         "platformsObject": [
             {
                 "startPointX": 20,
-                "startPointY": 1000,
+                "startPointY": 1030,
                 "repeat": 56,
                 "platforms": [],
                 "platformName": "platform",
                 "platformWidth": 35
             },
             {
-                "startPointX": 526,
-                "startPointY": 827,
-                "repeat": 24,
+                "startPointX": 492,
+                "startPointY": 844,
+                "repeat": 26,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 34
+                "platformWidth": 33.9
             },
             {
-                "startPointX": 1500,
-                "startPointY": 892,
+                "startPointX": 1538,
+                "startPointY": 916,
                 "repeat": 7,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 34.3
+                "platformWidth": 36.5
             },
             {
-                "startPointX": 815,
-                "startPointY": 687,
+                "startPointX": 808,
+                "startPointY": 697,
                 "repeat": 4,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 34.3
+                "platformWidth": 36
             },
             {
-                "startPointX": 1065,
-                "startPointY": 687,
+                "startPointX": 1070,
+                "startPointY": 697,
                 "repeat": 4,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 34.3
+                "platformWidth": 36
             },
             {
-                "startPointX": 745,
-                "startPointY": 490,
+                "startPointX": 730,
+                "startPointY": 488,
                 "repeat": 16,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 34.3
+                "platformWidth": 36.7
             },
             {
-                "startPointX": 210,
-                "startPointY": 345,
+                "startPointX": 160,
+                "startPointY": 332,
                 "repeat": 9,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 34.3
+                "platformWidth": 36.5
             },
             {
-                "startPointX": 680,
-                "startPointY": 310,
-                "repeat": 24,
+                "startPointX": 658,
+                "startPointY": 295,
+                "repeat": 25,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 34.3
+                "platformWidth": 35.3
             },
             {
-                "startPointX": 1742,
-                "startPointY": 370,
+                "startPointX": 1795,
+                "startPointY": 360,
                 "repeat": 4,
                 "platforms": [],
                 "platformName": "platform",
-                "platformWidth": 33
+                "platformWidth": 34.5
             }
         ],
         "ladderObject": [
             {
-                "startPointX": 462,
-                "startPointY": 347,
-                "repeat": 25,
+                "startPointX": 425,
+                "startPointY": 335,
+                "repeat": 26,
                 "ladders": [],
                 "ladderName": "ladder",
-                "ladderHeight": 26.1,
+                "ladderHeight": 26.7,
                 "ladderWidth": 30
             },
             {
-                "startPointX": 1228,
-                "startPointY": 493,
+                "startPointX": 1243,
+                "startPointY": 491,
                 "repeat": 13,
                 "ladders": [],
                 "ladderName": "ladder",
-                "ladderHeight": 25.5,
+                "ladderHeight": 27.1,
                 "ladderWidth": 30
             },
             {
-                "startPointX": 1383,
-                "startPointY": 313,
-                "repeat": 27,
+                "startPointX": 1410,
+                "startPointY": 298,
+                "repeat": 29,
                 "ladders": [],
                 "ladderName": "ladder",
-                "ladderHeight": 25.3,
+                "ladderHeight": 25.2,
                 "ladderWidth": 30
             }
             
@@ -2323,11 +2334,11 @@
         "optionPositions": [           
             {
                 "positionX": 310,
-                "positionY": 282
+                "positionY": 266
             },        
             {
                 "positionX": 877,
-                "positionY": 932
+                "positionY": 964
             }, 
             {
                 "positionX": 805,
@@ -2335,123 +2346,132 @@
             },           
             {
                 "positionX": 1070,
-                "positionY": 245
+                "positionY": 230
             },
             {
-                "positionX": 1790,
-                "positionY": 305
+                "positionX": 1845,
+                "positionY": 295
             }         
         ],
         "platformLadderCrossingPositions": [
             {
-                "positionX": 460,
-                "positionY": 997
+                "positionX": 425,
+                "positionY": 1027
             },
             {
-                "positionX": 460,
-                "positionY": 342
+                "positionX": 425,
+                "positionY": 329
             },
             {
-                "positionX": 1228,
-                "positionY": 824
+                "positionX": 1243,
+                "positionY": 841
             },
             {
-                "positionX": 1228,
-                "positionY": 487
+                "positionX": 1243,
+                "positionY": 485
             },
             {
-                "positionX": 1383,
-                "positionY": 997
+                "positionX": 1410,
+                "positionY": 1027
             },
             {
-                "positionX": 1383,
-                "positionY": 307
+                "positionX": 1410,
+                "positionY": 292
             }
             
         ],
         "redBlocks": [
             {
-                "positionX": 200,
+                "positionX": 150,
                 "positionY": 600,
                 "height": 500               
             },
             {
-                "positionX": 405,
-                "positionY": 690,
-                "height": 650               
+                "positionX": 360,
+                "positionY": 670,
+                "height": 670               
             },
-            
             {
-                "positionX": 560,
+                "positionX": 365,
+                "positionY": 670,
+                "height": 670               
+            },       
+            {
+                "positionX": 532,
                 "positionY": 470,
-                "height": 700               
+                "height": 730               
             },
             {
-                "positionX": 670,
+                "positionX": 650,
                 "positionY": 510,
                 "height": 400               
             },
             {
-                "positionX": 805,
+                "positionX": 795,
                 "positionY": 600,
                 "height": 200               
             },
             {
-                "positionX": 1180,
+                "positionX": 1192,
                 "positionY": 600,
                 "height": 200               
             },
             {
-                "positionX": 1285,
+                "positionX": 1295,
                 "positionY": 580,
-                "height": 500               
+                "height": 530               
             },
             {
-                "positionX": 1435,
+                "positionX": 1465,
                 "positionY": 660,
-                "height": 700               
+                "height": 730               
             },
             {
-                "positionX": 1475,
+                "positionX": 1515,
                 "positionY": 660,
-                "height": 700               
+                "height": 730               
             },
             {
-                "positionX": 1583,
+                "positionX": 1623,
                 "positionY": 460,
                 "height": 700               
             },
             {
-                "positionX": 1733,
-                "positionY": 680,
-                "height": 630               
+                "positionX": 1676,
+                "positionY": 460,
+                "height": 700               
+            },
+            {
+                "positionX": 1783,
+                "positionY": 690,
+                "height": 660               
             }
             
         ],
         "floatingPlatform": [
             {
-                "startPointX": 120,
-                "startPointY": 330,
-                "endPointY": 970
+                "startPointX": 87,
+                "startPointY": 320,
+                "endPointY": 1000
             },
             {
-                "startPointX": 615,
-                "startPointY": 280,
-                "endPointY": 795,
-                "catagory": "short"
+                "startPointX": 592,
+                "startPointY": 270,
+                "endPointY": 805,
+                "catagory": "short"               
             },
             {
-                "startPointX": 1530,
+                "startPointX": 1568,
                 "startPointY": 285,
-                "endPointY": 857,
-                "catagory": "short"
+                "endPointY": 880,
+                 "catagory": "short"                       
             },
             {
-                "startPointX": 1680,
+                "startPointX": 1728,
                 "startPointY": 342,
-                "endPointY": 857,
-                "catagory": "short"
-            }          
+                "endPointY": 880,
+                 "catagory": "short"                       
+            }        
             
         ]
     },
