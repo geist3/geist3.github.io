@@ -8,7 +8,7 @@
 
 .btn-default {
     background: #fff;
-    color: #000;    
+    color: #000;
     border: 3px solid #fff;
     border-radius: 50px;
     font-size: 24px;
@@ -17,7 +17,6 @@
     padding: .575rem 1.5rem .4rem;
     font-family: 'museo_sans_rounded900';
     cursor: pointer;
-
 }
 
 .btn-default:hover {
@@ -945,12 +944,12 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
     position: absolute;
     width: 100%;
     text-align: center;
-    font-family: 'museo_sans_rounded900';
+    font-family: 'museo_sans_rounded700';
     text-shadow: 1px 1px #000;
     font-size: 50px;
-    top: -8px;
-    color: #fff;
+    top: -40px;
     margin: 0;
+    margin-left: 165px;
 }
 
 #settingContainer #settingIcon {
@@ -967,7 +966,7 @@ input.txt-input-answer[type=number]::-webkit-outer-spin-button {
 #settingContainer .switch {
     position: relative;
     display: inline-block;
-    width: 280px;
+    width: fit-content;
     height: 125px;
     outline-style: none;
     margin: 0;
@@ -1177,7 +1176,7 @@ label {
     text-align: center;
 }
 
-#leaderBoard #txtTitleTodaysHighscore {
+#leaderBoard #txtTitleTodaysHighScore {
     color: #fff;
     font-size: 40px;
     margin-top: 56px;
@@ -1187,8 +1186,7 @@ label {
 
 #leaderBoard #txtTitleAllTimeHighscore {
     color: #fff;
-    font-size: 40px;
-    margin-top: 416px;
+    font-size: 40px;    
     font-family: 'Helvetica', serif;
     font-weight: bold;
 }
@@ -1198,6 +1196,30 @@ label {
     position: absolute;
     bottom: 20px;
     right: 144px;
+}
+
+.leaderBoardList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    height: 360px;
+}
+
+.leaderBoardList .tblHeading {
+    width: 70%;
+    margin-left: 1%;
+}
+
+.leaderBoardList .tblHeading thead {
+    font-size: 40px;
+    font-family: 'museo_sans_rounded500';
+    font-weight: bold;
+}
+
+.leaderBoardList .tblHeading tbody {
+    font-size: 30px;
+    font-family: 'museo_sans_rounded500';
 }
 
 
