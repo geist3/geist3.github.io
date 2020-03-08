@@ -6,48 +6,68 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Free web based online HTML5 games" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            .filter {
+                display: none;
+            }
+            #games span {
+                width: 200px;
+                height:200px;
+                border: 1px solid black;
+                margin: 5px;
+                display:inline-block;
+            }
+            #games span img {
+                width: 200px;
+                height:200px;
+                display: inline-block;
+            }
+        </style>
     </head>
     <body>
         <div class="container-fluid">
 
             <h1>Free online games - html5</h1>
-            <h2>Filter</h2>
-            <div class="row">
-                <div class="col">Age 4 and below</div>
-                <div class="col">4 - 7</div>
-                <div class="col">8 - 18</div>
-                <div class="col">18+</div>
-                <div class="col">educational</div>
-                <div class="col">maths</div>
-                <div class="col">RPG</div>
-                <div class="col">reading</div>
-                <div class="col">Fashion</div>
-                <div class="col">Platformer</div>
-                <div class="col">Art</div>
-                <div class="col">Pets</div>
-                <div class="col">Cooking</div>
-                <div class="col">Sport</div>
-                <div class="col">shoot</div>
-                <div class="col">hidden-object</div>
-                <div class="col">Physics</div>
-                <div class="col">Puzzle</div>
-                <div class="col">Racing</div>
+            <span class='filter'>
+                <h2>Filter</h2>
+                <div class="row" >
+                    <div class="col">Age 4 and below</div>
+                    <div class="col">4 - 7</div>
+                    <div class="col">8 - 18</div>
+                    <div class="col">18+</div>
+                    <div class="col">educational</div>
+                    <div class="col">maths</div>
+                    <div class="col">RPG</div>
+                    <div class="col">reading</div>
+                    <div class="col">Fashion</div>
+                    <div class="col">Platformer</div>
+                    <div class="col">Art</div>
+                    <div class="col">Pets</div>
+                    <div class="col">Cooking</div>
+                    <div class="col">Sport</div>
+                    <div class="col">shoot</div>
+                    <div class="col">hidden-object</div>
+                    <div class="col">Physics</div>
+                    <div class="col">Puzzle</div>
+                    <div class="col">Racing</div>
+                </div>
+            </span>
+            <div id='games'>
+                <h2>Games</h2>
+                <span><a href="games/phaser3/tower/index.html" title='tower'><img src='./assets/images/tower.png' alt='Tower' /></a></span>
+                <span><a href="games/gamemaker/baloon1/index.html" title='balllon pop'><img src='./assets/images/balloon1.png' alt='Balloon1' /></a></span>
+                <span><a href="games/gamemaker/uniballoon/index.html" title='Unicorn balloon pop'><img src='./assets/images/uniballoonpop.png' alt='Unicorn Balloon Pop' /></a></span>
+                <span><a href="games/gamemaker/platform1/index.html" title='Platformer1'><img src='./assets/images/platformer1.png' alt='Platformer1' /></a></span>
+                <span><a href="games/gamemaker/treeSlime/index.html" title='Tree slime'><img src='./assets/images/treeslime.png' alt='Tree Slime' /></a></span>
+                <span><a href="games/gamemaker/shoot/index.html" title='Shoot Ghost 1'><img src='./assets/images/shootghost1.png' alt='Shoot Ghost 1' /></a></span>
+                <span><a href="games/gamemaker/ski/index.html" title="ski"><img src='./assets/images/ski.png' alt='Ski' /></a></span>
+                <span><a href="games/unity/ufo2d/index.html" title="ufo"><img src='./assets/images/ufo.png' alt='ufo' /></a></span>
+                <span><a href="games/rpgmaker/work/workrpg2/www/index.html" title="work rpg"><img src='./assets/images/workrpg.png' alt='Work RPG' /></a></span>
+                <span><a href="games/pixijs/sc2/index.html" title='Starcraft 2 trainer'><img src='./assets/images/starcraft2trainer.png' alt='Starcraft2 trainer' /></a></span>
+                <span><a href="games/gamemaker/defend/index.html" title='Defend 1'><img src='./assets/images/defend1.png' alt='Defend 1' /></a></span>
+                <span><a href="games/gamemaker/shoot/index.html" title='Shoot Ghost 2'><img src='./assets/images/ghostshoot2.png' alt='Ghost Shoot 2' /></a></span>
+                <span><a href="games/gamemaker/clearingspace/index.html" title='Clearing space'><img src='./assets/images/clearingspace.png' alt='Clearing space' /></a></span>
             </div>
-            <h2>Games</h2>
-            <span><a href="games/phaser3/tower/index.html">Tower Builder</a></span>
-            <span><a href="games/phaser3/tower/index.html">Tower Builder 2</a></span>
-            <span><a href="games/gamemaker/baloon1/index.html">Cursor Balloon pop</a></span>
-            <span><a href="games/gamemaker/uniballoon/index.html">Unicorn balloon pop</a></span>
-            <span><a href="games/gamemaker/platform1/index.html">Platformer</a></span>
-            <span><a href="games/gamemaker/treeSlime/index.html">TreeSlime</a></span>
-            <span><a href="games/gamemaker/shoot/index.html">Alient Shoot</a></span>
-            <span><a href="games/gamemaker/ski/index.html">Ski</a></span>
-            <span><a href="games/unity/ufo2d/index.html">UFO2d</a></span>
-            <span><a href="games/rpgmaker/work/workrpg2/www/index.html">RPG1</a></span>
-            <span><a href="games/pixijs/sc2/index.html">SC2 trainer</a></span>
-            <span><a href="games/gamemaker/defend/index.html">Defend</a></span>
-            <span><a href="games/gamemaker/shoot/index.html">Shoot</a></span>
-            <span><a href="games/gamemaker/clearingspace/index.html">Clearing space</a></span>
         </div>
 
         <!-- Bootstrap -->
