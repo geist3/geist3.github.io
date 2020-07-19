@@ -5,7 +5,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Free web based online HTML5 games" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <style>
             .filter {
                 display: none;
@@ -22,12 +26,50 @@
                 height:200px;
                 display: inline-block;
             }
+            #logo {
+                width: 100px;
+                height:50px;
+            }
+            .navbar-brand {
+                padding:0px;
+            }
         </style>
     </head>
     <body>
-        <div class="container-fluid">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="/"><img id="logo" alt="Geist Games Logo" title="Geist Games Logo" src="./assets/images/logo.svg" class="img-rounded"></a>
+              </div>
+              <!-- <div class="collapse navbar-collapse" id="myNavbar">
 
-            <h1>Free online games - html5</h1>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Page 1-1</a></li>
+                      <li><a href="#">Page 1-2</a></li>
+                      <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Page 2</a></li>
+                  <li><a href="#">Page 3</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+              </div> -->
+            </div>
+          </nav>
+        <div class="container-fluid">
+            <!-- <h1>Free online games - html5</h1>
             <span class='filter'>
                 <h2>Filter</h2>
                 <div class="row" >
@@ -51,10 +93,9 @@
                     <div class="col">Puzzle</div>
                     <div class="col">Racing</div>
                 </div>
-            </span>
+            </span> -->
             <div id='games'>
-                <h2>Games</h2>
-                <span>
+                <!-- <span>
                     <a href="games/phaser3/tower/index.html" title='tower'><img src='./assets/images/tower.png' alt='Tower' /></a>
                     <br />
                     <a href="#">.</a>
@@ -63,7 +104,7 @@
                     <a href="games/gamemaker/baloon1/index.html" title='balllon pop'><img src='./assets/images/balloon1.png' alt='Balloon1' /></a>
                     <br />
                     <a href="https://github.com/geist3/gm2BalloonPop">Source</a>
-                </span>
+                </span> -->
                 <span>
                     <a href="games/gamemaker/uniballoon/index.html" title='Unicorn balloon pop'><img src='./assets/images/uniballoonpop.png' alt='Unicorn Balloon Pop' /></a>
                     <br />
@@ -89,21 +130,21 @@
                     <br />
                     <a href="https://github.com/geist3/ski">Source</a>
                 </span>
-                <span>
+                <!-- <span>
                     <a href="games/unity/ufo2d/index.html" title="ufo"><img src='./assets/images/ufo.png' alt='ufo' /></a>
                     <br />
                     <a href="#">.</a>
-                </span>
+                </span> -->
                 <span>
                     <a href="games/rpgmaker/work/workrpg2/www/index.html" title="work rpg"><img src='./assets/images/workrpg.png' alt='Work RPG' /></a>
                     <br />
                     <a href="https://github.com/geist3/workrpg2">Source</a>
                 </span>
-                <span>
+                <!-- <span>
                     <a href="games/pixijs/sc2/index.html" title='Starcraft 2 trainer'><img src='./assets/images/starcraft2trainer.png' alt='Starcraft2 trainer' /></a>
                     <br />
                     <a href="https://github.com/geist3/scpixi">Source</a>
-                </span>
+                </span> -->
                 <span>
                     <a href="games/gamemaker/defend/index.html" title='Defend 1'><img src='./assets/images/defend1.png' alt='Defend 1' /></a>
                     <br />
@@ -137,9 +178,5 @@
             </div>
         </div>
 
-        <!-- Bootstrap -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
