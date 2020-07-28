@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "id": "dsguidfdsf0",
+            "type": "creategame",
+            "map": "one"
+        },
+        {
+            "id": "dsguidfdsf1",
+            "type": "start",
+            "player": 1,
+            "x":1, 
+            "y":2
+        },{
+            "id": "dssguidfdsf2",
+            "type": "start",
+            "player": 2,
+            "x":100, 
+            "y":200
+        },{
+            "id": "dsguidfdsf3",
+            "type": "movement",
+            "player": 1,
+            "x":10, 
+            "y":2
+        },{
+            "id": "dssguidfdsf4",
+            "type": "movement",
+            "player": 2,
+            "x":90, 
+            "y":200
+        }
+    ]
+}
